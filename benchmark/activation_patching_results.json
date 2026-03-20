@@ -1,0 +1,193 @@
+{
+  "test": "activation_patching",
+  "result": "ALL_PATCHES_CONFIRM_CAUSAL_MEDIATION",
+  "summary": "Patching h_k rescues exactly layers k..6. Layers below k unaffected in both directions.",
+  "baseline": [
+    1.0,
+    0.98,
+    1.0,
+    0.99,
+    1.0,
+    0.93,
+    0.98
+  ],
+  "layers": [
+    "PHONEME",
+    "SYLLABLE",
+    "MORPHEME",
+    "WORD",
+    "PHRASE",
+    "SEMANTIC",
+    "DISCOURSE"
+  ],
+  "patches": {
+    "h0_PHONEME": {
+      "intervene_layer": 0,
+      "corrupt": [
+        0.07,
+        0.0,
+        0.05,
+        0.0,
+        0.1,
+        0.0,
+        0.01
+      ],
+      "patched": [
+        1.0,
+        0.98,
+        1.0,
+        0.99,
+        1.0,
+        0.93,
+        0.98
+      ],
+      "recovered_above": 7,
+      "clean_below": 0,
+      "status": "CONFIRMED"
+    },
+    "h1_SYLLABLE": {
+      "intervene_layer": 1,
+      "corrupt": [
+        1.0,
+        0.0,
+        0.05,
+        0.0,
+        0.1,
+        0.01,
+        0.01
+      ],
+      "patched": [
+        1.0,
+        0.98,
+        1.0,
+        0.99,
+        1.0,
+        0.93,
+        0.98
+      ],
+      "recovered_above": 6,
+      "clean_below": 1,
+      "status": "CONFIRMED"
+    },
+    "h2_MORPHEME": {
+      "intervene_layer": 2,
+      "corrupt": [
+        1.0,
+        0.98,
+        0.07,
+        0.0,
+        0.09,
+        0.01,
+        0.01
+      ],
+      "patched": [
+        1.0,
+        0.98,
+        1.0,
+        0.99,
+        1.0,
+        0.93,
+        0.98
+      ],
+      "recovered_above": 5,
+      "clean_below": 2,
+      "status": "CONFIRMED"
+    },
+    "h3_WORD": {
+      "intervene_layer": 3,
+      "corrupt": [
+        1.0,
+        0.98,
+        1.0,
+        0.01,
+        0.1,
+        0.0,
+        0.01
+      ],
+      "patched": [
+        1.0,
+        0.98,
+        1.0,
+        0.99,
+        1.0,
+        0.93,
+        0.98
+      ],
+      "recovered_above": 4,
+      "clean_below": 3,
+      "status": "CONFIRMED"
+    },
+    "h4_PHRASE": {
+      "intervene_layer": 4,
+      "corrupt": [
+        1.0,
+        0.98,
+        1.0,
+        0.99,
+        0.11,
+        0.0,
+        0.01
+      ],
+      "patched": [
+        1.0,
+        0.98,
+        1.0,
+        0.99,
+        1.0,
+        0.93,
+        0.98
+      ],
+      "recovered_above": 3,
+      "clean_below": 4,
+      "status": "CONFIRMED"
+    },
+    "h5_SEMANTIC": {
+      "intervene_layer": 5,
+      "corrupt": [
+        1.0,
+        0.98,
+        1.0,
+        0.99,
+        1.0,
+        0.01,
+        0.01
+      ],
+      "patched": [
+        1.0,
+        0.98,
+        1.0,
+        0.99,
+        1.0,
+        0.93,
+        0.98
+      ],
+      "recovered_above": 2,
+      "clean_below": 5,
+      "status": "CONFIRMED"
+    },
+    "h6_DISCOURSE": {
+      "intervene_layer": 6,
+      "corrupt": [
+        1.0,
+        0.98,
+        1.0,
+        0.99,
+        1.0,
+        0.93,
+        0.01
+      ],
+      "patched": [
+        1.0,
+        0.98,
+        1.0,
+        0.99,
+        1.0,
+        0.93,
+        0.98
+      ],
+      "recovered_above": 1,
+      "clean_below": 6,
+      "status": "CONFIRMED"
+    }
+  }
+}
