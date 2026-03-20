@@ -97,33 +97,6 @@ CHAR_TO_PH = {
     'y':'Y','z':'Z'
 }
 
-# ── Morpheme inventory (16 certified) ────────────────────────────────────────
-MORPHEMES = [
-    ("en:morph:plural",        "infl:number",   "s",   "PL"),
-    ("en:morph:past",          "infl:tense",    "ed",  "PST"),
-    ("en:morph:progressive",   "infl:aspect",   "ing", "PROG"),
-    ("en:morph:comparative",   "infl:degree",   "er",  "CMPR"),
-    ("en:morph:superlative",   "infl:degree",   "est", "SUPL"),
-    ("en:morph:negation_un",   "deriv:negation","un",  "NEG"),
-    ("en:morph:negation_in",   "deriv:negation","in",  "NEG"),
-    ("en:morph:negation_dis",  "deriv:negation","dis", "NEG"),
-    ("en:morph:agent_er",      "deriv:agent",   "er",  "AGT"),
-    ("en:morph:agent_or",      "deriv:agent",   "or",  "AGT"),
-    ("en:morph:nominalizer_tion","deriv:nominalizer","tion","NOM"),
-    ("en:morph:nominalizer_ness","deriv:nominalizer","ness","NOM"),
-    ("en:morph:adverbial_ly",  "deriv:adverbial","ly", "ADV"),
-    ("en:morph:root_noun",     "root:noun",     "",    "ROOT"),
-    ("en:morph:root_verb",     "root:verb",     "",    "ROOT"),
-    ("en:morph:root_adj",      "root:adj",      "",    "ROOT"),
-]
-MORPH_IDX = {m[0]: i for i, m in enumerate(MORPHEMES)}
-
-# ── Discourse state types ─────────────────────────────────────────────────────
-DISC_STATES = [
-    "topic_continue", "topic_shift", "referent_intro", "referent_resolve",
-    "question_open", "answer_close", "contrast", "elaboration"
-]
-
 # ── Load word universe ────────────────────────────────────────────────────────
 print("Loading word universe...")
 words = {}
@@ -134,13 +107,20 @@ with open("../LLM_Nature_Semantic_Transformer/data/word_universe.tsv") as f:
             if len(parts) == 2:
                 words[parts[0].strip()] = int(parts[1].strip())
 
+# ── Morpheme inventory v2 ─────────────────────────────────────────────────────
+# Load morpheme inventory v2
+morph_inv_v2 = json.load(open("../LLM_Nature_Semantic_Transformer/data/csl/morpheme_inventory_v2.json"))["entries"]
+MORPHEMES = [(e["meaning_id"], e["class"], e.get("surface_form",""), e["gloss"]) for e in morph_inv_v2]
+MORPH_IDX = {m[0]: i for i, m in enumerate(MORPHEMES)}
+print(f"  morpheme inventory v2: {len(MORPHEMES)} entries")
+
 # Sort for deterministic class_id assignment
 word_list = sorted(words.keys())
 word_class_id = {w: i for i, w in enumerate(word_list)}
 print(f"  {len(word_list)} words, {len(word_class_id)} class ids")
 
 # ── CSL phrase/semantic/discourse inventories ─────────────────────────────────
-phrase_inv  = json.load(open("../LLM_Nature_Semantic_Transformer/data/csl/phrase_inventory_v2.json"))["entries"]
+phrase_inv  = json.load(open("../LLM_Nature_Semantic_Transformer/data/csl/phrase_inventory_v3.json"))["entries"]
 sem_inv     = json.load(open("../LLM_Nature_Semantic_Transformer/data/csl/semantic_inventory.json"))["entries"]
 disc_inv    = json.load(open("../LLM_Nature_Semantic_Transformer/data/csl/discourse_inventory.json"))["entries"]
 phrase_class_id  = {e["id"]: i for i, e in enumerate(phrase_inv)}
@@ -307,10 +287,8 @@ def build_chain(word_str, phrase_entry, sem_entry, disc_entry,
     # phrase_entry is from CSL inventory — derived from word
     # Phrase class = skeleton index (structural invariant, not opaque id)
     skel_id = phrase_entry.get("skeleton_id", phrase_entry["id"])
-    SKEL_ORDER = ["S_NP_VP_intrans","S_NP_VP_trans","S_NP_VP_passive",
-                  "S_NP_VP_ditrans","S_NP_VP_PP_vp","S_NP_PP_VP",
-                  "NP_det_adj_adj_n","NP_det_n","NP_det_n_relcl","S_NP_be_AP"]
-    pclass = SKEL_ORDER.index(skel_id) if skel_id in SKEL_ORDER else phrase_class_id.get(phrase_entry["id"], 0)
+    # Use skeleton_index directly from v3 inventory (0-49)
+    pclass = phrase_entry.get("skeleton_index", phrase_class_id.get(phrase_entry["id"], 0))
     phrase_obj = {
         "class_id": pclass,
         "object": {
