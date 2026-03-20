@@ -41,8 +41,8 @@ Requires FARD v1.6.0 and libfard_onnx.dylib from the FARD repo.
 
 ## Roadmap
 
-Stage 1 (current): 21,904 param MLP, 7-layer tower, phoneme/word/sentence/paragraph corpus
-Stage 2: Attention mechanism, multi-head, longer sequences
+Stage 1 (done): 21,904 param MLP, 7-layer tower, phoneme/word/sentence/paragraph corpus
+Stage 2 (done): ProposerV7b — 403k params, 2-layer causal transformer, prev_op feedback, 12/12 autoregressive accuracy
 Stage 3: Training loop written in FARD — every gradient step a witnessed execution
 Stage 4: Competitive on standard benchmarks with full audit trail
 
