@@ -1,0 +1,54 @@
+{
+  "model": "ProposerV8c",
+  "params": 825552,
+  "corpus": "corpus_v6",
+  "sequences": 16000,
+  "op_acc": 1.0,
+  "gt_acc": "12/12",
+  "llr_probe": {
+    "PHONEME": {
+      "acc": 0.023,
+      "chance": 0.023,
+      "delta": 0.0,
+      "result": "WEAK"
+    },
+    "SYLLABLE": {
+      "acc": 0.023,
+      "chance": 0.023,
+      "delta": 0.0,
+      "result": "WEAK"
+    },
+    "MORPHEME": {
+      "acc": 0.011,
+      "chance": 0.01,
+      "delta": 0.001,
+      "result": "WEAK"
+    },
+    "WORD": {
+      "acc": 0.012,
+      "chance": 0.01,
+      "delta": 0.002,
+      "result": "WEAK"
+    },
+    "PHRASE": {
+      "acc": 0.877,
+      "chance": 0.004,
+      "delta": 0.873,
+      "result": "STRONG"
+    },
+    "SEMANTIC": {
+      "acc": 0.879,
+      "chance": 0.004,
+      "delta": 0.875,
+      "result": "STRONG"
+    },
+    "DISCOURSE": {
+      "acc": 0.97,
+      "chance": 0.004,
+      "delta": 0.966,
+      "result": "STRONG"
+    }
+  },
+  "finding": "Higher layers (Phrase/Semantic/Discourse) strongly specialized. Lower layers need diverse corpus.",
+  "next": "Diversify L0-L3 corpus: multiple phoneme->syllable->morpheme->word mappings per sequence"
+}
