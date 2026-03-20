@@ -27,10 +27,10 @@ Probability sits on top of traceability. The model can be stochastic but the com
 
 ## Current State
 
-- Parameters: 521,000 (layerwise transformer, Stage 4)
+- Parameters: 11,323,524 (sentence-level transformer, Stage 5c)
 - Architecture: Explicit per-layer hidden states h_0..h_6, deep supervision, consistency losses
-- Training corpus: 20,000 rows, corpus_v8c (full 7-layer derivation chain per row)
-- LLR Benchmark: 7/7 layers STRONG (delta >= 0.30 at every layer)
+- Training corpus: 4,850 sentences x 8 words (corpus_v8c_v2 + sentence grouping)
+- LLR Benchmark: 7/7 layers STRONG at both word level and sentence level
 - Causal intervention: 7/7 interventions perfectly localized
 - Tower root (paragraph, 1200 ops): 5f45a5f43af992a49cd4b8961abfd690ecfc202c38f066aa52fcfc0f73b785d6
 
@@ -92,7 +92,14 @@ Stage 1 (done): 21,904 param MLP, 7-layer tower, 12/12 GT accuracy
 Stage 2 (done): 403k param causal transformer, prev_op feedback, 12/12 autoregressive
 Stage 3 (done): Witnessed training loop — every epoch FARD-receipted, audit chain
 Stage 4 (done): LLR benchmark 7/7 STRONG, causal intervention test 7/7 localized
-Stage 5: Scale — larger model, longer sequences, cross-document discourse
+Stage 5 (in progress):
+  5a (done): Morpheme inventory 16->140 classes (full English derivational morphology)
+  5b (done): Phrase inventory 10->50 skeleton types (full English CFG)
+  5c (done): Sentence-level model — 11.3M params, T=8 words, cross-word attention
+             Factorized semantic (60 types) and discourse (24 types)
+             7/7 layers STRONG at sentence level
+  5d: Scale hidden dim 128->512, 50M params
+  5e: Real corpus integration
 Stage 6: Training loop in FARD — every gradient step a witnessed execution
 Stage 7: Competitive on standard benchmarks with full audit trail
 
