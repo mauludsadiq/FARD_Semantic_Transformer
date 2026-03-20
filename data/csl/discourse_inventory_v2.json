@@ -1,0 +1,1183 @@
+{
+  "schema_version": "csl.discourse_inventory.v2",
+  "language": "en",
+  "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770",
+  "inventory_digest_algorithm": "sha256",
+  "factors": {
+    "state_types": [
+      "topic_continue",
+      "topic_shift",
+      "referent_intro",
+      "referent_resolve",
+      "question_open",
+      "answer_close",
+      "contrast",
+      "elaboration"
+    ],
+    "topic_continuity": [
+      "same_topic",
+      "related_topic",
+      "new_topic"
+    ],
+    "referent_transitions": [
+      "no_change",
+      "new_referent",
+      "resolve_pronoun",
+      "resolve_definite"
+    ]
+  },
+  "entries": [
+    {
+      "id": "en:disc:topic_continue_same_topic_no_change",
+      "state_type": "topic_continue",
+      "topic_continuity": "same_topic",
+      "referent_transition": "no_change",
+      "class_index": 0,
+      "sig": 0,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:020981c32d9b0d7783199f19e04d5804df423534085160b716941190b12982e8"
+    },
+    {
+      "id": "en:disc:topic_continue_same_topic_new_referent",
+      "state_type": "topic_continue",
+      "topic_continuity": "same_topic",
+      "referent_transition": "new_referent",
+      "class_index": 1,
+      "sig": 1,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:9f40c7010b5e4c61643e6f51292a174f85de12b910c4bf9e4e9e0ed5fe30eb52"
+    },
+    {
+      "id": "en:disc:topic_continue_same_topic_resolve_pronoun",
+      "state_type": "topic_continue",
+      "topic_continuity": "same_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 2,
+      "sig": 2,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:10069532ea6b9f1b6f0c21edca39922bf204bbe0d52d9910c919b89aa9b4f7b6"
+    },
+    {
+      "id": "en:disc:topic_continue_same_topic_resolve_definite",
+      "state_type": "topic_continue",
+      "topic_continuity": "same_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 3,
+      "sig": 3,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:d1227f3c030f15762679032099b5e5680c3088e074cab2f770cb7ff46f1d8e1a"
+    },
+    {
+      "id": "en:disc:topic_continue_related_topic_no_change",
+      "state_type": "topic_continue",
+      "topic_continuity": "related_topic",
+      "referent_transition": "no_change",
+      "class_index": 4,
+      "sig": 4,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:1ddfe0b6359148566ec9dce0c2256e984b2805e8fe42442d586e0cfe5cdae8f4"
+    },
+    {
+      "id": "en:disc:topic_continue_related_topic_new_referent",
+      "state_type": "topic_continue",
+      "topic_continuity": "related_topic",
+      "referent_transition": "new_referent",
+      "class_index": 5,
+      "sig": 5,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:6609c37bf0c5611bf9562d1213ddba9dadb82cf4f876fe6cf0d262bac1ad19c2"
+    },
+    {
+      "id": "en:disc:topic_continue_related_topic_resolve_pronoun",
+      "state_type": "topic_continue",
+      "topic_continuity": "related_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 6,
+      "sig": 6,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:40d7cf0f691ece5850c60f43fdc9cd599df24bd9ad939920084ad64365cb273f"
+    },
+    {
+      "id": "en:disc:topic_continue_related_topic_resolve_definite",
+      "state_type": "topic_continue",
+      "topic_continuity": "related_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 7,
+      "sig": 7,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:6c91e62f4466a9a5a4689865ce6dadf6614fb6ad4b1ac63034f878385060c000"
+    },
+    {
+      "id": "en:disc:topic_continue_new_topic_no_change",
+      "state_type": "topic_continue",
+      "topic_continuity": "new_topic",
+      "referent_transition": "no_change",
+      "class_index": 8,
+      "sig": 8,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:9a0082fc1807812d3d8ca85f8787c8b6660b73d1d4577e122bff06ee227fb439"
+    },
+    {
+      "id": "en:disc:topic_continue_new_topic_new_referent",
+      "state_type": "topic_continue",
+      "topic_continuity": "new_topic",
+      "referent_transition": "new_referent",
+      "class_index": 9,
+      "sig": 9,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:66210751f419e5be30115f779f159517ea36ac41bccc442bb4c0a9531efcfcb3"
+    },
+    {
+      "id": "en:disc:topic_continue_new_topic_resolve_pronoun",
+      "state_type": "topic_continue",
+      "topic_continuity": "new_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 10,
+      "sig": 10,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:3ee5204d1df446da3a820d2121184ce14cf3827582d90a32c8d5a0da71ee1894"
+    },
+    {
+      "id": "en:disc:topic_continue_new_topic_resolve_definite",
+      "state_type": "topic_continue",
+      "topic_continuity": "new_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 11,
+      "sig": 11,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:2bce7c5923f46ca387b52cf4391dab6fe4402c0760e2a9e3dc290dfd657a0de4"
+    },
+    {
+      "id": "en:disc:topic_shift_same_topic_no_change",
+      "state_type": "topic_shift",
+      "topic_continuity": "same_topic",
+      "referent_transition": "no_change",
+      "class_index": 12,
+      "sig": 12,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:ac9dfc8fcee512c7eca9894cc1baec80ce6bd671e1686a2935078f0be4b0d75d"
+    },
+    {
+      "id": "en:disc:topic_shift_same_topic_new_referent",
+      "state_type": "topic_shift",
+      "topic_continuity": "same_topic",
+      "referent_transition": "new_referent",
+      "class_index": 13,
+      "sig": 13,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:7102fe125d86a50490e3d72b1219d7c90514aa49d53fa225dd29281ae465a738"
+    },
+    {
+      "id": "en:disc:topic_shift_same_topic_resolve_pronoun",
+      "state_type": "topic_shift",
+      "topic_continuity": "same_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 14,
+      "sig": 14,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:596ed7421743c7e1c692c32ac486d0825670330f93b304cc82bb15eed538d8c1"
+    },
+    {
+      "id": "en:disc:topic_shift_same_topic_resolve_definite",
+      "state_type": "topic_shift",
+      "topic_continuity": "same_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 15,
+      "sig": 15,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:46b7f8a7b2aa320cf22a8379455d5bcacbd56f6ce2115ce5f9ad4848a1585787"
+    },
+    {
+      "id": "en:disc:topic_shift_related_topic_no_change",
+      "state_type": "topic_shift",
+      "topic_continuity": "related_topic",
+      "referent_transition": "no_change",
+      "class_index": 16,
+      "sig": 16,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:762c98e88e529399e3abc7aadac2a84d134eb84a651bb01f8de54040ce003c4e"
+    },
+    {
+      "id": "en:disc:topic_shift_related_topic_new_referent",
+      "state_type": "topic_shift",
+      "topic_continuity": "related_topic",
+      "referent_transition": "new_referent",
+      "class_index": 17,
+      "sig": 17,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:8aff3c5d89d707740afd7d32a6e7e29f2cca44115c05a4163dc3cb05bde29111"
+    },
+    {
+      "id": "en:disc:topic_shift_related_topic_resolve_pronoun",
+      "state_type": "topic_shift",
+      "topic_continuity": "related_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 18,
+      "sig": 18,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:2e8d2a2faaf04616bc9302e4c8186e18c3860c3a40587ec186189a511fb04867"
+    },
+    {
+      "id": "en:disc:topic_shift_related_topic_resolve_definite",
+      "state_type": "topic_shift",
+      "topic_continuity": "related_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 19,
+      "sig": 19,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:26abd43d12a5462fdf36a330b92d043416b43b26073248bac67f08bedfb8df57"
+    },
+    {
+      "id": "en:disc:topic_shift_new_topic_no_change",
+      "state_type": "topic_shift",
+      "topic_continuity": "new_topic",
+      "referent_transition": "no_change",
+      "class_index": 20,
+      "sig": 20,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:091bdde2cb5ceb3b4ab976bb3f5a18b69b573fcc7e6f7ade3cdf7e40400b38b0"
+    },
+    {
+      "id": "en:disc:topic_shift_new_topic_new_referent",
+      "state_type": "topic_shift",
+      "topic_continuity": "new_topic",
+      "referent_transition": "new_referent",
+      "class_index": 21,
+      "sig": 21,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:ab7e462be800a1c488ce05dfab48fdece4c6aacee0b348eccf670eff7b224aec"
+    },
+    {
+      "id": "en:disc:topic_shift_new_topic_resolve_pronoun",
+      "state_type": "topic_shift",
+      "topic_continuity": "new_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 22,
+      "sig": 22,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:c6a51b67b77f462994fda413a6b424e517f9f2d6925d1ede727060c7a4241aaf"
+    },
+    {
+      "id": "en:disc:topic_shift_new_topic_resolve_definite",
+      "state_type": "topic_shift",
+      "topic_continuity": "new_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 23,
+      "sig": 23,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:1c6540744a7544f57acf1d506f89bf5f928541a76a065ee62df397c21c3ca277"
+    },
+    {
+      "id": "en:disc:referent_intro_same_topic_no_change",
+      "state_type": "referent_intro",
+      "topic_continuity": "same_topic",
+      "referent_transition": "no_change",
+      "class_index": 24,
+      "sig": 24,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:0606703f46931615654143612d9faaaf2506b62bffd483f9162f865a1c0ce9c6"
+    },
+    {
+      "id": "en:disc:referent_intro_same_topic_new_referent",
+      "state_type": "referent_intro",
+      "topic_continuity": "same_topic",
+      "referent_transition": "new_referent",
+      "class_index": 25,
+      "sig": 25,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:18b03b8a04084a3295dd1470d161d9f94b11ce35e906266d2c2faa109d57046a"
+    },
+    {
+      "id": "en:disc:referent_intro_same_topic_resolve_pronoun",
+      "state_type": "referent_intro",
+      "topic_continuity": "same_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 26,
+      "sig": 26,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:0f9ae3a25017c7f443d319625f5713393c8a4195d9585829d4c9cd1a1336c41e"
+    },
+    {
+      "id": "en:disc:referent_intro_same_topic_resolve_definite",
+      "state_type": "referent_intro",
+      "topic_continuity": "same_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 27,
+      "sig": 27,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:123fcd16370af634a5b0b28a20717b810e58d4ce79903ba6e77e7bb3ffa36572"
+    },
+    {
+      "id": "en:disc:referent_intro_related_topic_no_change",
+      "state_type": "referent_intro",
+      "topic_continuity": "related_topic",
+      "referent_transition": "no_change",
+      "class_index": 28,
+      "sig": 28,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:73d334d542732d3397396042955fc9698b347a2b843c91a54cf8d80a3103566e"
+    },
+    {
+      "id": "en:disc:referent_intro_related_topic_new_referent",
+      "state_type": "referent_intro",
+      "topic_continuity": "related_topic",
+      "referent_transition": "new_referent",
+      "class_index": 29,
+      "sig": 29,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:d0ff5a2a9646888c88caa4585f5b370984e3d7577218e3d5925171b5f3b194fe"
+    },
+    {
+      "id": "en:disc:referent_intro_related_topic_resolve_pronoun",
+      "state_type": "referent_intro",
+      "topic_continuity": "related_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 30,
+      "sig": 30,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:f128247fc68acd251c7afffe91f18540af1efdbfc833a07b183f3f144f6e717f"
+    },
+    {
+      "id": "en:disc:referent_intro_related_topic_resolve_definite",
+      "state_type": "referent_intro",
+      "topic_continuity": "related_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 31,
+      "sig": 31,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:5857a6529950adf9307c0c139cd6bb587b4f59fc5e2e4c57cd6c71a65ecd58ec"
+    },
+    {
+      "id": "en:disc:referent_intro_new_topic_no_change",
+      "state_type": "referent_intro",
+      "topic_continuity": "new_topic",
+      "referent_transition": "no_change",
+      "class_index": 32,
+      "sig": 32,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:b7bd9c3f5f191d54c4f87c7c9d26e5ca249dacdb9cc02b608d17e5032665f684"
+    },
+    {
+      "id": "en:disc:referent_intro_new_topic_new_referent",
+      "state_type": "referent_intro",
+      "topic_continuity": "new_topic",
+      "referent_transition": "new_referent",
+      "class_index": 33,
+      "sig": 33,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:ec8317dd691c858eaf45e46162f3db4806407351b5a5e9b951ab9c990f90e6ab"
+    },
+    {
+      "id": "en:disc:referent_intro_new_topic_resolve_pronoun",
+      "state_type": "referent_intro",
+      "topic_continuity": "new_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 34,
+      "sig": 34,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:e9f2eb8b264148af1d72e9947cfdbd47fc521f730482544848f9cfc8ba2e8ab8"
+    },
+    {
+      "id": "en:disc:referent_intro_new_topic_resolve_definite",
+      "state_type": "referent_intro",
+      "topic_continuity": "new_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 35,
+      "sig": 35,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:83124318fe28bac2da96b1b8607b16045697a6db352a08b3cab6a312c07eec0c"
+    },
+    {
+      "id": "en:disc:referent_resolve_same_topic_no_change",
+      "state_type": "referent_resolve",
+      "topic_continuity": "same_topic",
+      "referent_transition": "no_change",
+      "class_index": 36,
+      "sig": 36,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:7ecc1450cd5685c91f3e88656f04b57fc8178a584e7d2df7cd82a00886a003e0"
+    },
+    {
+      "id": "en:disc:referent_resolve_same_topic_new_referent",
+      "state_type": "referent_resolve",
+      "topic_continuity": "same_topic",
+      "referent_transition": "new_referent",
+      "class_index": 37,
+      "sig": 37,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:e516ff52c6006af9f62a376b6a1383affe7db6249382b7fd81669090c68f060d"
+    },
+    {
+      "id": "en:disc:referent_resolve_same_topic_resolve_pronoun",
+      "state_type": "referent_resolve",
+      "topic_continuity": "same_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 38,
+      "sig": 38,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:a38a7f410fd3a781a581556b27f14ed40691beea4f833959456d236f417c17e9"
+    },
+    {
+      "id": "en:disc:referent_resolve_same_topic_resolve_definite",
+      "state_type": "referent_resolve",
+      "topic_continuity": "same_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 39,
+      "sig": 39,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:f837a450bd8e0b53bd8ce26c2df99538f74dd607eca1ae63f9b307c01d2328c3"
+    },
+    {
+      "id": "en:disc:referent_resolve_related_topic_no_change",
+      "state_type": "referent_resolve",
+      "topic_continuity": "related_topic",
+      "referent_transition": "no_change",
+      "class_index": 40,
+      "sig": 40,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:31675b9ecc70e4a3bfc1eebc2f806f9909f21c5ac3abe1bc18a386ce3c5bcf4f"
+    },
+    {
+      "id": "en:disc:referent_resolve_related_topic_new_referent",
+      "state_type": "referent_resolve",
+      "topic_continuity": "related_topic",
+      "referent_transition": "new_referent",
+      "class_index": 41,
+      "sig": 41,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:406372883afef5ba2fe7171b9b93e800e95723dd045d79dd5f4ce64f5732743c"
+    },
+    {
+      "id": "en:disc:referent_resolve_related_topic_resolve_pronoun",
+      "state_type": "referent_resolve",
+      "topic_continuity": "related_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 42,
+      "sig": 42,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:3a9b7a9024515220294300db84fc128cb8aa1e3dd16b06bbdca9b07537363ba3"
+    },
+    {
+      "id": "en:disc:referent_resolve_related_topic_resolve_definite",
+      "state_type": "referent_resolve",
+      "topic_continuity": "related_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 43,
+      "sig": 43,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:f6023bb781a7982ee977ad99e2a9f59276367708518d808834f19af0f20d3ec4"
+    },
+    {
+      "id": "en:disc:referent_resolve_new_topic_no_change",
+      "state_type": "referent_resolve",
+      "topic_continuity": "new_topic",
+      "referent_transition": "no_change",
+      "class_index": 44,
+      "sig": 44,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:28c24bf5d122a9cb97ee27533084717d1b0694fe1348c2b4899f5017d92032e1"
+    },
+    {
+      "id": "en:disc:referent_resolve_new_topic_new_referent",
+      "state_type": "referent_resolve",
+      "topic_continuity": "new_topic",
+      "referent_transition": "new_referent",
+      "class_index": 45,
+      "sig": 45,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:5bd3517c4128bb72df318f4c34fbceeb20172a621bfcf890e6a7de783d0c0100"
+    },
+    {
+      "id": "en:disc:referent_resolve_new_topic_resolve_pronoun",
+      "state_type": "referent_resolve",
+      "topic_continuity": "new_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 46,
+      "sig": 46,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:e63b82de2d2f89cac4d47817a2ab09972bbbce6d599d07b84f894bf3951435ea"
+    },
+    {
+      "id": "en:disc:referent_resolve_new_topic_resolve_definite",
+      "state_type": "referent_resolve",
+      "topic_continuity": "new_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 47,
+      "sig": 47,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:b0b293de982c6a8fc4a8125994cb7d653d5ab7af1fb5ff99db471893f3d4f453"
+    },
+    {
+      "id": "en:disc:question_open_same_topic_no_change",
+      "state_type": "question_open",
+      "topic_continuity": "same_topic",
+      "referent_transition": "no_change",
+      "class_index": 48,
+      "sig": 48,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:d8a52a80dbce9d047c9f42c8178e319b6e85ddcef923db44df062f72ae37e1e5"
+    },
+    {
+      "id": "en:disc:question_open_same_topic_new_referent",
+      "state_type": "question_open",
+      "topic_continuity": "same_topic",
+      "referent_transition": "new_referent",
+      "class_index": 49,
+      "sig": 49,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:b6fc4e4169b783d52d64652d5dca0aeef8f6294f4abd64d9da0188d7d369bd40"
+    },
+    {
+      "id": "en:disc:question_open_same_topic_resolve_pronoun",
+      "state_type": "question_open",
+      "topic_continuity": "same_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 50,
+      "sig": 50,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:51defdc43b4fc5d93bc58109dbcf2e6c5ed895ea425d34b753471fdc395bbf0c"
+    },
+    {
+      "id": "en:disc:question_open_same_topic_resolve_definite",
+      "state_type": "question_open",
+      "topic_continuity": "same_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 51,
+      "sig": 51,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:ad5e7408561d5c28321e56e0f427a7db8908f6b2a5f99f64b549a43c7d947fe2"
+    },
+    {
+      "id": "en:disc:question_open_related_topic_no_change",
+      "state_type": "question_open",
+      "topic_continuity": "related_topic",
+      "referent_transition": "no_change",
+      "class_index": 52,
+      "sig": 52,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:fa55237d3e345f72b157a282ceb7b020a2d3f8f572afc171a2d79d08bf9fdcf3"
+    },
+    {
+      "id": "en:disc:question_open_related_topic_new_referent",
+      "state_type": "question_open",
+      "topic_continuity": "related_topic",
+      "referent_transition": "new_referent",
+      "class_index": 53,
+      "sig": 53,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:560da2e2f1de537fc03249918b56ebacdcaaaf48e61b03dbcb9b344b97a62bb8"
+    },
+    {
+      "id": "en:disc:question_open_related_topic_resolve_pronoun",
+      "state_type": "question_open",
+      "topic_continuity": "related_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 54,
+      "sig": 54,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:ce2d46f2b6cd0cedff1bff16d95472981642e06720fd6bb6c351ecf8775c49df"
+    },
+    {
+      "id": "en:disc:question_open_related_topic_resolve_definite",
+      "state_type": "question_open",
+      "topic_continuity": "related_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 55,
+      "sig": 55,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:fa2a2316fe54e7088b9253c387641c9251ffdde7ba322fdbf04d4c558a849221"
+    },
+    {
+      "id": "en:disc:question_open_new_topic_no_change",
+      "state_type": "question_open",
+      "topic_continuity": "new_topic",
+      "referent_transition": "no_change",
+      "class_index": 56,
+      "sig": 56,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:76504ab27ac4c775fde400ddd070413b945286a01958864f872d895225f02be0"
+    },
+    {
+      "id": "en:disc:question_open_new_topic_new_referent",
+      "state_type": "question_open",
+      "topic_continuity": "new_topic",
+      "referent_transition": "new_referent",
+      "class_index": 57,
+      "sig": 57,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:3d81ae025d47f1ac1d5a55eb1e3b5b258560a1a1b7cf70b8af6e6b704d25ef39"
+    },
+    {
+      "id": "en:disc:question_open_new_topic_resolve_pronoun",
+      "state_type": "question_open",
+      "topic_continuity": "new_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 58,
+      "sig": 58,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:8e858f3641e5dbf2895b11d3d750afe20eb02c7963f52b025c83219b3c830c5a"
+    },
+    {
+      "id": "en:disc:question_open_new_topic_resolve_definite",
+      "state_type": "question_open",
+      "topic_continuity": "new_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 59,
+      "sig": 59,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:40df852e35ff405dfc8b0960fb69f53eba93bbf95c7f092c76852d291031f4f9"
+    },
+    {
+      "id": "en:disc:answer_close_same_topic_no_change",
+      "state_type": "answer_close",
+      "topic_continuity": "same_topic",
+      "referent_transition": "no_change",
+      "class_index": 60,
+      "sig": 60,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:fd2ff7ce1e13b114794d3d7489dd09665278532416bc965a9944dc1882e6fa4d"
+    },
+    {
+      "id": "en:disc:answer_close_same_topic_new_referent",
+      "state_type": "answer_close",
+      "topic_continuity": "same_topic",
+      "referent_transition": "new_referent",
+      "class_index": 61,
+      "sig": 61,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:c2871c1a634c01a707a4abc4ed798c4bbb1250356ebe145588945b0cb3035cff"
+    },
+    {
+      "id": "en:disc:answer_close_same_topic_resolve_pronoun",
+      "state_type": "answer_close",
+      "topic_continuity": "same_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 62,
+      "sig": 62,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:f60496a4e5bec904c64497efb17d03823bf7f7726426b6078f2d3db85cdb61bd"
+    },
+    {
+      "id": "en:disc:answer_close_same_topic_resolve_definite",
+      "state_type": "answer_close",
+      "topic_continuity": "same_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 63,
+      "sig": 63,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:43714576b2bb2b968b7b9d9cf1af14abeeaa50be5a7c4fc888768b5d80757fcf"
+    },
+    {
+      "id": "en:disc:answer_close_related_topic_no_change",
+      "state_type": "answer_close",
+      "topic_continuity": "related_topic",
+      "referent_transition": "no_change",
+      "class_index": 64,
+      "sig": 64,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:9dc6d14b357adab1f0b89371bf93220ba20813f5f235788eb1b83c3856b2a95a"
+    },
+    {
+      "id": "en:disc:answer_close_related_topic_new_referent",
+      "state_type": "answer_close",
+      "topic_continuity": "related_topic",
+      "referent_transition": "new_referent",
+      "class_index": 65,
+      "sig": 65,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:e7d1ca1808ee83363b0a9c089483a70028c6abb30035018d030ff18fa695108f"
+    },
+    {
+      "id": "en:disc:answer_close_related_topic_resolve_pronoun",
+      "state_type": "answer_close",
+      "topic_continuity": "related_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 66,
+      "sig": 66,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:623d395bef925564ac10b9477dfbff86727f53124646eadcccd10e638ac2ea94"
+    },
+    {
+      "id": "en:disc:answer_close_related_topic_resolve_definite",
+      "state_type": "answer_close",
+      "topic_continuity": "related_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 67,
+      "sig": 67,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:81c54571d95e23e9bcf5a1e3817d64f7986888f3f930c05f773dafd1e7ef46d6"
+    },
+    {
+      "id": "en:disc:answer_close_new_topic_no_change",
+      "state_type": "answer_close",
+      "topic_continuity": "new_topic",
+      "referent_transition": "no_change",
+      "class_index": 68,
+      "sig": 68,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:1e6f0ce27059858e7aa873a576b64a058520bc94d390c0e648a7d97120a8c654"
+    },
+    {
+      "id": "en:disc:answer_close_new_topic_new_referent",
+      "state_type": "answer_close",
+      "topic_continuity": "new_topic",
+      "referent_transition": "new_referent",
+      "class_index": 69,
+      "sig": 69,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:bf5a2387a5f333c739426b64d68043a5f1e843fa2ce6f459a5d4d5fe835f3f95"
+    },
+    {
+      "id": "en:disc:answer_close_new_topic_resolve_pronoun",
+      "state_type": "answer_close",
+      "topic_continuity": "new_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 70,
+      "sig": 70,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:71b138e2158f04921a658dacdf88f9756f073791e5682eeb6acd9581d38af444"
+    },
+    {
+      "id": "en:disc:answer_close_new_topic_resolve_definite",
+      "state_type": "answer_close",
+      "topic_continuity": "new_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 71,
+      "sig": 71,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:00d42a27dd9ab10c16d2e7a038b56300d32187f50157818d2caaaa075e320eff"
+    },
+    {
+      "id": "en:disc:contrast_same_topic_no_change",
+      "state_type": "contrast",
+      "topic_continuity": "same_topic",
+      "referent_transition": "no_change",
+      "class_index": 72,
+      "sig": 72,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:a6e01b66512122f4e8a616a53db3545f126bb2103307ac53507d035a75f0e3cc"
+    },
+    {
+      "id": "en:disc:contrast_same_topic_new_referent",
+      "state_type": "contrast",
+      "topic_continuity": "same_topic",
+      "referent_transition": "new_referent",
+      "class_index": 73,
+      "sig": 73,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:cc3575fc551eb1172fa7e3734cee6162cdf87cef16d802b33dad6e9a318da90d"
+    },
+    {
+      "id": "en:disc:contrast_same_topic_resolve_pronoun",
+      "state_type": "contrast",
+      "topic_continuity": "same_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 74,
+      "sig": 74,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:e889e0359c009903d9f320e6d0b730b8f6902a4465d16121a61a5757eb6df766"
+    },
+    {
+      "id": "en:disc:contrast_same_topic_resolve_definite",
+      "state_type": "contrast",
+      "topic_continuity": "same_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 75,
+      "sig": 75,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:3ef41871363aaea1d978162ca77f10cfaf0e6a988a4f1b9d708dc3f702999bfa"
+    },
+    {
+      "id": "en:disc:contrast_related_topic_no_change",
+      "state_type": "contrast",
+      "topic_continuity": "related_topic",
+      "referent_transition": "no_change",
+      "class_index": 76,
+      "sig": 76,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:58d65090f231b975f5e37ae2706373193a71b30d8a76c166c933d43c0ca2ef21"
+    },
+    {
+      "id": "en:disc:contrast_related_topic_new_referent",
+      "state_type": "contrast",
+      "topic_continuity": "related_topic",
+      "referent_transition": "new_referent",
+      "class_index": 77,
+      "sig": 77,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:5994a49edc0a89a69ae37d0bdceb0a0ac4082e7269c4262c78c3f72f40b4d41f"
+    },
+    {
+      "id": "en:disc:contrast_related_topic_resolve_pronoun",
+      "state_type": "contrast",
+      "topic_continuity": "related_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 78,
+      "sig": 78,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:b616d06b904819ce61c65a4a0c1640d36db6efe344515234b8c24571a9cbc392"
+    },
+    {
+      "id": "en:disc:contrast_related_topic_resolve_definite",
+      "state_type": "contrast",
+      "topic_continuity": "related_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 79,
+      "sig": 79,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:68d8f9d9a58b7b393f864b3512f4654f7955a3efad4f1c9c05c6f2567db4c635"
+    },
+    {
+      "id": "en:disc:contrast_new_topic_no_change",
+      "state_type": "contrast",
+      "topic_continuity": "new_topic",
+      "referent_transition": "no_change",
+      "class_index": 80,
+      "sig": 80,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:019bd6774a94a9b7374f7ea4b6f08a204facd06a7f973b5aba73cd66d4987df4"
+    },
+    {
+      "id": "en:disc:contrast_new_topic_new_referent",
+      "state_type": "contrast",
+      "topic_continuity": "new_topic",
+      "referent_transition": "new_referent",
+      "class_index": 81,
+      "sig": 81,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:664fe292388eff60cc53884592f6679c5efd2c3c350baede6feed983456a6baf"
+    },
+    {
+      "id": "en:disc:contrast_new_topic_resolve_pronoun",
+      "state_type": "contrast",
+      "topic_continuity": "new_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 82,
+      "sig": 82,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:f02322308f364cbeaef9552994248e1a9a611449dac407a588d17ec67cb41f8a"
+    },
+    {
+      "id": "en:disc:contrast_new_topic_resolve_definite",
+      "state_type": "contrast",
+      "topic_continuity": "new_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 83,
+      "sig": 83,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:81b9f9354f026db75dc3376b01fc26c7c142208647906385b8d9eb2768434020"
+    },
+    {
+      "id": "en:disc:elaboration_same_topic_no_change",
+      "state_type": "elaboration",
+      "topic_continuity": "same_topic",
+      "referent_transition": "no_change",
+      "class_index": 84,
+      "sig": 84,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:844c46518ecea1080dce6c98c33ce1f9dad16e2243ba1979252dcf42503005c6"
+    },
+    {
+      "id": "en:disc:elaboration_same_topic_new_referent",
+      "state_type": "elaboration",
+      "topic_continuity": "same_topic",
+      "referent_transition": "new_referent",
+      "class_index": 85,
+      "sig": 85,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:55437ff79ba95444db1319c4b55800e416649832447fedf0c5403e2fc9323b81"
+    },
+    {
+      "id": "en:disc:elaboration_same_topic_resolve_pronoun",
+      "state_type": "elaboration",
+      "topic_continuity": "same_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 86,
+      "sig": 86,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:c046af1f13600577d537bb6e64ce0f7429d65b6772389d851b9891b01ea8222d"
+    },
+    {
+      "id": "en:disc:elaboration_same_topic_resolve_definite",
+      "state_type": "elaboration",
+      "topic_continuity": "same_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 87,
+      "sig": 87,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:db3e9eda705001cecd0d4266e42cbfc940c5715bf06992482df36562e02e72f9"
+    },
+    {
+      "id": "en:disc:elaboration_related_topic_no_change",
+      "state_type": "elaboration",
+      "topic_continuity": "related_topic",
+      "referent_transition": "no_change",
+      "class_index": 88,
+      "sig": 88,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:f0cb9709f2b0a96cdaf55e117279c33f43cef53763153130b3ea3897a7ec21b2"
+    },
+    {
+      "id": "en:disc:elaboration_related_topic_new_referent",
+      "state_type": "elaboration",
+      "topic_continuity": "related_topic",
+      "referent_transition": "new_referent",
+      "class_index": 89,
+      "sig": 89,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:8b57b7c345504b18614284ee2d6811175fae89d5419954373903c8579b812241"
+    },
+    {
+      "id": "en:disc:elaboration_related_topic_resolve_pronoun",
+      "state_type": "elaboration",
+      "topic_continuity": "related_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 90,
+      "sig": 90,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:aa41c8655fc863fefcc30e2b24fb84fa76edac7dc9aeac85ebc8cfdc0eba11ed"
+    },
+    {
+      "id": "en:disc:elaboration_related_topic_resolve_definite",
+      "state_type": "elaboration",
+      "topic_continuity": "related_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 91,
+      "sig": 91,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:a0620ea10be35f2d81fd4276e023d5f7cee886ec620382842cd9b6be75414e2f"
+    },
+    {
+      "id": "en:disc:elaboration_new_topic_no_change",
+      "state_type": "elaboration",
+      "topic_continuity": "new_topic",
+      "referent_transition": "no_change",
+      "class_index": 92,
+      "sig": 92,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:db7e9b886d49a586984633b5d700337775227c3f42abf6c7e1324a8b3e33cd51"
+    },
+    {
+      "id": "en:disc:elaboration_new_topic_new_referent",
+      "state_type": "elaboration",
+      "topic_continuity": "new_topic",
+      "referent_transition": "new_referent",
+      "class_index": 93,
+      "sig": 93,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:5c2487601dec3d74df71b05b364581040e8e72bfab4b974fe3414610ad749e68"
+    },
+    {
+      "id": "en:disc:elaboration_new_topic_resolve_pronoun",
+      "state_type": "elaboration",
+      "topic_continuity": "new_topic",
+      "referent_transition": "resolve_pronoun",
+      "class_index": 94,
+      "sig": 94,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:018466147d2750f77bd955053bdabf4934669a93e384941c198e909e6c6d7a0e"
+    },
+    {
+      "id": "en:disc:elaboration_new_topic_resolve_definite",
+      "state_type": "elaboration",
+      "topic_continuity": "new_topic",
+      "referent_transition": "resolve_definite",
+      "class_index": 95,
+      "sig": 95,
+      "upstream": {
+        "semantic_universe_digest": "sha256:1e308bf5ec75a795e6d5f91d56d16fa82715e2504f3857d8488ae5cf31cba770"
+      },
+      "digest": "sha256:845521f91e063d4f9c56d57c0bfcbb2766b6a4b44adb21349aaa989df11c4c23"
+    }
+  ]
+}

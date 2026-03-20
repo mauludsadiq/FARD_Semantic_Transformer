@@ -1,0 +1,751 @@
+{
+  "schema_version": "csl.semantic_inventory.v3",
+  "language": "en",
+  "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8",
+  "inventory_digest_algorithm": "sha256",
+  "factors": {
+    "predicate_frames": [
+      "transitive",
+      "intransitive",
+      "ditransitive",
+      "copular",
+      "existential",
+      "passive",
+      "unaccusative",
+      "causative",
+      "experiencer",
+      "locative"
+    ],
+    "tenses": [
+      "past",
+      "present",
+      "future"
+    ],
+    "polarities": [
+      "affirmative",
+      "negative"
+    ]
+  },
+  "entries": [
+    {
+      "id": "en:sem:transitive_past_affirmative",
+      "predicate_frame": "transitive",
+      "tense": "past",
+      "polarity": "affirmative",
+      "class_index": 0,
+      "sig": 0,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:e432600a563f468be67e7d98ff4fa8501fbc8f0fd4fd508763df76343a978a12"
+    },
+    {
+      "id": "en:sem:transitive_past_negative",
+      "predicate_frame": "transitive",
+      "tense": "past",
+      "polarity": "negative",
+      "class_index": 1,
+      "sig": 1,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:3d803cb4849cb82df17c2b93bea96dc5cc30a1b020ad4b573e4854f2bfd7ca57"
+    },
+    {
+      "id": "en:sem:transitive_present_affirmative",
+      "predicate_frame": "transitive",
+      "tense": "present",
+      "polarity": "affirmative",
+      "class_index": 2,
+      "sig": 2,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:11e0294380aabbd3026ddfe4ef499f9653ca51f92e18af3c542849c61ed34e07"
+    },
+    {
+      "id": "en:sem:transitive_present_negative",
+      "predicate_frame": "transitive",
+      "tense": "present",
+      "polarity": "negative",
+      "class_index": 3,
+      "sig": 3,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:0d00ac4f75a75e4e6a6213a0985a9fd27d4134d75ba6fbf8038acc7ac6e88c36"
+    },
+    {
+      "id": "en:sem:transitive_future_affirmative",
+      "predicate_frame": "transitive",
+      "tense": "future",
+      "polarity": "affirmative",
+      "class_index": 4,
+      "sig": 4,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:ddf5494a0bc71c45d6ed52310a6b09945b1bb6963b00ddaa42c15bb09f5183b7"
+    },
+    {
+      "id": "en:sem:transitive_future_negative",
+      "predicate_frame": "transitive",
+      "tense": "future",
+      "polarity": "negative",
+      "class_index": 5,
+      "sig": 5,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:c974628e1c802c18cc3f344bd8a86918cff5bb2e895d49619aaf91c29d6511a1"
+    },
+    {
+      "id": "en:sem:intransitive_past_affirmative",
+      "predicate_frame": "intransitive",
+      "tense": "past",
+      "polarity": "affirmative",
+      "class_index": 6,
+      "sig": 6,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:1a56eda1fcbb1bf222901dbd14d6862bed902dfdf3eaf780f4551967e4fd22c2"
+    },
+    {
+      "id": "en:sem:intransitive_past_negative",
+      "predicate_frame": "intransitive",
+      "tense": "past",
+      "polarity": "negative",
+      "class_index": 7,
+      "sig": 7,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:6a559ac9b87b029b75b076544d35633937d44e01595e36307bacf9d6de54443d"
+    },
+    {
+      "id": "en:sem:intransitive_present_affirmative",
+      "predicate_frame": "intransitive",
+      "tense": "present",
+      "polarity": "affirmative",
+      "class_index": 8,
+      "sig": 8,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:5436560af07821157cb1e9268ba4da5abf2d1f7b69cb0884d382e2ee1fef9a2e"
+    },
+    {
+      "id": "en:sem:intransitive_present_negative",
+      "predicate_frame": "intransitive",
+      "tense": "present",
+      "polarity": "negative",
+      "class_index": 9,
+      "sig": 9,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:6dc3f7d0f1aef7c78e73a41237c285143f3d5f0afa3a2b23992a9cb4751e00bd"
+    },
+    {
+      "id": "en:sem:intransitive_future_affirmative",
+      "predicate_frame": "intransitive",
+      "tense": "future",
+      "polarity": "affirmative",
+      "class_index": 10,
+      "sig": 10,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:523cfbed53a7ca7acc2f5a7cad9809e9b538c0663d7450407168b2acb1d7c312"
+    },
+    {
+      "id": "en:sem:intransitive_future_negative",
+      "predicate_frame": "intransitive",
+      "tense": "future",
+      "polarity": "negative",
+      "class_index": 11,
+      "sig": 11,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:b1d8ac09a8450a94abd963691d7b3fdacbb9f704bdb419ac4734c9c78bba5c7b"
+    },
+    {
+      "id": "en:sem:ditransitive_past_affirmative",
+      "predicate_frame": "ditransitive",
+      "tense": "past",
+      "polarity": "affirmative",
+      "class_index": 12,
+      "sig": 12,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:489233b23dbf4c0995852da2ad5bd00ca357fab2c0a7b738d9428beff49577aa"
+    },
+    {
+      "id": "en:sem:ditransitive_past_negative",
+      "predicate_frame": "ditransitive",
+      "tense": "past",
+      "polarity": "negative",
+      "class_index": 13,
+      "sig": 13,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:7cc0e40a6d28f8ff0a65b087185c9b08fbf3f742ddf93205689c0046ad021b72"
+    },
+    {
+      "id": "en:sem:ditransitive_present_affirmative",
+      "predicate_frame": "ditransitive",
+      "tense": "present",
+      "polarity": "affirmative",
+      "class_index": 14,
+      "sig": 14,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:6701963b7593bfad1111589b800cc05d215e1362126f07170611cbbbbf34825f"
+    },
+    {
+      "id": "en:sem:ditransitive_present_negative",
+      "predicate_frame": "ditransitive",
+      "tense": "present",
+      "polarity": "negative",
+      "class_index": 15,
+      "sig": 15,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:b0f53c3334ad8d1fe39663540134857771626938822ca51e0fc8c36db118311c"
+    },
+    {
+      "id": "en:sem:ditransitive_future_affirmative",
+      "predicate_frame": "ditransitive",
+      "tense": "future",
+      "polarity": "affirmative",
+      "class_index": 16,
+      "sig": 16,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:2972915835e1034bb8997519018f99b1d49fcb8540122e955e2e2892e75fd1cd"
+    },
+    {
+      "id": "en:sem:ditransitive_future_negative",
+      "predicate_frame": "ditransitive",
+      "tense": "future",
+      "polarity": "negative",
+      "class_index": 17,
+      "sig": 17,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:80563fcc0b6c69331ff881f482308fdd2a9f0d82b567d7ec16fbd50141c2b62c"
+    },
+    {
+      "id": "en:sem:copular_past_affirmative",
+      "predicate_frame": "copular",
+      "tense": "past",
+      "polarity": "affirmative",
+      "class_index": 18,
+      "sig": 18,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:7aae127805ffc53e7905d3ea70e4587e1e2425295babe833ac4f1007acc4072f"
+    },
+    {
+      "id": "en:sem:copular_past_negative",
+      "predicate_frame": "copular",
+      "tense": "past",
+      "polarity": "negative",
+      "class_index": 19,
+      "sig": 19,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:d11439c5730bf39866e1afbed1550dba5961fa7a7131ac8b5e51280cfd733888"
+    },
+    {
+      "id": "en:sem:copular_present_affirmative",
+      "predicate_frame": "copular",
+      "tense": "present",
+      "polarity": "affirmative",
+      "class_index": 20,
+      "sig": 20,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:254c21aaddf712faf1804c800c5a0d3c3e74434c1418e378c8934c38afd5de19"
+    },
+    {
+      "id": "en:sem:copular_present_negative",
+      "predicate_frame": "copular",
+      "tense": "present",
+      "polarity": "negative",
+      "class_index": 21,
+      "sig": 21,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:17f7e6d927ba952a4c0e96cd5cd75788304436953e9c1012e2d60f18b596e746"
+    },
+    {
+      "id": "en:sem:copular_future_affirmative",
+      "predicate_frame": "copular",
+      "tense": "future",
+      "polarity": "affirmative",
+      "class_index": 22,
+      "sig": 22,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:3d94e90673a1248988e0b458fd91a2709ad19f8e491817eba46fa59fac218954"
+    },
+    {
+      "id": "en:sem:copular_future_negative",
+      "predicate_frame": "copular",
+      "tense": "future",
+      "polarity": "negative",
+      "class_index": 23,
+      "sig": 23,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:2a3cde4de5a82daba1c4a19775f2f27f44e0208bff6109b004bee251cc6ca195"
+    },
+    {
+      "id": "en:sem:existential_past_affirmative",
+      "predicate_frame": "existential",
+      "tense": "past",
+      "polarity": "affirmative",
+      "class_index": 24,
+      "sig": 24,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:4f1f30141a24242e7d858cf1ca047ae7d8563a8607dfe8d3a8f355854b92852c"
+    },
+    {
+      "id": "en:sem:existential_past_negative",
+      "predicate_frame": "existential",
+      "tense": "past",
+      "polarity": "negative",
+      "class_index": 25,
+      "sig": 25,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:23aa1a6a00ccb280a3c8cf576b4940676074e680840ab6dc70036c6e5f811877"
+    },
+    {
+      "id": "en:sem:existential_present_affirmative",
+      "predicate_frame": "existential",
+      "tense": "present",
+      "polarity": "affirmative",
+      "class_index": 26,
+      "sig": 26,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:d4926c21d968ddbc18c320bdd304d1d2aee0081a15c1f25863dacf682a77bc72"
+    },
+    {
+      "id": "en:sem:existential_present_negative",
+      "predicate_frame": "existential",
+      "tense": "present",
+      "polarity": "negative",
+      "class_index": 27,
+      "sig": 27,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:9b17ea8a7f3c626ac6ac1c428d14f7d162a0b6401e4a218d0cc7fbd9d9e3b030"
+    },
+    {
+      "id": "en:sem:existential_future_affirmative",
+      "predicate_frame": "existential",
+      "tense": "future",
+      "polarity": "affirmative",
+      "class_index": 28,
+      "sig": 28,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:8afed843cd553aa16e8ed410becab633d4343459f5bb1cb12f5ba8287154a935"
+    },
+    {
+      "id": "en:sem:existential_future_negative",
+      "predicate_frame": "existential",
+      "tense": "future",
+      "polarity": "negative",
+      "class_index": 29,
+      "sig": 29,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:041b931d22d38273ce9f06d3a55d32a6393d81595e942aaaa1ac893bd49a25bc"
+    },
+    {
+      "id": "en:sem:passive_past_affirmative",
+      "predicate_frame": "passive",
+      "tense": "past",
+      "polarity": "affirmative",
+      "class_index": 30,
+      "sig": 30,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:eaeb955e947317b4ff5f540211aaeb83c9bd4c0d29c09c2b14ef78690fb54ed8"
+    },
+    {
+      "id": "en:sem:passive_past_negative",
+      "predicate_frame": "passive",
+      "tense": "past",
+      "polarity": "negative",
+      "class_index": 31,
+      "sig": 31,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:33864e2dd2ca4ce1e9bc2a61ed50ddd74a29d04571d30b4e817797f26a8820bb"
+    },
+    {
+      "id": "en:sem:passive_present_affirmative",
+      "predicate_frame": "passive",
+      "tense": "present",
+      "polarity": "affirmative",
+      "class_index": 32,
+      "sig": 32,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:531f43cbbde2b107e9551889832c07805285ec4be3ad6e80c4010c87faf9ee7d"
+    },
+    {
+      "id": "en:sem:passive_present_negative",
+      "predicate_frame": "passive",
+      "tense": "present",
+      "polarity": "negative",
+      "class_index": 33,
+      "sig": 33,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:b7633a95185bed0889531fe9916648c1a49e1ccf4042d93d41a66b6632221e0f"
+    },
+    {
+      "id": "en:sem:passive_future_affirmative",
+      "predicate_frame": "passive",
+      "tense": "future",
+      "polarity": "affirmative",
+      "class_index": 34,
+      "sig": 34,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:63d9401f2814e5efd30b9bb391cb26aad3cc681ad1c379ce122ea0cc2ce9724e"
+    },
+    {
+      "id": "en:sem:passive_future_negative",
+      "predicate_frame": "passive",
+      "tense": "future",
+      "polarity": "negative",
+      "class_index": 35,
+      "sig": 35,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:70cd07ddd35fa3ee99d25ee174718edd4cf02b0e3274e017145c14b20d027592"
+    },
+    {
+      "id": "en:sem:unaccusative_past_affirmative",
+      "predicate_frame": "unaccusative",
+      "tense": "past",
+      "polarity": "affirmative",
+      "class_index": 36,
+      "sig": 36,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:7ece90604fb0a762553782148606669231015f605ef41bb67d52e79d4028ad6c"
+    },
+    {
+      "id": "en:sem:unaccusative_past_negative",
+      "predicate_frame": "unaccusative",
+      "tense": "past",
+      "polarity": "negative",
+      "class_index": 37,
+      "sig": 37,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:7099e1d326a1f2f38dd7d7ed5f2d3390d344d6ec0f480f809da1343267f3e602"
+    },
+    {
+      "id": "en:sem:unaccusative_present_affirmative",
+      "predicate_frame": "unaccusative",
+      "tense": "present",
+      "polarity": "affirmative",
+      "class_index": 38,
+      "sig": 38,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:21a73ce2eb9bd54d613ef383da5b0a9169ec067e6ec3f104bbd20f0146979602"
+    },
+    {
+      "id": "en:sem:unaccusative_present_negative",
+      "predicate_frame": "unaccusative",
+      "tense": "present",
+      "polarity": "negative",
+      "class_index": 39,
+      "sig": 39,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:f15627e809d0babc6fe6349bfd1f68af5e27ca4c5834658ca5e362d92dfdc28d"
+    },
+    {
+      "id": "en:sem:unaccusative_future_affirmative",
+      "predicate_frame": "unaccusative",
+      "tense": "future",
+      "polarity": "affirmative",
+      "class_index": 40,
+      "sig": 40,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:a7dde44fa4a401b071861d5f7894a7f7547b0a9ec4ad47d769dfd8c829361497"
+    },
+    {
+      "id": "en:sem:unaccusative_future_negative",
+      "predicate_frame": "unaccusative",
+      "tense": "future",
+      "polarity": "negative",
+      "class_index": 41,
+      "sig": 41,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:044f182b46b80e1654fcc0becd50fcb4a12c35945692caca5338f78761904497"
+    },
+    {
+      "id": "en:sem:causative_past_affirmative",
+      "predicate_frame": "causative",
+      "tense": "past",
+      "polarity": "affirmative",
+      "class_index": 42,
+      "sig": 42,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:04afa6115c40695371b520d6eb68fc3b2f903355f8c3e2667843baf4c6ddedc0"
+    },
+    {
+      "id": "en:sem:causative_past_negative",
+      "predicate_frame": "causative",
+      "tense": "past",
+      "polarity": "negative",
+      "class_index": 43,
+      "sig": 43,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:2a7f9597d4affe5740ff7cbbc47a13a07887c15d8278445f0e2e900d5010baea"
+    },
+    {
+      "id": "en:sem:causative_present_affirmative",
+      "predicate_frame": "causative",
+      "tense": "present",
+      "polarity": "affirmative",
+      "class_index": 44,
+      "sig": 44,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:4a80bbc818bd23e7b600ae5888184c472217337936e1b57bf542105a2ffc5edf"
+    },
+    {
+      "id": "en:sem:causative_present_negative",
+      "predicate_frame": "causative",
+      "tense": "present",
+      "polarity": "negative",
+      "class_index": 45,
+      "sig": 45,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:a63bc91c6727998a3a45b74ceb9181241d1f4b836af501fce4220c9f6b01c6ef"
+    },
+    {
+      "id": "en:sem:causative_future_affirmative",
+      "predicate_frame": "causative",
+      "tense": "future",
+      "polarity": "affirmative",
+      "class_index": 46,
+      "sig": 46,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:d0681821ebb982746e623a9b83dd68c1de885108ce81f5fd26c63f7bf4d44999"
+    },
+    {
+      "id": "en:sem:causative_future_negative",
+      "predicate_frame": "causative",
+      "tense": "future",
+      "polarity": "negative",
+      "class_index": 47,
+      "sig": 47,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:a4ddfe24e7ecb93ddbaf306581c17a89deab1cd167d230ddf5cd227723c03c8e"
+    },
+    {
+      "id": "en:sem:experiencer_past_affirmative",
+      "predicate_frame": "experiencer",
+      "tense": "past",
+      "polarity": "affirmative",
+      "class_index": 48,
+      "sig": 48,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:283a2f26a360653391e5bf92b7c53bfff0e26fa3110bcad739427686744adaba"
+    },
+    {
+      "id": "en:sem:experiencer_past_negative",
+      "predicate_frame": "experiencer",
+      "tense": "past",
+      "polarity": "negative",
+      "class_index": 49,
+      "sig": 49,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:89a716f71d6cfd3521e76ee60a31868f483bd3cdda5a96d28c7b1f379164a31d"
+    },
+    {
+      "id": "en:sem:experiencer_present_affirmative",
+      "predicate_frame": "experiencer",
+      "tense": "present",
+      "polarity": "affirmative",
+      "class_index": 50,
+      "sig": 50,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:46ed18dab1f50e38a070fc71033c6943991d37a29c2355b48fdd4db1d0b75af8"
+    },
+    {
+      "id": "en:sem:experiencer_present_negative",
+      "predicate_frame": "experiencer",
+      "tense": "present",
+      "polarity": "negative",
+      "class_index": 51,
+      "sig": 51,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:68c60742ce1e190354ab17239e9297fb8e8691c236fa85b566c6056673c54b14"
+    },
+    {
+      "id": "en:sem:experiencer_future_affirmative",
+      "predicate_frame": "experiencer",
+      "tense": "future",
+      "polarity": "affirmative",
+      "class_index": 52,
+      "sig": 52,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:362133cc5c048a7c4781e2a88505fc0f5b16900bbf8bb0e02b89642736d903a7"
+    },
+    {
+      "id": "en:sem:experiencer_future_negative",
+      "predicate_frame": "experiencer",
+      "tense": "future",
+      "polarity": "negative",
+      "class_index": 53,
+      "sig": 53,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:2dcd80bcff00f522e7d40e9b97e6855974499b93f0905d60999ee97cc163c871"
+    },
+    {
+      "id": "en:sem:locative_past_affirmative",
+      "predicate_frame": "locative",
+      "tense": "past",
+      "polarity": "affirmative",
+      "class_index": 54,
+      "sig": 54,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:fdaad734c161879b7594ffbe51b85fc8618f1a841a9dfc158844d040d14ccb62"
+    },
+    {
+      "id": "en:sem:locative_past_negative",
+      "predicate_frame": "locative",
+      "tense": "past",
+      "polarity": "negative",
+      "class_index": 55,
+      "sig": 55,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:23d9dc8f97771a94997e4d4874286218f7845e7c128fe477709742e8238fd04d"
+    },
+    {
+      "id": "en:sem:locative_present_affirmative",
+      "predicate_frame": "locative",
+      "tense": "present",
+      "polarity": "affirmative",
+      "class_index": 56,
+      "sig": 56,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:8c653db7897770d519855894fb279dcdceb82caa7fe2fe75a21341def2d2f23c"
+    },
+    {
+      "id": "en:sem:locative_present_negative",
+      "predicate_frame": "locative",
+      "tense": "present",
+      "polarity": "negative",
+      "class_index": 57,
+      "sig": 57,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:8bc1a44b09973e1bc188f4d15c1f75d7a8ef18ce93d7850e6b5f998bc9289ffc"
+    },
+    {
+      "id": "en:sem:locative_future_affirmative",
+      "predicate_frame": "locative",
+      "tense": "future",
+      "polarity": "affirmative",
+      "class_index": 58,
+      "sig": 58,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:bb421d7f20df62f9ca83963806803d76d601c47a08216aa74337ece7cab94dac"
+    },
+    {
+      "id": "en:sem:locative_future_negative",
+      "predicate_frame": "locative",
+      "tense": "future",
+      "polarity": "negative",
+      "class_index": 59,
+      "sig": 59,
+      "upstream": {
+        "phrase_universe_digest": "sha256:0e927cc5ef5c4a7ba14d7e9fcf6abab2e31c89a2d19b90f0425fcb9f90acb3f8"
+      },
+      "digest": "sha256:86ef4e991629fcd98d21e7ddb2ff0d512baff662d2f381d74edfffadc0ebc509"
+    }
+  ]
+}
