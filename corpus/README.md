@@ -12,3 +12,8 @@ Generate: python3 -m train.generate_corpus_v5
 192,000 records. 2000 semantic triples x 4 taus x 2 top_ks.
 Diverse content across all 7 layers.
 Generate: python3 data/generate_corpus_v6.py
+
+## corpus_v8c.ndjson (131 MB) — not tracked in git
+20,000 rows. Full 7-layer derivation chain per row.
+Schema: csl.corpus_v8c_row.v1
+Generate: python3 src/generate_corpus_v8c.py
