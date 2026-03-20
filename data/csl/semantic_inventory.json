@@ -1,0 +1,3408 @@
+{
+  "schema_version": "csl.semantic_inventory.v1",
+  "language": "en",
+  "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5",
+  "inventory_digest_algorithm": "sha256",
+  "entries": [
+    {
+      "id": "en:sem:1",
+      "predicate": "chase(agent:dive,patient:scraper)",
+      "event": "chase",
+      "agent": "en:word:dive",
+      "patient": "en:word:scraper",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:1"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:dd882b89195861300f4b81f639c3d66c92a0f3006f9c1bba39df8eeb91db878a"
+    },
+    {
+      "id": "en:sem:2",
+      "predicate": "run(agent:poultice,patient:clover)",
+      "event": "run",
+      "agent": "en:word:poultice",
+      "patient": "en:word:clover",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:2"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:f8454f410bd23f740cb616a0177e0916ed3a71cffeee28f151575f89201c8dbd"
+    },
+    {
+      "id": "en:sem:3",
+      "predicate": "eat(agent:pheromone,patient:browning)",
+      "event": "eat",
+      "agent": "en:word:pheromone",
+      "patient": "en:word:browning",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:3"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:d9dd38c1c7c26b3fdee159995dd081e04ff7ff974be038003277600e59a17fcc"
+    },
+    {
+      "id": "en:sem:4",
+      "predicate": "see(agent:primo,patient:lyon)",
+      "event": "see",
+      "agent": "en:word:primo",
+      "patient": "en:word:lyon",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:4"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:abbb9b1ab5fb72e91c718e36d87eb0ef5bb78f1587e52316a881d3810d494ee7"
+    },
+    {
+      "id": "en:sem:5",
+      "predicate": "make(agent:ezekiel,patient:eyre)",
+      "event": "make",
+      "agent": "en:word:ezekiel",
+      "patient": "en:word:eyre",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:5"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:3b93efcdd5c5c44ee0bd3b807e75a19ba91110d534096d04ab897242a7ebd91e"
+    },
+    {
+      "id": "en:sem:6",
+      "predicate": "take(agent:easterly,patient:brooklyn)",
+      "event": "take",
+      "agent": "en:word:easterly",
+      "patient": "en:word:brooklyn",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:6"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:1d5ee4914008d07aefef5d1f69d2a545c887c13904d1aa6f473221705f507085"
+    },
+    {
+      "id": "en:sem:7",
+      "predicate": "give(agent:goodbye,patient:erecting)",
+      "event": "give",
+      "agent": "en:word:goodbye",
+      "patient": "en:word:erecting",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:7"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:d072dfa949a1026b34f9a2dd95246574caf3bc80427612b60c6c9ae6d8ba8fad"
+    },
+    {
+      "id": "en:sem:8",
+      "predicate": "find(agent:laugher,patient:sinning)",
+      "event": "find",
+      "agent": "en:word:laugher",
+      "patient": "en:word:sinning",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:8"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:f28adede2db3be62c760ac2f6fc0e1e288390cdbf757e3f95b8bead25d5448d0"
+    },
+    {
+      "id": "en:sem:9",
+      "predicate": "know(agent:hypnosis,patient:freezing)",
+      "event": "know",
+      "agent": "en:word:hypnosis",
+      "patient": "en:word:freezing",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:9"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:77e1daed8ce231fcde158c48570b30db81c4213b7d34c1bf1c4805690a4800f9"
+    },
+    {
+      "id": "en:sem:10",
+      "predicate": "think(agent:warble,patient:miler)",
+      "event": "think",
+      "agent": "en:word:warble",
+      "patient": "en:word:miler",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:10"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:9f2b2df0296fbe46bf7f74024b897bcac5c9b542418165bbbad9d0d11e1cdedc"
+    },
+    {
+      "id": "en:sem:11",
+      "predicate": "say(agent:twisting,patient:kenya)",
+      "event": "say",
+      "agent": "en:word:twisting",
+      "patient": "en:word:kenya",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:11"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:419b050d82c56a9cd35beaac38e6f8e9cae3e400ccd34595f05462d7a91fa65f"
+    },
+    {
+      "id": "en:sem:12",
+      "predicate": "get(agent:clause,patient:uphill)",
+      "event": "get",
+      "agent": "en:word:clause",
+      "patient": "en:word:uphill",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:12"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:dd1afe6c0d9203348b4d35f5c0c21ae3c8c06c3793405fd9848a32681205cd69"
+    },
+    {
+      "id": "en:sem:13",
+      "predicate": "use(agent:forehead,patient:marathi)",
+      "event": "use",
+      "agent": "en:word:forehead",
+      "patient": "en:word:marathi",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:13"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:9eec646dc129ac29baa45fe67d437b3ac3a7d7c4ae3e7fb51baa752c6752cb17"
+    },
+    {
+      "id": "en:sem:14",
+      "predicate": "move(agent:danton,patient:backlash)",
+      "event": "move",
+      "agent": "en:word:danton",
+      "patient": "en:word:backlash",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:14"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:29645ef9aa08cd8aaa637139d77666186029b0fa253362ca7ae3151de07e989e"
+    },
+    {
+      "id": "en:sem:15",
+      "predicate": "show(agent:iraqi,patient:cinema)",
+      "event": "show",
+      "agent": "en:word:iraqi",
+      "patient": "en:word:cinema",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:15"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:4cce365b501194e1f72dfa7966a86ed4df9f2018e09e2ed67df4c8c69ef97563"
+    },
+    {
+      "id": "en:sem:16",
+      "predicate": "play(agent:computing,patient:overtone)",
+      "event": "play",
+      "agent": "en:word:computing",
+      "patient": "en:word:overtone",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:16"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:6cfb44d257ba0ab8cce1ef84fefedef8ae7e9bf62a8a4b26e63528142ff45567"
+    },
+    {
+      "id": "en:sem:17",
+      "predicate": "feel(agent:parity,patient:foundry)",
+      "event": "feel",
+      "agent": "en:word:parity",
+      "patient": "en:word:foundry",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:17"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:815908b5aef848b533ae8183428fc0c3f572aed68dc10e8d5f8607b4504c57e3"
+    },
+    {
+      "id": "en:sem:18",
+      "predicate": "work(agent:hotbed,patient:floppy)",
+      "event": "work",
+      "agent": "en:word:hotbed",
+      "patient": "en:word:floppy",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:18"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:531067e3ee055d1bb9e9bdf1e0697b5f30ec95d5715d660846dcc1c7324a092d"
+    },
+    {
+      "id": "en:sem:19",
+      "predicate": "call(agent:wisdom,patient:resin)",
+      "event": "call",
+      "agent": "en:word:wisdom",
+      "patient": "en:word:resin",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:19"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:199d25c1276a3bb5dc40d3dfcdaee33fbf96e0f2be8b50c0a457b868b25e3c36"
+    },
+    {
+      "id": "en:sem:20",
+      "predicate": "keep(agent:barrymore,patient:howler)",
+      "event": "keep",
+      "agent": "en:word:barrymore",
+      "patient": "en:word:howler",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:20"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:0eff6edaa58d4384ad3b075e149c047031c82494b63bb751ab51ce63270039c7"
+    },
+    {
+      "id": "en:sem:21",
+      "predicate": "hold(agent:relay,patient:initial)",
+      "event": "hold",
+      "agent": "en:word:relay",
+      "patient": "en:word:initial",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:21"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:90051808a32246020f32d1c9f1cf5817fb02efe20b007b9dbded13039525480e"
+    },
+    {
+      "id": "en:sem:22",
+      "predicate": "bring(agent:macau,patient:clearance)",
+      "event": "bring",
+      "agent": "en:word:macau",
+      "patient": "en:word:clearance",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:22"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:449f25d36bda269dfc224136c8085a9075ebfb11b6e55364554a5d248d0d6c61"
+    },
+    {
+      "id": "en:sem:23",
+      "predicate": "help(agent:scouring,patient:crying)",
+      "event": "help",
+      "agent": "en:word:scouring",
+      "patient": "en:word:crying",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:23"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:cea0a6d2d5f301861434ab9aa5a1c4711b15224d7f0a6613765d4392e9c2edca"
+    },
+    {
+      "id": "en:sem:24",
+      "predicate": "stop(agent:selloff,patient:mona)",
+      "event": "stop",
+      "agent": "en:word:selloff",
+      "patient": "en:word:mona",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:24"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:0fa235d8c0e02df5e9ea73247fdf9dfc4692295b0ea1d52953d0c4eb285bf3ca"
+    },
+    {
+      "id": "en:sem:25",
+      "predicate": "build(agent:beach,patient:maltose)",
+      "event": "build",
+      "agent": "en:word:beach",
+      "patient": "en:word:maltose",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:25"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:6d91439391f443e02e06cf1eeaaa5627fa1d8867626df75de1543c850e407634"
+    },
+    {
+      "id": "en:sem:26",
+      "predicate": "fall(agent:mutton,patient:cattell)",
+      "event": "fall",
+      "agent": "en:word:mutton",
+      "patient": "en:word:cattell",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:26"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:261d5c62d7d7a7c6421b479c44331a8fbbd68f37e20ecf2e54ea09812b98f64c"
+    },
+    {
+      "id": "en:sem:27",
+      "predicate": "reach(agent:capella,patient:cloning)",
+      "event": "reach",
+      "agent": "en:word:capella",
+      "patient": "en:word:cloning",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:27"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:657181ce821f9f0da43d3aad1e34a7b65d93f43326b8e8a8f304360b43049df3"
+    },
+    {
+      "id": "en:sem:28",
+      "predicate": "send(agent:bennet,patient:spam)",
+      "event": "send",
+      "agent": "en:word:bennet",
+      "patient": "en:word:spam",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:28"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:0529dd213ebd55ff875589b5e6fd25fba8578377ea4da1b0814eebb76efbb290"
+    },
+    {
+      "id": "en:sem:29",
+      "predicate": "read(agent:bonus,patient:colorado)",
+      "event": "read",
+      "agent": "en:word:bonus",
+      "patient": "en:word:colorado",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:29"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:85c241ef916999124c00e1b439af074f104d2a3ef727e0eb16b1aa0fb41fdd48"
+    },
+    {
+      "id": "en:sem:30",
+      "predicate": "walk(agent:variety,patient:scar)",
+      "event": "walk",
+      "agent": "en:word:variety",
+      "patient": "en:word:scar",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:30"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:df9d347282654c599ac7a5d24d44f98ba39fd203d9982b9d305027809ac3e412"
+    },
+    {
+      "id": "en:sem:31",
+      "predicate": "chase(agent:pauling,patient:stepper)",
+      "event": "chase",
+      "agent": "en:word:pauling",
+      "patient": "en:word:stepper",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:31"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:bbc4616bf88e0b0bd7d6ca359ec6cf7c0c29198ac9cf597f2f4555b211bf5bbe"
+    },
+    {
+      "id": "en:sem:32",
+      "predicate": "run(agent:inca,patient:iberia)",
+      "event": "run",
+      "agent": "en:word:inca",
+      "patient": "en:word:iberia",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:32"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:f00ba0ec6a86b090dddf7e2b0e5d8acf2dc6fc7b9e878b809f0b925fd8052802"
+    },
+    {
+      "id": "en:sem:33",
+      "predicate": "eat(agent:persian,patient:male)",
+      "event": "eat",
+      "agent": "en:word:persian",
+      "patient": "en:word:male",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:33"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:47377b5e81c4f285097e7831c2e5fa791a7ec88fdf00ddb792c71aa6cdaf48ff"
+    },
+    {
+      "id": "en:sem:34",
+      "predicate": "see(agent:poop,patient:aureole)",
+      "event": "see",
+      "agent": "en:word:poop",
+      "patient": "en:word:aureole",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:34"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:0f9be5be62ae4d2ef296e397ff7d16e227cf2dd683756ac7185da1c2e277532a"
+    },
+    {
+      "id": "en:sem:35",
+      "predicate": "make(agent:trademark,patient:york)",
+      "event": "make",
+      "agent": "en:word:trademark",
+      "patient": "en:word:york",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:35"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:b5d48cc089d6b28e9e9aef5a196a99b37777096402711e6f78c4bd8562c2b6d4"
+    },
+    {
+      "id": "en:sem:36",
+      "predicate": "take(agent:belgrade,patient:crawfish)",
+      "event": "take",
+      "agent": "en:word:belgrade",
+      "patient": "en:word:crawfish",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:36"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:e09d0540934d97d8cc01dc5e1f7945b7101fd15b0aeedc33e237f244549946a3"
+    },
+    {
+      "id": "en:sem:37",
+      "predicate": "give(agent:jericho,patient:garage)",
+      "event": "give",
+      "agent": "en:word:jericho",
+      "patient": "en:word:garage",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:37"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:d9c7727c05a417ce0dffd8c1c199ce70a48dfe08d4583bd6923bfab43d2b1bcc"
+    },
+    {
+      "id": "en:sem:38",
+      "predicate": "find(agent:injustice,patient:nanjing)",
+      "event": "find",
+      "agent": "en:word:injustice",
+      "patient": "en:word:nanjing",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:38"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:993942fccd76c8bf5dded125275c92bbe5a5cfe28983ea095f2ee7e84a18a547"
+    },
+    {
+      "id": "en:sem:39",
+      "predicate": "know(agent:hurdler,patient:decoder)",
+      "event": "know",
+      "agent": "en:word:hurdler",
+      "patient": "en:word:decoder",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:39"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:79ab5c8972e82108aaaa2e3f2e96169614ce569f21421ccee92b12bc81b4b2c4"
+    },
+    {
+      "id": "en:sem:40",
+      "predicate": "think(agent:radar,patient:godspeed)",
+      "event": "think",
+      "agent": "en:word:radar",
+      "patient": "en:word:godspeed",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:40"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:86a9f3574fde743c9bf0a9da86dbfb9c902cea9bff8c74a251d719c6dfe1d065"
+    },
+    {
+      "id": "en:sem:41",
+      "predicate": "say(agent:eager,patient:guardsman)",
+      "event": "say",
+      "agent": "en:word:eager",
+      "patient": "en:word:guardsman",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:41"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:fef6410784e70d9ba1a7365ee6c1cb5572074f4eb7127cc3ef652922340c58b3"
+    },
+    {
+      "id": "en:sem:42",
+      "predicate": "get(agent:foiling,patient:minibus)",
+      "event": "get",
+      "agent": "en:word:foiling",
+      "patient": "en:word:minibus",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:42"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:8bfbaefc0489af7772aa5d6f860d6c08940710330327bf0a55710b994040b017"
+    },
+    {
+      "id": "en:sem:43",
+      "predicate": "use(agent:absurdity,patient:sword)",
+      "event": "use",
+      "agent": "en:word:absurdity",
+      "patient": "en:word:sword",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:43"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:963f6d694f1191c997a1414ae6803d955e194c2c51e193dcc6264c56b9dd4f86"
+    },
+    {
+      "id": "en:sem:44",
+      "predicate": "move(agent:pentothal,patient:showing)",
+      "event": "move",
+      "agent": "en:word:pentothal",
+      "patient": "en:word:showing",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:44"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:83ff2e408bade8c83cba46a354821e3972a4433488cf3ef63dafb248595346fb"
+    },
+    {
+      "id": "en:sem:45",
+      "predicate": "show(agent:letdown,patient:tolerance)",
+      "event": "show",
+      "agent": "en:word:letdown",
+      "patient": "en:word:tolerance",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:45"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:24e78c3686945779b73d89c4fa65b1da63012c990f7150e728213cc9f075c001"
+    },
+    {
+      "id": "en:sem:46",
+      "predicate": "play(agent:dementia,patient:ginsberg)",
+      "event": "play",
+      "agent": "en:word:dementia",
+      "patient": "en:word:ginsberg",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:46"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:fec2cc09bf3f4f4a73255355c8f7d1463bc2bd39881693c21f5f3e42eec5df1f"
+    },
+    {
+      "id": "en:sem:47",
+      "predicate": "feel(agent:bristle,patient:albert)",
+      "event": "feel",
+      "agent": "en:word:bristle",
+      "patient": "en:word:albert",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:47"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:9a75889999143e26c65c27734d193552543ffad6eecbbb493f99ad00db8034f8"
+    },
+    {
+      "id": "en:sem:48",
+      "predicate": "work(agent:nominee,patient:cluster)",
+      "event": "work",
+      "agent": "en:word:nominee",
+      "patient": "en:word:cluster",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:48"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:df951c20ea68216ec32ccce743ce30aaf1f18bb3a43dd88ba3d7050449c7a410"
+    },
+    {
+      "id": "en:sem:49",
+      "predicate": "call(agent:ingestion,patient:lowlands)",
+      "event": "call",
+      "agent": "en:word:ingestion",
+      "patient": "en:word:lowlands",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:49"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:962ddf5b7b587654c9004a1955ca3177e495b0f87dfbc9f9b9bc9d4a13cfea29"
+    },
+    {
+      "id": "en:sem:50",
+      "predicate": "keep(agent:repayment,patient:silicone)",
+      "event": "keep",
+      "agent": "en:word:repayment",
+      "patient": "en:word:silicone",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:50"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:ab2a5ccf5407138faf65860e461a29460dde80664979c963672f3f6ed74c65a3"
+    },
+    {
+      "id": "en:sem:51",
+      "predicate": "hold(agent:glimmer,patient:component)",
+      "event": "hold",
+      "agent": "en:word:glimmer",
+      "patient": "en:word:component",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:51"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:e929b14e88168ca2ae23f1100e377f0f5f32e5a17aeb0fff7c1291405928b444"
+    },
+    {
+      "id": "en:sem:52",
+      "predicate": "bring(agent:mussolini,patient:lingerie)",
+      "event": "bring",
+      "agent": "en:word:mussolini",
+      "patient": "en:word:lingerie",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:52"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:5e9d1c3fa4f955ede704bcf8a8f0b068fe0793d8f841867f933869058a4011fe"
+    },
+    {
+      "id": "en:sem:53",
+      "predicate": "help(agent:deep,patient:poet)",
+      "event": "help",
+      "agent": "en:word:deep",
+      "patient": "en:word:poet",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:53"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:ea7c7cc4829dd36c79a273b71e369cffb7904b49e10fd11e9b41125dba7665cb"
+    },
+    {
+      "id": "en:sem:54",
+      "predicate": "stop(agent:moon,patient:agreement)",
+      "event": "stop",
+      "agent": "en:word:moon",
+      "patient": "en:word:agreement",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:54"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:e9b1d780d68d8e8809f200ae288a1590069f9d04dc91a27039982db3c16430c2"
+    },
+    {
+      "id": "en:sem:55",
+      "predicate": "build(agent:target,patient:wilt)",
+      "event": "build",
+      "agent": "en:word:target",
+      "patient": "en:word:wilt",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:55"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:2fdf434a9f4053d2f653d97b058e8a072204ab8baec24f2d2a559816eb5c5669"
+    },
+    {
+      "id": "en:sem:56",
+      "predicate": "fall(agent:gripe,patient:haft)",
+      "event": "fall",
+      "agent": "en:word:gripe",
+      "patient": "en:word:haft",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:56"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:ed3be4c66806ad23ca0e1e57a554bb5436f2091ec947def02349c8767f6d8d4c"
+    },
+    {
+      "id": "en:sem:57",
+      "predicate": "reach(agent:rosario,patient:pepin)",
+      "event": "reach",
+      "agent": "en:word:rosario",
+      "patient": "en:word:pepin",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:57"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:a7a81bfdbc0291e7be0a0db7937fb9b65a075e03a5a4b07f867aa5b6d47af19e"
+    },
+    {
+      "id": "en:sem:58",
+      "predicate": "send(agent:childhood,patient:chaperone)",
+      "event": "send",
+      "agent": "en:word:childhood",
+      "patient": "en:word:chaperone",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:58"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:928632dda5deaff75b99269c465d49e553b8705a3b76cfec4addb9ba20a5e76b"
+    },
+    {
+      "id": "en:sem:59",
+      "predicate": "read(agent:binge,patient:nest)",
+      "event": "read",
+      "agent": "en:word:binge",
+      "patient": "en:word:nest",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:59"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:59d0cb8359d1e68a237d25c7ac1d39e5ac776035740fdfad7640c54b54c54bd6"
+    },
+    {
+      "id": "en:sem:60",
+      "predicate": "walk(agent:pharmacy,patient:squadron)",
+      "event": "walk",
+      "agent": "en:word:pharmacy",
+      "patient": "en:word:squadron",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:60"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:04e863b726cdcd260d1e88927480617e31fe1d2069d43679f062a3ae95cb974f"
+    },
+    {
+      "id": "en:sem:61",
+      "predicate": "chase(agent:ireland,patient:lapp)",
+      "event": "chase",
+      "agent": "en:word:ireland",
+      "patient": "en:word:lapp",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:61"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:1b2b716e54299abdfa35add2d7268142517d34ffe35a9af5a8555aee644a0e48"
+    },
+    {
+      "id": "en:sem:62",
+      "predicate": "run(agent:quarter,patient:vitamin)",
+      "event": "run",
+      "agent": "en:word:quarter",
+      "patient": "en:word:vitamin",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:62"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:41371ef065430992d198de3d84090da7b1ac769eb1639949518ea5171e4895ab"
+    },
+    {
+      "id": "en:sem:63",
+      "predicate": "eat(agent:pacifism,patient:myth)",
+      "event": "eat",
+      "agent": "en:word:pacifism",
+      "patient": "en:word:myth",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:63"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:15017851bace82aca2603cede3b2eaa0ee2c339abb00f1b2d7e1e1ea038f8558"
+    },
+    {
+      "id": "en:sem:64",
+      "predicate": "see(agent:thigh,patient:pima)",
+      "event": "see",
+      "agent": "en:word:thigh",
+      "patient": "en:word:pima",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:64"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:47e61fa9c5836759d0d6374e9656489b6554fd81a8506f61655aea45ce84f5a1"
+    },
+    {
+      "id": "en:sem:65",
+      "predicate": "make(agent:meteor,patient:market)",
+      "event": "make",
+      "agent": "en:word:meteor",
+      "patient": "en:word:market",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:65"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:e2ea506608b677397a204105e83d6a271ca1cdbfb800c1ae3bd24dcc2295558c"
+    },
+    {
+      "id": "en:sem:66",
+      "predicate": "take(agent:boozer,patient:embezzler)",
+      "event": "take",
+      "agent": "en:word:boozer",
+      "patient": "en:word:embezzler",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:66"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:7bd1ce445b5209aae46ec356915fa41dd7901fd3a900081a1de14c208be43b37"
+    },
+    {
+      "id": "en:sem:67",
+      "predicate": "give(agent:customs,patient:puccini)",
+      "event": "give",
+      "agent": "en:word:customs",
+      "patient": "en:word:puccini",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:67"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:effd88012b11a74fd34eaeceb9262fca7ef8a89ce89008aed33573eb0264fa7d"
+    },
+    {
+      "id": "en:sem:68",
+      "predicate": "find(agent:furrier,patient:bather)",
+      "event": "find",
+      "agent": "en:word:furrier",
+      "patient": "en:word:bather",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:68"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:fe70c082aaf036ce0d8c4e6e8108fa103122710985f5fcbc6c2f67f50a074dc1"
+    },
+    {
+      "id": "en:sem:69",
+      "predicate": "know(agent:disa,patient:almond)",
+      "event": "know",
+      "agent": "en:word:disa",
+      "patient": "en:word:almond",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:69"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:71d2cc0d784a3324e486537bee970085fb694bf83b18a4e542575fb209332ec1"
+    },
+    {
+      "id": "en:sem:70",
+      "predicate": "think(agent:gromyko,patient:segal)",
+      "event": "think",
+      "agent": "en:word:gromyko",
+      "patient": "en:word:segal",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:70"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:dbe38c72b00395c083bcb061a704338f7d02027a23fc713ac0c94b1c52595b3b"
+    },
+    {
+      "id": "en:sem:71",
+      "predicate": "say(agent:position,patient:worrying)",
+      "event": "say",
+      "agent": "en:word:position",
+      "patient": "en:word:worrying",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:71"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:8e92e19faf4563fb28d9bcd7139fc438a0110d3ae8e8bef5e4c0373fac6248d6"
+    },
+    {
+      "id": "en:sem:72",
+      "predicate": "get(agent:synapse,patient:humdinger)",
+      "event": "get",
+      "agent": "en:word:synapse",
+      "patient": "en:word:humdinger",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:72"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:a8fcf167aaef19846e13dfc32366349bdeb526c1cecffbbb388d636c16aab450"
+    },
+    {
+      "id": "en:sem:73",
+      "predicate": "use(agent:inebriate,patient:bars)",
+      "event": "use",
+      "agent": "en:word:inebriate",
+      "patient": "en:word:bars",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:73"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:f0e82dfaffcc7bf7e24046f96f72c4162cec8dc61cd69b09b07001862d37c4cf"
+    },
+    {
+      "id": "en:sem:74",
+      "predicate": "move(agent:travel,patient:muskrat)",
+      "event": "move",
+      "agent": "en:word:travel",
+      "patient": "en:word:muskrat",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:74"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:449dc903211ebce618d336ed391986766f94d3535b0cb47c50068f609ec1e759"
+    },
+    {
+      "id": "en:sem:75",
+      "predicate": "show(agent:inflator,patient:ringside)",
+      "event": "show",
+      "agent": "en:word:inflator",
+      "patient": "en:word:ringside",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:75"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:b5db0d60fc0f015a5b6c5571c35d2445a1a1eeb0f38c68593de74ad525805d39"
+    },
+    {
+      "id": "en:sem:76",
+      "predicate": "play(agent:kettle,patient:coitus)",
+      "event": "play",
+      "agent": "en:word:kettle",
+      "patient": "en:word:coitus",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:76"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:d01b92da9e6d8ba638fd2132fe72d80e31609fd5a023eed3ec6eb5840c8ffd35"
+    },
+    {
+      "id": "en:sem:77",
+      "predicate": "feel(agent:bigot,patient:lifesaver)",
+      "event": "feel",
+      "agent": "en:word:bigot",
+      "patient": "en:word:lifesaver",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:77"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:0e0a7ff44f5b48c561e04ad2b7f731aef6bfdc5b41d4e5382a536780d1f4b426"
+    },
+    {
+      "id": "en:sem:78",
+      "predicate": "work(agent:wiccan,patient:wilkins)",
+      "event": "work",
+      "agent": "en:word:wiccan",
+      "patient": "en:word:wilkins",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:78"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:ad92d8e9e1230005ab0d321f23a5423b95395a11e3873d021dffce9c8f44fe82"
+    },
+    {
+      "id": "en:sem:79",
+      "predicate": "call(agent:sunroom,patient:israelite)",
+      "event": "call",
+      "agent": "en:word:sunroom",
+      "patient": "en:word:israelite",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:79"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:e8558fadcc53a344e7877b18f4c8f9e6e4b32bb01eb2cd4574e129efc12936d1"
+    },
+    {
+      "id": "en:sem:80",
+      "predicate": "keep(agent:trickery,patient:escapism)",
+      "event": "keep",
+      "agent": "en:word:trickery",
+      "patient": "en:word:escapism",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:80"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:c812adce9bab7c12c34ec4ee5bd5bd862115a4b623670d1ea7be9fb6ca8b912b"
+    },
+    {
+      "id": "en:sem:81",
+      "predicate": "hold(agent:putt,patient:breakdown)",
+      "event": "hold",
+      "agent": "en:word:putt",
+      "patient": "en:word:breakdown",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:81"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:dc32779bfd7f92501a66ad123eed378b87b368fb60e509b0e1875214f2466377"
+    },
+    {
+      "id": "en:sem:82",
+      "predicate": "bring(agent:tramp,patient:reform)",
+      "event": "bring",
+      "agent": "en:word:tramp",
+      "patient": "en:word:reform",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:82"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:648c5ec560cddc493b863f5436d0c2632c65a9020a42a7984c3276a648059fc5"
+    },
+    {
+      "id": "en:sem:83",
+      "predicate": "help(agent:reservist,patient:good)",
+      "event": "help",
+      "agent": "en:word:reservist",
+      "patient": "en:word:good",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:83"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:bb3674fe80bb2d052e0ddbf93ee67fe0e7a35b4526fb7db35af4cdf1f13f5a9a"
+    },
+    {
+      "id": "en:sem:84",
+      "predicate": "stop(agent:macaroni,patient:shanghai)",
+      "event": "stop",
+      "agent": "en:word:macaroni",
+      "patient": "en:word:shanghai",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:84"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:9b4c7f0e38227a425408a729bd28c955c21b9fd94593079e87f7c66d39f68deb"
+    },
+    {
+      "id": "en:sem:85",
+      "predicate": "build(agent:suitcase,patient:ulva)",
+      "event": "build",
+      "agent": "en:word:suitcase",
+      "patient": "en:word:ulva",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:85"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:20e4c40a31583cc32658ccca8107a336b65c145282f5e3ef5503cb11a14453f0"
+    },
+    {
+      "id": "en:sem:86",
+      "predicate": "fall(agent:caramel,patient:sagebrush)",
+      "event": "fall",
+      "agent": "en:word:caramel",
+      "patient": "en:word:sagebrush",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:86"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:335a7414e111cd9e7401a3fefe6325b4bf724921c67afe742491ee3c312603f1"
+    },
+    {
+      "id": "en:sem:87",
+      "predicate": "reach(agent:redeye,patient:deluge)",
+      "event": "reach",
+      "agent": "en:word:redeye",
+      "patient": "en:word:deluge",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:87"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:d8e4b4e9daf6ca60f87c53dca16f9d3436cb35e0fc13fe182735bc9e575fb411"
+    },
+    {
+      "id": "en:sem:88",
+      "predicate": "send(agent:destroyer,patient:lund)",
+      "event": "send",
+      "agent": "en:word:destroyer",
+      "patient": "en:word:lund",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:88"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:59b4e05c4ebb20e2b05b30fdfe41212e66dbff97373c8ab75e79cf00b900b675"
+    },
+    {
+      "id": "en:sem:89",
+      "predicate": "read(agent:dime,patient:wink)",
+      "event": "read",
+      "agent": "en:word:dime",
+      "patient": "en:word:wink",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:89"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:c2c5f291660aaea6348cc5b96a1f8e83398ec39ea1803eb3ac4b61d770de969d"
+    },
+    {
+      "id": "en:sem:90",
+      "predicate": "walk(agent:purple,patient:ductility)",
+      "event": "walk",
+      "agent": "en:word:purple",
+      "patient": "en:word:ductility",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:90"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:1e6de1f11147327591024fbbd83eafcac1d5ac37e3c04b4fa17b396f826dd2e8"
+    },
+    {
+      "id": "en:sem:91",
+      "predicate": "chase(agent:eight,patient:taegu)",
+      "event": "chase",
+      "agent": "en:word:eight",
+      "patient": "en:word:taegu",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:91"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:d51c423c1d11c15984beae98d8eaba50b814d3cc4daa449ba11709f94c76976d"
+    },
+    {
+      "id": "en:sem:92",
+      "predicate": "run(agent:garfield,patient:acidosis)",
+      "event": "run",
+      "agent": "en:word:garfield",
+      "patient": "en:word:acidosis",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:92"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:b9481d48b8c8728f8b35d06bcfa27272596c2841c0ed30d95cce60ccba3f9518"
+    },
+    {
+      "id": "en:sem:93",
+      "predicate": "eat(agent:cords,patient:dirt)",
+      "event": "eat",
+      "agent": "en:word:cords",
+      "patient": "en:word:dirt",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:93"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:56ff9d408ee66baaa1ae707d02ff1e3a48dbe73a8779aa5a79193c4689ab4573"
+    },
+    {
+      "id": "en:sem:94",
+      "predicate": "see(agent:ranting,patient:craftsman)",
+      "event": "see",
+      "agent": "en:word:ranting",
+      "patient": "en:word:craftsman",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:94"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:21409ee30a1afb0537aa407beb6bca8c6e2247cac12289b114e4ab24e1933071"
+    },
+    {
+      "id": "en:sem:95",
+      "predicate": "make(agent:sale,patient:pathogen)",
+      "event": "make",
+      "agent": "en:word:sale",
+      "patient": "en:word:pathogen",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:95"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:bc2f6503bd30a82df48a8a1b6ec7a7c678a6aa89d7e5353b80cdf23e6277cba8"
+    },
+    {
+      "id": "en:sem:96",
+      "predicate": "take(agent:wilmut,patient:gatherer)",
+      "event": "take",
+      "agent": "en:word:wilmut",
+      "patient": "en:word:gatherer",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:96"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:20080d59b07767e15d89c3b846a349d07a88668d419355ee0669abfa366b6db2"
+    },
+    {
+      "id": "en:sem:97",
+      "predicate": "give(agent:tacker,patient:illinois)",
+      "event": "give",
+      "agent": "en:word:tacker",
+      "patient": "en:word:illinois",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:97"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:5f21413e4e302b74418577cdd7b35577a64a8e9bc6952ffdf956ffaded50813d"
+    },
+    {
+      "id": "en:sem:98",
+      "predicate": "find(agent:halon,patient:denture)",
+      "event": "find",
+      "agent": "en:word:halon",
+      "patient": "en:word:denture",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:98"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:e3302f02b918601362a23d0a3e1c5d3d0e200270b536cecfcb6e02c99cd7f9dd"
+    },
+    {
+      "id": "en:sem:99",
+      "predicate": "know(agent:niobite,patient:offshoot)",
+      "event": "know",
+      "agent": "en:word:niobite",
+      "patient": "en:word:offshoot",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:99"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:ebf4948ca7f71089ffea8244927dad5d2aa1fe2a03a223a2f3c101f7de00413d"
+    },
+    {
+      "id": "en:sem:100",
+      "predicate": "think(agent:nancy,patient:allomorph)",
+      "event": "think",
+      "agent": "en:word:nancy",
+      "patient": "en:word:allomorph",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:100"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:1f103ad2042967a4f536989b85b7c22f9f8101a711e3bc5a3078829495b86455"
+    },
+    {
+      "id": "en:sem:101",
+      "predicate": "say(agent:scraper,patient:fixation)",
+      "event": "say",
+      "agent": "en:word:scraper",
+      "patient": "en:word:fixation",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:101"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:2afd1cce1ceade3c0670f91b3d6a34a823f397e4b5d352054fe7c8d267b7bd58"
+    },
+    {
+      "id": "en:sem:102",
+      "predicate": "get(agent:clover,patient:proboscis)",
+      "event": "get",
+      "agent": "en:word:clover",
+      "patient": "en:word:proboscis",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:102"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:acb711c256f8741b6493fc7c3e9797b08707e323aa44ab2e37daead5e91b1352"
+    },
+    {
+      "id": "en:sem:103",
+      "predicate": "use(agent:browning,patient:mistaking)",
+      "event": "use",
+      "agent": "en:word:browning",
+      "patient": "en:word:mistaking",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:103"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:cd05e4a0c50786470fba074cfd3d67928148f51bf6a727955ba542662f7bf436"
+    },
+    {
+      "id": "en:sem:104",
+      "predicate": "move(agent:lyon,patient:swindle)",
+      "event": "move",
+      "agent": "en:word:lyon",
+      "patient": "en:word:swindle",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:104"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:96664f16b677425e8709d692861a2c6bb5e23894e8c666a3dc43517970a72261"
+    },
+    {
+      "id": "en:sem:105",
+      "predicate": "show(agent:eyre,patient:intestine)",
+      "event": "show",
+      "agent": "en:word:eyre",
+      "patient": "en:word:intestine",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:105"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:91e523d0f8903dba72ce3044349dc6ceb313653fe05887c79df4a1860b03c76e"
+    },
+    {
+      "id": "en:sem:106",
+      "predicate": "play(agent:brooklyn,patient:investing)",
+      "event": "play",
+      "agent": "en:word:brooklyn",
+      "patient": "en:word:investing",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:106"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:6404c244cc4adfa2e2f65fa5a02ab979e658719723e73caf02707a3da3525ada"
+    },
+    {
+      "id": "en:sem:107",
+      "predicate": "feel(agent:erecting,patient:tapper)",
+      "event": "feel",
+      "agent": "en:word:erecting",
+      "patient": "en:word:tapper",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:107"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:d83c875dd39ae391450d88d9f6476f9ae00b2d757ebdcf3fc12a989fb4e8cbc4"
+    },
+    {
+      "id": "en:sem:108",
+      "predicate": "work(agent:sinning,patient:vinson)",
+      "event": "work",
+      "agent": "en:word:sinning",
+      "patient": "en:word:vinson",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:108"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:a389e4c4f4de60ad08446105f095a1049a7bdb44a6d2af30d2ab807bbbe02b0e"
+    },
+    {
+      "id": "en:sem:109",
+      "predicate": "call(agent:freezing,patient:survivor)",
+      "event": "call",
+      "agent": "en:word:freezing",
+      "patient": "en:word:survivor",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:109"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:dd185593ece392ddc30540d6eb6ef665e16c031c3431f56aebd6c97559e776dc"
+    },
+    {
+      "id": "en:sem:110",
+      "predicate": "keep(agent:miler,patient:arrears)",
+      "event": "keep",
+      "agent": "en:word:miler",
+      "patient": "en:word:arrears",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:110"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:6e435468f42830cc97dca52441373faa4380ac3237e8ba5c640bf56d9046ff58"
+    },
+    {
+      "id": "en:sem:111",
+      "predicate": "hold(agent:kenya,patient:umbilical)",
+      "event": "hold",
+      "agent": "en:word:kenya",
+      "patient": "en:word:umbilical",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:111"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:22734d88113d602620a1209425e4416453cb025f6692446ce2e0eb762667edf6"
+    },
+    {
+      "id": "en:sem:112",
+      "predicate": "bring(agent:uphill,patient:dietrich)",
+      "event": "bring",
+      "agent": "en:word:uphill",
+      "patient": "en:word:dietrich",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:112"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:713c47e7b351d271ba1e57c7a7168b8c2a2166480b916e5b0f1cc75d3b93f969"
+    },
+    {
+      "id": "en:sem:113",
+      "predicate": "help(agent:marathi,patient:neutering)",
+      "event": "help",
+      "agent": "en:word:marathi",
+      "patient": "en:word:neutering",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:113"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:2cf6853e571e80a4e5576b5a90d25866196af9bb9bb83defb474613184191826"
+    },
+    {
+      "id": "en:sem:114",
+      "predicate": "stop(agent:backlash,patient:adult)",
+      "event": "stop",
+      "agent": "en:word:backlash",
+      "patient": "en:word:adult",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:114"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:1e83b6f4cf6157ef6219c6882915275787003abba35d9ee30bda5ed9f0277b32"
+    },
+    {
+      "id": "en:sem:115",
+      "predicate": "build(agent:cinema,patient:dockside)",
+      "event": "build",
+      "agent": "en:word:cinema",
+      "patient": "en:word:dockside",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:115"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:9f434d492da0563cbe1fefa26a2a6ae15f35933d5267b491219a9c6eeb5f58b3"
+    },
+    {
+      "id": "en:sem:116",
+      "predicate": "fall(agent:overtone,patient:ovation)",
+      "event": "fall",
+      "agent": "en:word:overtone",
+      "patient": "en:word:ovation",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:116"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:755b2a69d1643f098ece4fcfe2a5861d7e5369846591c49f1e2c02e1f0e96270"
+    },
+    {
+      "id": "en:sem:117",
+      "predicate": "reach(agent:foundry,patient:acumen)",
+      "event": "reach",
+      "agent": "en:word:foundry",
+      "patient": "en:word:acumen",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:117"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:ecbf06b14e8fd003bb902cbf40644328c12138dd235823063c940c8219b68516"
+    },
+    {
+      "id": "en:sem:118",
+      "predicate": "send(agent:floppy,patient:income)",
+      "event": "send",
+      "agent": "en:word:floppy",
+      "patient": "en:word:income",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:118"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:1de9282cc400b71dccc281e9a114b0e3025e09413ff3629cc4831582fa14496d"
+    },
+    {
+      "id": "en:sem:119",
+      "predicate": "read(agent:resin,patient:anemone)",
+      "event": "read",
+      "agent": "en:word:resin",
+      "patient": "en:word:anemone",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:119"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:7cfe7ac562ae6e1338df2811f4034d1a77fcb6787cb2c09c6189e414b401570b"
+    },
+    {
+      "id": "en:sem:120",
+      "predicate": "walk(agent:howler,patient:hostler)",
+      "event": "walk",
+      "agent": "en:word:howler",
+      "patient": "en:word:hostler",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:120"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:00fbd28ccaa87f07b50feab311af94248e3be846221bbeb8e1352733258c48d1"
+    },
+    {
+      "id": "en:sem:121",
+      "predicate": "chase(agent:initial,patient:affairs)",
+      "event": "chase",
+      "agent": "en:word:initial",
+      "patient": "en:word:affairs",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:121"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:7d588276a2549a7d2c3d7ab4b003c720947f355d811e69bb29a76e6670e82150"
+    },
+    {
+      "id": "en:sem:122",
+      "predicate": "run(agent:clearance,patient:oxcart)",
+      "event": "run",
+      "agent": "en:word:clearance",
+      "patient": "en:word:oxcart",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:122"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:0728d909191e19570a0b78ea346b426c24dc0adef33c469acd2e486f63d21298"
+    },
+    {
+      "id": "en:sem:123",
+      "predicate": "eat(agent:crying,patient:busker)",
+      "event": "eat",
+      "agent": "en:word:crying",
+      "patient": "en:word:busker",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:123"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:ed25e068a5c9012bb86c06781d74797fa07d280779f5f64f75c1ee9f2b3ae4c3"
+    },
+    {
+      "id": "en:sem:124",
+      "predicate": "see(agent:mona,patient:followers)",
+      "event": "see",
+      "agent": "en:word:mona",
+      "patient": "en:word:followers",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:124"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:dadcb56138d527ba6fa5db8f0d9aa51daa76f7c15f4c91dcbc6d41af92235c71"
+    },
+    {
+      "id": "en:sem:125",
+      "predicate": "make(agent:maltose,patient:sarcasm)",
+      "event": "make",
+      "agent": "en:word:maltose",
+      "patient": "en:word:sarcasm",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:125"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:31adbc1f1268f6ce8b5a54002a97d76619010b59d8abbfa49ef80471d4d29d76"
+    },
+    {
+      "id": "en:sem:126",
+      "predicate": "take(agent:cattell,patient:groat)",
+      "event": "take",
+      "agent": "en:word:cattell",
+      "patient": "en:word:groat",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:126"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:d6d6d54c6f6fb537a96288d1584cd6661c7f761b78bc07eedd8cde485d35f7e6"
+    },
+    {
+      "id": "en:sem:127",
+      "predicate": "give(agent:cloning,patient:gilmer)",
+      "event": "give",
+      "agent": "en:word:cloning",
+      "patient": "en:word:gilmer",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:127"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:0ce308644495fb5bbf7d5f0d1889e5d4e9ffa73d488f329c7babd7bef0c5ac4b"
+    },
+    {
+      "id": "en:sem:128",
+      "predicate": "find(agent:spam,patient:smear)",
+      "event": "find",
+      "agent": "en:word:spam",
+      "patient": "en:word:smear",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:128"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:69925a6ea079490e50cce3727e633b358920b7ba1ffba468c5534f6c8670b2d2"
+    },
+    {
+      "id": "en:sem:129",
+      "predicate": "know(agent:colorado,patient:saga)",
+      "event": "know",
+      "agent": "en:word:colorado",
+      "patient": "en:word:saga",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:129"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:d145bb6eae188d55a0909ac8b4bc369ecdb12509380894664f00dd7f2f6bd5e7"
+    },
+    {
+      "id": "en:sem:130",
+      "predicate": "think(agent:scar,patient:club)",
+      "event": "think",
+      "agent": "en:word:scar",
+      "patient": "en:word:club",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:130"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:e3c7fcb505b5256a7ab4b657a74258995935501d4851170b3207012929916869"
+    },
+    {
+      "id": "en:sem:131",
+      "predicate": "say(agent:stepper,patient:entry)",
+      "event": "say",
+      "agent": "en:word:stepper",
+      "patient": "en:word:entry",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:131"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:5774e748b30bf6b7c1e34305ee81b3c1da4b3b264969e0bcf47ab824b66a23ea"
+    },
+    {
+      "id": "en:sem:132",
+      "predicate": "get(agent:iberia,patient:floe)",
+      "event": "get",
+      "agent": "en:word:iberia",
+      "patient": "en:word:floe",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:132"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:28bd2a0ca5bc41f7cc6c2af693ed9d1279b12eb4a75ec2885d633e89eab85766"
+    },
+    {
+      "id": "en:sem:133",
+      "predicate": "use(agent:male,patient:pursuer)",
+      "event": "use",
+      "agent": "en:word:male",
+      "patient": "en:word:pursuer",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:133"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:eae54b825c141bb2a056c3110424ac3e446cb97ccd6a079310deff775b865212"
+    },
+    {
+      "id": "en:sem:134",
+      "predicate": "move(agent:aureole,patient:tingling)",
+      "event": "move",
+      "agent": "en:word:aureole",
+      "patient": "en:word:tingling",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:134"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:f3c03d7e833b88cd25cef8666694e722e7019a72536be4925b03c6dc3793460a"
+    },
+    {
+      "id": "en:sem:135",
+      "predicate": "show(agent:york,patient:aura)",
+      "event": "show",
+      "agent": "en:word:york",
+      "patient": "en:word:aura",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:135"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:dda6b8eed0c2b57dc48e62b99523fa8ef670f6e3d7412dc1d7af574e944ace8d"
+    },
+    {
+      "id": "en:sem:136",
+      "predicate": "play(agent:crawfish,patient:expertise)",
+      "event": "play",
+      "agent": "en:word:crawfish",
+      "patient": "en:word:expertise",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:136"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:4f9b7641bc6554d0d5d251739421c5c0be1bdad0ba9f4f1986c8550fe2911d1a"
+    },
+    {
+      "id": "en:sem:137",
+      "predicate": "feel(agent:garage,patient:iceberg)",
+      "event": "feel",
+      "agent": "en:word:garage",
+      "patient": "en:word:iceberg",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:137"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:d113ffec67dec9d5180056946a82d34805d1a6908bafe0e3963fa4de0b6faaef"
+    },
+    {
+      "id": "en:sem:138",
+      "predicate": "work(agent:nanjing,patient:pseudo)",
+      "event": "work",
+      "agent": "en:word:nanjing",
+      "patient": "en:word:pseudo",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:138"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:db45128e84df38ea59356735979655a5a381d4ce0689a2defeba61bf9428f3fe"
+    },
+    {
+      "id": "en:sem:139",
+      "predicate": "call(agent:decoder,patient:pill)",
+      "event": "call",
+      "agent": "en:word:decoder",
+      "patient": "en:word:pill",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:139"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:6c08d1951c9f65103633d2a2d531677e6ef6c67a66d735a258f34a83200a4997"
+    },
+    {
+      "id": "en:sem:140",
+      "predicate": "keep(agent:godspeed,patient:plume)",
+      "event": "keep",
+      "agent": "en:word:godspeed",
+      "patient": "en:word:plume",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:140"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:74a575a09ab0a7d05e0ae3e6e21105c3f09eef306460e9e4a60bcd5d3ddfd5d5"
+    },
+    {
+      "id": "en:sem:141",
+      "predicate": "hold(agent:guardsman,patient:rake)",
+      "event": "hold",
+      "agent": "en:word:guardsman",
+      "patient": "en:word:rake",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:141"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:a3cf5a84e93a51a1957c304179ea4745af5c8471ad87a4b6f52f55f3cd07d559"
+    },
+    {
+      "id": "en:sem:142",
+      "predicate": "bring(agent:minibus,patient:cabby)",
+      "event": "bring",
+      "agent": "en:word:minibus",
+      "patient": "en:word:cabby",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:142"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:5fc0b3c0766c51cd54f9228556d9bf6fea846ba2b5faea62368333dbc6a63341"
+    },
+    {
+      "id": "en:sem:143",
+      "predicate": "help(agent:sword,patient:samson)",
+      "event": "help",
+      "agent": "en:word:sword",
+      "patient": "en:word:samson",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:143"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:cefa2ab6d093534944b694af14eaadde95d84f98cb5e229cea2035ce289049a2"
+    },
+    {
+      "id": "en:sem:144",
+      "predicate": "stop(agent:showing,patient:socrates)",
+      "event": "stop",
+      "agent": "en:word:showing",
+      "patient": "en:word:socrates",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:144"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:8a0f73b3484b0de2b21f1492705eff07fa8cbe3979d8f702003c10c40011c4a1"
+    },
+    {
+      "id": "en:sem:145",
+      "predicate": "build(agent:tolerance,patient:nasa)",
+      "event": "build",
+      "agent": "en:word:tolerance",
+      "patient": "en:word:nasa",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:145"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:75f646d3088d443c07ef5faff20666a144268c02e3dc8a5d0312f27861f6fc87"
+    },
+    {
+      "id": "en:sem:146",
+      "predicate": "fall(agent:ginsberg,patient:pliocene)",
+      "event": "fall",
+      "agent": "en:word:ginsberg",
+      "patient": "en:word:pliocene",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:146"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:36f11a7637eb7058058c07b5d0cae0d284ee67554b265d6efaf8d58375d7b6d0"
+    },
+    {
+      "id": "en:sem:147",
+      "predicate": "reach(agent:albert,patient:verve)",
+      "event": "reach",
+      "agent": "en:word:albert",
+      "patient": "en:word:verve",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:147"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:9250a007d7a67e7223b92500aeeeac43c48ca8d233aa2c86cab35c2fc8d18235"
+    },
+    {
+      "id": "en:sem:148",
+      "predicate": "send(agent:cluster,patient:carpentry)",
+      "event": "send",
+      "agent": "en:word:cluster",
+      "patient": "en:word:carpentry",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:148"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:92a03e8f54999c8488586fef3d1bd86f8ceac63786adf57c021e71095ff25da1"
+    },
+    {
+      "id": "en:sem:149",
+      "predicate": "read(agent:lowlands,patient:peony)",
+      "event": "read",
+      "agent": "en:word:lowlands",
+      "patient": "en:word:peony",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:149"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:86518a1b9d590c5fb6329812aee67271c82009955eb3474fcc8b4af0c315cd4c"
+    },
+    {
+      "id": "en:sem:150",
+      "predicate": "walk(agent:silicone,patient:hairdo)",
+      "event": "walk",
+      "agent": "en:word:silicone",
+      "patient": "en:word:hairdo",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:150"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:7d9b3dca5d367cc90713efe68b009adad01cac311d0378d1c1229bb411261ca7"
+    },
+    {
+      "id": "en:sem:151",
+      "predicate": "chase(agent:component,patient:composite)",
+      "event": "chase",
+      "agent": "en:word:component",
+      "patient": "en:word:composite",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:151"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:86956e43125e3d42e9fc719b24f2d3ddcce93cc7ff7b7d55fd40cf1a8a7ac6d7"
+    },
+    {
+      "id": "en:sem:152",
+      "predicate": "run(agent:lingerie,patient:copra)",
+      "event": "run",
+      "agent": "en:word:lingerie",
+      "patient": "en:word:copra",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:152"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:4287dfb2f81b55d32a85ae487d4efc57cca4822630e6b8901e70853d72eac5f0"
+    },
+    {
+      "id": "en:sem:153",
+      "predicate": "eat(agent:poet,patient:gaskin)",
+      "event": "eat",
+      "agent": "en:word:poet",
+      "patient": "en:word:gaskin",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:153"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:3c300b3dc5ff4e563bc8f38395e3ce1fe61066221e983ba1ea3d4938d56244cf"
+    },
+    {
+      "id": "en:sem:154",
+      "predicate": "see(agent:agreement,patient:pulp)",
+      "event": "see",
+      "agent": "en:word:agreement",
+      "patient": "en:word:pulp",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:154"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:bbaab4f7e20af130194450fbb1e8edbe0ccf72e6de597dd1cc936b1b5b0f9e2f"
+    },
+    {
+      "id": "en:sem:155",
+      "predicate": "make(agent:wilt,patient:karaoke)",
+      "event": "make",
+      "agent": "en:word:wilt",
+      "patient": "en:word:karaoke",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:155"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:045f44b56dc6a5c07eb078f4b0649ff10b92e0cf865c2028c64c6493fe8d6896"
+    },
+    {
+      "id": "en:sem:156",
+      "predicate": "take(agent:haft,patient:noaa)",
+      "event": "take",
+      "agent": "en:word:haft",
+      "patient": "en:word:noaa",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:156"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:9169751d0d0512cea2fc5fc91739188a15bef65b7db631d379d47718a19b3b06"
+    },
+    {
+      "id": "en:sem:157",
+      "predicate": "give(agent:pepin,patient:broody)",
+      "event": "give",
+      "agent": "en:word:pepin",
+      "patient": "en:word:broody",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:157"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:df460fd49b093c2242fc332f7667d395232db0b4b6f0dc6e89171f422dc9d5fe"
+    },
+    {
+      "id": "en:sem:158",
+      "predicate": "find(agent:chaperone,patient:cheetah)",
+      "event": "find",
+      "agent": "en:word:chaperone",
+      "patient": "en:word:cheetah",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:158"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:079b0852827320bf03ea1200e1857bf5d0c77dc95e061767c4e7f3a61287ea55"
+    },
+    {
+      "id": "en:sem:159",
+      "predicate": "know(agent:nest,patient:trellis)",
+      "event": "know",
+      "agent": "en:word:nest",
+      "patient": "en:word:trellis",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:159"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:80a3142883081aa353f65d612a78ca02cc047d934a2b1e2f171f44cde33cee63"
+    },
+    {
+      "id": "en:sem:160",
+      "predicate": "think(agent:squadron,patient:filter)",
+      "event": "think",
+      "agent": "en:word:squadron",
+      "patient": "en:word:filter",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:160"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:bdad5b535a5fc5415c793f1a50ac96e174d61ec7dc3d279320d8d94ac03b2d28"
+    },
+    {
+      "id": "en:sem:161",
+      "predicate": "say(agent:lapp,patient:leukemia)",
+      "event": "say",
+      "agent": "en:word:lapp",
+      "patient": "en:word:leukemia",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:161"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:d5ba1b67efb5fcfa502a808f1045971284f253369d974775f59763ccb0b6e2d2"
+    },
+    {
+      "id": "en:sem:162",
+      "predicate": "get(agent:vitamin,patient:steward)",
+      "event": "get",
+      "agent": "en:word:vitamin",
+      "patient": "en:word:steward",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:162"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:3002134337f0db89be61dc1c7095afc24d56210542fbadd04bcf80a025f315bb"
+    },
+    {
+      "id": "en:sem:163",
+      "predicate": "use(agent:myth,patient:winner)",
+      "event": "use",
+      "agent": "en:word:myth",
+      "patient": "en:word:winner",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:163"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:d44690f99197b2ab30d1e8c807630fcada34acd1916e99cc34f3278f6d39f9d8"
+    },
+    {
+      "id": "en:sem:164",
+      "predicate": "move(agent:pima,patient:words)",
+      "event": "move",
+      "agent": "en:word:pima",
+      "patient": "en:word:words",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:164"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:c26ece7ef6c7a08cce65a4bcc9434c2195039de923a8eafbfd998e09886881a2"
+    },
+    {
+      "id": "en:sem:165",
+      "predicate": "show(agent:market,patient:carting)",
+      "event": "show",
+      "agent": "en:word:market",
+      "patient": "en:word:carting",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:165"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:c9abbb7b238c69c838f87fd79b0ed86250ab46b702b01ef28e84541c5215f7da"
+    },
+    {
+      "id": "en:sem:166",
+      "predicate": "play(agent:embezzler,patient:torino)",
+      "event": "play",
+      "agent": "en:word:embezzler",
+      "patient": "en:word:torino",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:166"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:093d4ac3468346477991e592301cb3225b087e33dd49a38c4ded48da5374ede7"
+    },
+    {
+      "id": "en:sem:167",
+      "predicate": "feel(agent:puccini,patient:casals)",
+      "event": "feel",
+      "agent": "en:word:puccini",
+      "patient": "en:word:casals",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:167"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:2ad91ace37336dc1d9a0b1044c0cebec32f0f2f9732fe44e2026ac0c564bd9b7"
+    },
+    {
+      "id": "en:sem:168",
+      "predicate": "work(agent:bather,patient:forty)",
+      "event": "work",
+      "agent": "en:word:bather",
+      "patient": "en:word:forty",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:168"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:fd8c8519e05facf8b92ee71ec2a67bcd64a21368c89d4b8437cbd6dc3776c88d"
+    },
+    {
+      "id": "en:sem:169",
+      "predicate": "call(agent:almond,patient:keynes)",
+      "event": "call",
+      "agent": "en:word:almond",
+      "patient": "en:word:keynes",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:169"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:7d085c9e0a24d084383121bccb9ff5000201beee4b886cdfb2f557a0444d0449"
+    },
+    {
+      "id": "en:sem:170",
+      "predicate": "keep(agent:segal,patient:streaker)",
+      "event": "keep",
+      "agent": "en:word:segal",
+      "patient": "en:word:streaker",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:170"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:22bcc17febc6d11db04d5f16997d89013b4abbc9d76f922060489fea01a0747b"
+    },
+    {
+      "id": "en:sem:171",
+      "predicate": "hold(agent:worrying,patient:corgi)",
+      "event": "hold",
+      "agent": "en:word:worrying",
+      "patient": "en:word:corgi",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:171"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:f888681e2abadeb54775146becb2c59fa03482002c0eec73783118c31f288069"
+    },
+    {
+      "id": "en:sem:172",
+      "predicate": "bring(agent:humdinger,patient:warehouse)",
+      "event": "bring",
+      "agent": "en:word:humdinger",
+      "patient": "en:word:warehouse",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:172"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:aa144b698079ac84e7057b952a8d938e36d32f16f1a5aefae0aa48b38279c1ed"
+    },
+    {
+      "id": "en:sem:173",
+      "predicate": "help(agent:bars,patient:rink)",
+      "event": "help",
+      "agent": "en:word:bars",
+      "patient": "en:word:rink",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:173"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:b7948064440388cf5c7f174202a1b1533b1cf1f70578c54896c584e4e6bea6a9"
+    },
+    {
+      "id": "en:sem:174",
+      "predicate": "stop(agent:muskrat,patient:mayer)",
+      "event": "stop",
+      "agent": "en:word:muskrat",
+      "patient": "en:word:mayer",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:174"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:3bd5dc1e1ffc9449497bed9cd95510966a76c266ea666428add9de4f4155c1cd"
+    },
+    {
+      "id": "en:sem:175",
+      "predicate": "build(agent:ringside,patient:pearly)",
+      "event": "build",
+      "agent": "en:word:ringside",
+      "patient": "en:word:pearly",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:175"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:0e59d45513199a261317dce1c095c0d4087ef095ce45ae07aa904a601d500b4d"
+    },
+    {
+      "id": "en:sem:176",
+      "predicate": "fall(agent:coitus,patient:worshiper)",
+      "event": "fall",
+      "agent": "en:word:coitus",
+      "patient": "en:word:worshiper",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:176"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:9f7bae420e1abea5901da361f26467106e2a0021e76f321d78c4287d09c2d4f9"
+    },
+    {
+      "id": "en:sem:177",
+      "predicate": "reach(agent:lifesaver,patient:hashmark)",
+      "event": "reach",
+      "agent": "en:word:lifesaver",
+      "patient": "en:word:hashmark",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:177"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:492b1bc31ed717b09a673f3c56cf780bb061f854eed27b35694ce25a3b018dcb"
+    },
+    {
+      "id": "en:sem:178",
+      "predicate": "send(agent:wilkins,patient:repartee)",
+      "event": "send",
+      "agent": "en:word:wilkins",
+      "patient": "en:word:repartee",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:178"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:87c81f23d59cd14e50ce9c2b3fe2aa6ec62e4d73f57a7f0e1d4a507581324382"
+    },
+    {
+      "id": "en:sem:179",
+      "predicate": "read(agent:israelite,patient:buchanan)",
+      "event": "read",
+      "agent": "en:word:israelite",
+      "patient": "en:word:buchanan",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:179"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:3984431a644594790b200729dc2e7d657073329f5f0df7f21636a01a20e9850c"
+    },
+    {
+      "id": "en:sem:180",
+      "predicate": "walk(agent:escapism,patient:danube)",
+      "event": "walk",
+      "agent": "en:word:escapism",
+      "patient": "en:word:danube",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:180"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:ef95959c831124890fb19beaef6ad5b3a0d53182bb9e742f2381379ae6d2fc1e"
+    },
+    {
+      "id": "en:sem:181",
+      "predicate": "chase(agent:breakdown,patient:laurel)",
+      "event": "chase",
+      "agent": "en:word:breakdown",
+      "patient": "en:word:laurel",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:181"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:c1275dbfad61f531b1dac18f616f8e4ab02d9558b967596db307cfd0378292e9"
+    },
+    {
+      "id": "en:sem:182",
+      "predicate": "run(agent:reform,patient:rewriting)",
+      "event": "run",
+      "agent": "en:word:reform",
+      "patient": "en:word:rewriting",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:182"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:e849d0812838006f3d8d711e4c19642d559cbe541c3bbfc5234f2ef02bbcefe2"
+    },
+    {
+      "id": "en:sem:183",
+      "predicate": "eat(agent:good,patient:strain)",
+      "event": "eat",
+      "agent": "en:word:good",
+      "patient": "en:word:strain",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:183"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:52a0e17c83c648b2fa5186834ec5399ea00019d50a6465dc684a385ae5718dde"
+    },
+    {
+      "id": "en:sem:184",
+      "predicate": "see(agent:shanghai,patient:catfish)",
+      "event": "see",
+      "agent": "en:word:shanghai",
+      "patient": "en:word:catfish",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:184"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:3a29909d349f91ab832ea81405ec3abf3a58e5f52726156d8fd734bac5719e74"
+    },
+    {
+      "id": "en:sem:185",
+      "predicate": "make(agent:ulva,patient:haik)",
+      "event": "make",
+      "agent": "en:word:ulva",
+      "patient": "en:word:haik",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:185"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:5a1f79a1b89eb260dde0f8afc4cd0fbdba517f0545b78205c1d19114b9a81cb3"
+    },
+    {
+      "id": "en:sem:186",
+      "predicate": "take(agent:sagebrush,patient:rusk)",
+      "event": "take",
+      "agent": "en:word:sagebrush",
+      "patient": "en:word:rusk",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:186"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:3151d41ef54e05d16f634776b7a9379cc5b793034abab58044eaddbfae7b2e48"
+    },
+    {
+      "id": "en:sem:187",
+      "predicate": "give(agent:deluge,patient:innocence)",
+      "event": "give",
+      "agent": "en:word:deluge",
+      "patient": "en:word:innocence",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:187"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:a3881f6dfee14b259b2d2db877b890e11d58a7658d083e6e766248dab17465b5"
+    },
+    {
+      "id": "en:sem:188",
+      "predicate": "find(agent:lund,patient:outside)",
+      "event": "find",
+      "agent": "en:word:lund",
+      "patient": "en:word:outside",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:188"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:d387982b6e9ea80447cc8eb4bd2c6bcbf9df4514e712665ad103b13c43ceb522"
+    },
+    {
+      "id": "en:sem:189",
+      "predicate": "know(agent:wink,patient:louse)",
+      "event": "know",
+      "agent": "en:word:wink",
+      "patient": "en:word:louse",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:189"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:5725bf3e02e95abbb90c3ff2404c710a3a062f4d550f969e74c55270ce67f63f"
+    },
+    {
+      "id": "en:sem:190",
+      "predicate": "think(agent:ductility,patient:addition)",
+      "event": "think",
+      "agent": "en:word:ductility",
+      "patient": "en:word:addition",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:190"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:66063a52e94b09539dfe92c3393ab384617131e8da658cc58f34b5998740f900"
+    },
+    {
+      "id": "en:sem:191",
+      "predicate": "say(agent:taegu,patient:mandrill)",
+      "event": "say",
+      "agent": "en:word:taegu",
+      "patient": "en:word:mandrill",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:191"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:415720235feb79cfcfbc6a872cec7fdbc4cb32d4bfc8f0ac4224671fcb20aed9"
+    },
+    {
+      "id": "en:sem:192",
+      "predicate": "get(agent:acidosis,patient:concerto)",
+      "event": "get",
+      "agent": "en:word:acidosis",
+      "patient": "en:word:concerto",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:192"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:150cfb959d90e4fa93978ca723f2298396d10d9774f8b5e4d513127fd311c91b"
+    },
+    {
+      "id": "en:sem:193",
+      "predicate": "use(agent:dirt,patient:telescope)",
+      "event": "use",
+      "agent": "en:word:dirt",
+      "patient": "en:word:telescope",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:193"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:d19cd42949cc0969d9a047146d459b0fe839dbc28ed259dd2946b347b3db4e74"
+    },
+    {
+      "id": "en:sem:194",
+      "predicate": "move(agent:craftsman,patient:forebrain)",
+      "event": "move",
+      "agent": "en:word:craftsman",
+      "patient": "en:word:forebrain",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:194"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:fac7a3f7ff2088d80123a91ea2302a6aa56153687d28ae14b0f142587ef9a7a6"
+    },
+    {
+      "id": "en:sem:195",
+      "predicate": "show(agent:pathogen,patient:harlequin)",
+      "event": "show",
+      "agent": "en:word:pathogen",
+      "patient": "en:word:harlequin",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:195"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:92e7f00c86dfaa70fae72fe4196726521d73570ecb0c543ba79b658030c6f6f5"
+    },
+    {
+      "id": "en:sem:196",
+      "predicate": "play(agent:gatherer,patient:athletics)",
+      "event": "play",
+      "agent": "en:word:gatherer",
+      "patient": "en:word:athletics",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:196"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:3d6ce01536974141fd49090fb1c01279fcbd84b35bc4c9dd2266eb561c8ece04"
+    },
+    {
+      "id": "en:sem:197",
+      "predicate": "feel(agent:illinois,patient:claudius)",
+      "event": "feel",
+      "agent": "en:word:illinois",
+      "patient": "en:word:claudius",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:197"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:acf125a4928f4feba60ab3c79d3688063c82061d05ef0eaf17c7b7d1bf2f334d"
+    },
+    {
+      "id": "en:sem:198",
+      "predicate": "work(agent:denture,patient:blues)",
+      "event": "work",
+      "agent": "en:word:denture",
+      "patient": "en:word:blues",
+      "tense": "future",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:198"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:98c3ff5c8547006e037e1e998c8c0307228950834f91bc81eebc961f229af86c"
+    },
+    {
+      "id": "en:sem:199",
+      "predicate": "call(agent:offshoot,patient:bulgarian)",
+      "event": "call",
+      "agent": "en:word:offshoot",
+      "patient": "en:word:bulgarian",
+      "tense": "past",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:199"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:ac62b0f99bdf071a22855bbf325e1815f7e13dcada032e672ff0033377a9f383"
+    },
+    {
+      "id": "en:sem:200",
+      "predicate": "keep(agent:allomorph,patient:fireball)",
+      "event": "keep",
+      "agent": "en:word:allomorph",
+      "patient": "en:word:fireball",
+      "tense": "present",
+      "polarity": "positive",
+      "sig": 0,
+      "upstream": {
+        "phrase_ids": [
+          "en:phrase:200"
+        ],
+        "phrase_universe_digest": "sha256:44e4bbb32df80ba535b483fc88ba04770f58ca209e5fde2655dbd621b87d69d5"
+      },
+      "digest": "sha256:e083f6500f038b49674f7420c93c72de80cfc5bb26369850dae7ef31513a2e26"
+    }
+  ]
+}

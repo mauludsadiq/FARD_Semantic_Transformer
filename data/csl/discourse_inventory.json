@@ -1,0 +1,1708 @@
+{
+  "schema_version": "csl.discourse_inventory.v1",
+  "language": "en",
+  "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34",
+  "inventory_digest_algorithm": "sha256",
+  "entries": [
+    {
+      "id": "en:disc:1",
+      "events": [
+        "chase(dive)",
+        "take(glimmer)"
+      ],
+      "relation": "causation",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:1",
+          "en:sem:2"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:3b828705821d9268442ad91671949b483940ba4b03867afcc194237d66cb3da5"
+    },
+    {
+      "id": "en:disc:2",
+      "events": [
+        "run(poultice)",
+        "give(mussolini)"
+      ],
+      "relation": "temporal_order",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:2",
+          "en:sem:3"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:3e49ca91eb8c14f41c1068fcf5d68a0af57885ee21fcf60b8076b234226e2bb8"
+    },
+    {
+      "id": "en:disc:3",
+      "events": [
+        "eat(pheromone)",
+        "find(deep)"
+      ],
+      "relation": "coreference",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:3",
+          "en:sem:4"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:a655f5b48290cc3458331afd11c02bad1c564b7a2aad3265c8a1edeeed791167"
+    },
+    {
+      "id": "en:disc:4",
+      "events": [
+        "see(primo)",
+        "know(moon)"
+      ],
+      "relation": "contrast",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:4",
+          "en:sem:5"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:d59b304192fff7e7685465997b260e8d9263c838bd6ba27dd36179988d515864"
+    },
+    {
+      "id": "en:disc:5",
+      "events": [
+        "make(ezekiel)",
+        "think(target)"
+      ],
+      "relation": "elaboration",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:5",
+          "en:sem:6"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:4620ee7d6a7702e3060c52f089794654c230f593e112b435ef48ce9d79df5055"
+    },
+    {
+      "id": "en:disc:6",
+      "events": [
+        "take(easterly)",
+        "say(gripe)"
+      ],
+      "relation": "entailment",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:6",
+          "en:sem:7"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:0572f4642b1f5a17d1ec11dc1687149531e590f045ba1977c7d875548c85a626"
+    },
+    {
+      "id": "en:disc:7",
+      "events": [
+        "give(goodbye)",
+        "get(rosario)"
+      ],
+      "relation": "causation",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:7",
+          "en:sem:8"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:f4487e262afc7b27dd6d5db27bb24081430d10144b62f50af421a301593b2f76"
+    },
+    {
+      "id": "en:disc:8",
+      "events": [
+        "find(laugher)",
+        "use(childhood)"
+      ],
+      "relation": "temporal_order",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:8",
+          "en:sem:9"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:8ba49866bfaa6a151c1896c072c5a2016b484abf780a12822fb29e9172756dc7"
+    },
+    {
+      "id": "en:disc:9",
+      "events": [
+        "know(hypnosis)",
+        "move(binge)"
+      ],
+      "relation": "coreference",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:9",
+          "en:sem:10"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:76b6d42c4b0ac90624d94be0ef75f974a2572e77a1bf087beb9b284a85bfb309"
+    },
+    {
+      "id": "en:disc:10",
+      "events": [
+        "think(warble)",
+        "show(pharmacy)"
+      ],
+      "relation": "contrast",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:10",
+          "en:sem:11"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:f4ac31a4a7ecf43c0b4f0ad55c08a61d75c3e00955603adae669c5be475d2936"
+    },
+    {
+      "id": "en:disc:11",
+      "events": [
+        "say(twisting)",
+        "play(ireland)"
+      ],
+      "relation": "elaboration",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:11",
+          "en:sem:12"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:fdfb4ee3018c07eea97cde72c3a36c28eb295c8ccd681672567f61fea76d8dc6"
+    },
+    {
+      "id": "en:disc:12",
+      "events": [
+        "get(clause)",
+        "feel(quarter)"
+      ],
+      "relation": "entailment",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:12",
+          "en:sem:13"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:241baeddc71e7199bd750da7e16d64ae302340031ed9dbf12b0e8eeb8bf602a8"
+    },
+    {
+      "id": "en:disc:13",
+      "events": [
+        "use(forehead)",
+        "work(pacifism)"
+      ],
+      "relation": "causation",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:13",
+          "en:sem:14"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:28cf307b86415c01cc235ea69c46b91d379b897e3e49111819809d49e1433a19"
+    },
+    {
+      "id": "en:disc:14",
+      "events": [
+        "move(danton)",
+        "call(thigh)"
+      ],
+      "relation": "temporal_order",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:14",
+          "en:sem:15"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:c3b9fca96d3e7102af018575265632a1547a9feb33016fa4d5f78d5810ae3500"
+    },
+    {
+      "id": "en:disc:15",
+      "events": [
+        "show(iraqi)",
+        "keep(meteor)"
+      ],
+      "relation": "coreference",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:15",
+          "en:sem:16"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:011d2050e374c3968dc2e0d86f2ecb36f7872c82596ec2007008d298cc459d8a"
+    },
+    {
+      "id": "en:disc:16",
+      "events": [
+        "play(computing)",
+        "hold(boozer)"
+      ],
+      "relation": "contrast",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:16",
+          "en:sem:17"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:bd36e0fe2762e92abc5517a120c5b23b203f49aad1c90bf0472fb66a8e3eb585"
+    },
+    {
+      "id": "en:disc:17",
+      "events": [
+        "feel(parity)",
+        "bring(customs)"
+      ],
+      "relation": "elaboration",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:17",
+          "en:sem:18"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:abe8bbe8dbdb90f6d41810836b894fb72e4a876fff2f8309ad0b20d8c1c754d5"
+    },
+    {
+      "id": "en:disc:18",
+      "events": [
+        "work(hotbed)",
+        "help(furrier)"
+      ],
+      "relation": "entailment",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:18",
+          "en:sem:19"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:6b7d6ad10d7669d62237a7569c74ccf8f9bf5b30b65170fe7a7ff79a5b15b0af"
+    },
+    {
+      "id": "en:disc:19",
+      "events": [
+        "call(wisdom)",
+        "stop(disa)"
+      ],
+      "relation": "causation",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:19",
+          "en:sem:20"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:0d0bf9ba5beb348209948126a773d3182b19cde34aae7c2300f48d34d8b69d5c"
+    },
+    {
+      "id": "en:disc:20",
+      "events": [
+        "keep(barrymore)",
+        "build(gromyko)"
+      ],
+      "relation": "temporal_order",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:20",
+          "en:sem:21"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:4c00ad808fb6a135baa78c3709229ed38484f3c1ad6566c3e092303528d1c194"
+    },
+    {
+      "id": "en:disc:21",
+      "events": [
+        "hold(relay)",
+        "fall(position)"
+      ],
+      "relation": "coreference",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:21",
+          "en:sem:22"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:9c3ef2c9383b0e642c5b610cf9bac8aa02065081d06801ec510bb4d773fbd741"
+    },
+    {
+      "id": "en:disc:22",
+      "events": [
+        "bring(macau)",
+        "reach(synapse)"
+      ],
+      "relation": "contrast",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:22",
+          "en:sem:23"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:ac2f335192b40f32c047009c433df80117cde1ff0ed31b12f883baed1e7d9fde"
+    },
+    {
+      "id": "en:disc:23",
+      "events": [
+        "help(scouring)",
+        "send(inebriate)"
+      ],
+      "relation": "elaboration",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:23",
+          "en:sem:24"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:e5a681315c00a6c14320d2f7f0aac10eb15a5f422ea81b92a3441103e44ddb34"
+    },
+    {
+      "id": "en:disc:24",
+      "events": [
+        "stop(selloff)",
+        "read(travel)"
+      ],
+      "relation": "entailment",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:24",
+          "en:sem:25"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:a46eac4492676353f76f5f354b7bcc0306d528cc9bdde98f989ec96ac8c38b69"
+    },
+    {
+      "id": "en:disc:25",
+      "events": [
+        "build(beach)",
+        "walk(inflator)"
+      ],
+      "relation": "causation",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:25",
+          "en:sem:26"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:915d963ea24bca96da7f2861244c9f1077d4dbabe06d356c2b73e4765efa44bf"
+    },
+    {
+      "id": "en:disc:26",
+      "events": [
+        "fall(mutton)",
+        "chase(kettle)"
+      ],
+      "relation": "temporal_order",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:26",
+          "en:sem:27"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:3a4336cea3eb032d9a6c55f7e0953ab0643848986287b611a344e79b85bbdc09"
+    },
+    {
+      "id": "en:disc:27",
+      "events": [
+        "reach(capella)",
+        "run(bigot)"
+      ],
+      "relation": "coreference",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:27",
+          "en:sem:28"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:82ada373a3a6fad1319c801bef5b2c0d133563cfe9ae725d94b688dcbc136746"
+    },
+    {
+      "id": "en:disc:28",
+      "events": [
+        "send(bennet)",
+        "eat(wiccan)"
+      ],
+      "relation": "contrast",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:28",
+          "en:sem:29"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:dc8d6edd85bb96d460bc7c7520da822f4d7a1ceeb0b64446f452dc289d480ddc"
+    },
+    {
+      "id": "en:disc:29",
+      "events": [
+        "read(bonus)",
+        "see(sunroom)"
+      ],
+      "relation": "elaboration",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:29",
+          "en:sem:30"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:d7bbb92d0ed2f0f36c9a3f17da3f05470288641e673bd6c6f1ce8802c2c1fa95"
+    },
+    {
+      "id": "en:disc:30",
+      "events": [
+        "walk(variety)",
+        "make(trickery)"
+      ],
+      "relation": "entailment",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:30",
+          "en:sem:31"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:6c6506b82c32e0a0e0631238f1e0f88d12326fcd6d453498875e36d6793e8033"
+    },
+    {
+      "id": "en:disc:31",
+      "events": [
+        "chase(pauling)",
+        "take(putt)"
+      ],
+      "relation": "causation",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:31",
+          "en:sem:32"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:f7ccbd6421ef1fa4ec64ae3da130a3680a1ff0a9c476f6b43f36d583394897ef"
+    },
+    {
+      "id": "en:disc:32",
+      "events": [
+        "run(inca)",
+        "give(tramp)"
+      ],
+      "relation": "temporal_order",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:32",
+          "en:sem:33"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:c8e105ac045c8e9c809ed9bf10d2035357ca6fb7df630a35fe00f0927612c115"
+    },
+    {
+      "id": "en:disc:33",
+      "events": [
+        "eat(persian)",
+        "find(reservist)"
+      ],
+      "relation": "coreference",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:33",
+          "en:sem:34"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:7f1caf6e4c7120d6493ee816788d4bc9cd8071fbc5d0bae9b23be1febb44c823"
+    },
+    {
+      "id": "en:disc:34",
+      "events": [
+        "see(poop)",
+        "know(macaroni)"
+      ],
+      "relation": "contrast",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:34",
+          "en:sem:35"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:03394809f909245d5ff3b2fecb567be28804ef8854096763c2e6d3a9aee57f6c"
+    },
+    {
+      "id": "en:disc:35",
+      "events": [
+        "make(trademark)",
+        "think(suitcase)"
+      ],
+      "relation": "elaboration",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:35",
+          "en:sem:36"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:fcdbcee60028210e3504d457fdf4391efaf660fc579990a8597c8a37ba4275cc"
+    },
+    {
+      "id": "en:disc:36",
+      "events": [
+        "take(belgrade)",
+        "say(caramel)"
+      ],
+      "relation": "entailment",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:36",
+          "en:sem:37"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:b5271ee71950ab2f2553c73681884b7fc4290aee8e24717ffdbf5c387774a860"
+    },
+    {
+      "id": "en:disc:37",
+      "events": [
+        "give(jericho)",
+        "get(redeye)"
+      ],
+      "relation": "causation",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:37",
+          "en:sem:38"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:131d0e2552188cffe43d56bb0478960d06dd625d72941e1f7814a8825e563960"
+    },
+    {
+      "id": "en:disc:38",
+      "events": [
+        "find(injustice)",
+        "use(destroyer)"
+      ],
+      "relation": "temporal_order",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:38",
+          "en:sem:39"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:fd2763c95a26de9121161d7afa631cdba8a29a7e0cec0a7f151ddd7d3ee055e2"
+    },
+    {
+      "id": "en:disc:39",
+      "events": [
+        "know(hurdler)",
+        "move(dime)"
+      ],
+      "relation": "coreference",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:39",
+          "en:sem:40"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:367b8578b3c538b302f74809e6d2a4b929ad67ff669d65aff3cff2257e4a6c4a"
+    },
+    {
+      "id": "en:disc:40",
+      "events": [
+        "think(radar)",
+        "show(purple)"
+      ],
+      "relation": "contrast",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:40",
+          "en:sem:41"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:87a473b05f2300e3599dc81a87baea497b79aa373e2229eae7d733f8d5516ef8"
+    },
+    {
+      "id": "en:disc:41",
+      "events": [
+        "say(eager)",
+        "play(eight)"
+      ],
+      "relation": "elaboration",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:41",
+          "en:sem:42"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:c1d7abedcb772dbabe32719b1f0652e1f1bd0b41b2ece23f9ee75c6c5f7c638d"
+    },
+    {
+      "id": "en:disc:42",
+      "events": [
+        "get(foiling)",
+        "feel(garfield)"
+      ],
+      "relation": "entailment",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:42",
+          "en:sem:43"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:661212d4058166c5e16a411ac9f10384c35a06b9500f0a383954f65cb542e4a8"
+    },
+    {
+      "id": "en:disc:43",
+      "events": [
+        "use(absurdity)",
+        "work(cords)"
+      ],
+      "relation": "causation",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:43",
+          "en:sem:44"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:be7a8e80ad0d55d9f774c21ab93e2528d91cba3eaaa924e68fe22f0078104add"
+    },
+    {
+      "id": "en:disc:44",
+      "events": [
+        "move(pentothal)",
+        "call(ranting)"
+      ],
+      "relation": "temporal_order",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:44",
+          "en:sem:45"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:130970a6f1ec0d626282832eb22874f0a48dafb9c2500640d2d6da51a050b55a"
+    },
+    {
+      "id": "en:disc:45",
+      "events": [
+        "show(letdown)",
+        "keep(sale)"
+      ],
+      "relation": "coreference",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:45",
+          "en:sem:46"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:c3a2f2a2562b9debf3eab7e4286d6b8bd810bbc632678691a6c86fc607a03ca9"
+    },
+    {
+      "id": "en:disc:46",
+      "events": [
+        "play(dementia)",
+        "hold(wilmut)"
+      ],
+      "relation": "contrast",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:46",
+          "en:sem:47"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:fed66851f5bfa895abbe29522d04bfa67336583e27c3e9268675931d6c72a9c7"
+    },
+    {
+      "id": "en:disc:47",
+      "events": [
+        "feel(bristle)",
+        "bring(tacker)"
+      ],
+      "relation": "elaboration",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:47",
+          "en:sem:48"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:6fdd24130864ecbebfcb3f14c699cfc02ac439fd08495c816b95c481af844520"
+    },
+    {
+      "id": "en:disc:48",
+      "events": [
+        "work(nominee)",
+        "help(halon)"
+      ],
+      "relation": "entailment",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:48",
+          "en:sem:49"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:662e2cb7c8d6c55a41402d6a6dc1fa278b66c0bc06569e92c1ef720ff3e77fb5"
+    },
+    {
+      "id": "en:disc:49",
+      "events": [
+        "call(ingestion)",
+        "stop(niobite)"
+      ],
+      "relation": "causation",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:49",
+          "en:sem:50"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:8b5afce1da3d1990fec12028d5e5c2fc3c792a2a29c9b3347fbbc15081a26ad8"
+    },
+    {
+      "id": "en:disc:50",
+      "events": [
+        "keep(repayment)",
+        "build(nancy)"
+      ],
+      "relation": "temporal_order",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:50",
+          "en:sem:51"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:de23190d2a9991e1e4ec40c820e9893522fb0e09fedde1a9b3389d6a097ccdd2"
+    },
+    {
+      "id": "en:disc:51",
+      "events": [
+        "hold(glimmer)",
+        "fall(scraper)"
+      ],
+      "relation": "coreference",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:51",
+          "en:sem:52"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:db2eafde97be920660cd05a4a9580971723b4394038c63e92947b2ccd53c8b65"
+    },
+    {
+      "id": "en:disc:52",
+      "events": [
+        "bring(mussolini)",
+        "reach(clover)"
+      ],
+      "relation": "contrast",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:52",
+          "en:sem:53"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:7f9dbc2df8d67914f053eb097ff769f7a6aeee16f57f007251a07082be1ce268"
+    },
+    {
+      "id": "en:disc:53",
+      "events": [
+        "help(deep)",
+        "send(browning)"
+      ],
+      "relation": "elaboration",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:53",
+          "en:sem:54"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:e0b4cc2a092a0994c6940b342fb63221481e16dc6d8f3f3f89a017d507504527"
+    },
+    {
+      "id": "en:disc:54",
+      "events": [
+        "stop(moon)",
+        "read(lyon)"
+      ],
+      "relation": "entailment",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:54",
+          "en:sem:55"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:69add328e492d8a07ae46100c7e309607240fa26966daab8c08d04137966ea2a"
+    },
+    {
+      "id": "en:disc:55",
+      "events": [
+        "build(target)",
+        "walk(eyre)"
+      ],
+      "relation": "causation",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:55",
+          "en:sem:56"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:58a0c74a2d6f673af4087c28a4069a5c2da3ea7d1b70c2716216742636bf2d1c"
+    },
+    {
+      "id": "en:disc:56",
+      "events": [
+        "fall(gripe)",
+        "chase(brooklyn)"
+      ],
+      "relation": "temporal_order",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:56",
+          "en:sem:57"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:07b526c79ee6e52826d3b16b49e30b3d7732fa56daaf93ed35f1ec4b20110cdd"
+    },
+    {
+      "id": "en:disc:57",
+      "events": [
+        "reach(rosario)",
+        "run(erecting)"
+      ],
+      "relation": "coreference",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:57",
+          "en:sem:58"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:37fc66ad6065947ac96c959c4120baf887b9ade59fbe9ea37ea3100a01077e73"
+    },
+    {
+      "id": "en:disc:58",
+      "events": [
+        "send(childhood)",
+        "eat(sinning)"
+      ],
+      "relation": "contrast",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:58",
+          "en:sem:59"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:df19221bcf7ef5ad895203ec48258a9abedb7e7eb31779df5d2f6de895e00491"
+    },
+    {
+      "id": "en:disc:59",
+      "events": [
+        "read(binge)",
+        "see(freezing)"
+      ],
+      "relation": "elaboration",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:59",
+          "en:sem:60"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:6c407998c5c9d53da07a77814d91dd11f07b979f94718eddcbd6af3c2907de4d"
+    },
+    {
+      "id": "en:disc:60",
+      "events": [
+        "walk(pharmacy)",
+        "make(miler)"
+      ],
+      "relation": "entailment",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:60",
+          "en:sem:61"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:78315ae81f64eb33c1028b8845e20193e0a3a464510b4704d68adfcb77f3ca06"
+    },
+    {
+      "id": "en:disc:61",
+      "events": [
+        "chase(ireland)",
+        "take(kenya)"
+      ],
+      "relation": "causation",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:61",
+          "en:sem:62"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:ea9935e174eb16963ef2abd84ed51b83de55e0bab7aa72a64fb664191099db01"
+    },
+    {
+      "id": "en:disc:62",
+      "events": [
+        "run(quarter)",
+        "give(uphill)"
+      ],
+      "relation": "temporal_order",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:62",
+          "en:sem:63"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:4dd4a22b65916ae14d8d850c962df5ecd0f0108cac9f183929b47039dd6b5d5b"
+    },
+    {
+      "id": "en:disc:63",
+      "events": [
+        "eat(pacifism)",
+        "find(marathi)"
+      ],
+      "relation": "coreference",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:63",
+          "en:sem:64"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:e95d0f405eedf7f01d7a1aa49e56456114b2705851e4807ea90bc3ed9e7d08b0"
+    },
+    {
+      "id": "en:disc:64",
+      "events": [
+        "see(thigh)",
+        "know(backlash)"
+      ],
+      "relation": "contrast",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:64",
+          "en:sem:65"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:eeadb858902f1a21beca156232bf2ac785240ef12881b889c9fed5eae404d154"
+    },
+    {
+      "id": "en:disc:65",
+      "events": [
+        "make(meteor)",
+        "think(cinema)"
+      ],
+      "relation": "elaboration",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:65",
+          "en:sem:66"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:cd77254fd68cda1e34692c3fefa8409578ee17dd1c097f02b154f095e14cfedd"
+    },
+    {
+      "id": "en:disc:66",
+      "events": [
+        "take(boozer)",
+        "say(overtone)"
+      ],
+      "relation": "entailment",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:66",
+          "en:sem:67"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:a135255ca1aced9e04692e883c93acabd2ba35c5211cac4bc8b655571fc56d79"
+    },
+    {
+      "id": "en:disc:67",
+      "events": [
+        "give(customs)",
+        "get(foundry)"
+      ],
+      "relation": "causation",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:67",
+          "en:sem:68"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:f481cd218089a9b5453e15bc85c27f34591aa804ec2876678c543a0ec5bdab95"
+    },
+    {
+      "id": "en:disc:68",
+      "events": [
+        "find(furrier)",
+        "use(floppy)"
+      ],
+      "relation": "temporal_order",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:68",
+          "en:sem:69"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:c5f4bef0e1b0849db754e5c4ff86da98e06e68db4e39119b718ebcfb819ef8c3"
+    },
+    {
+      "id": "en:disc:69",
+      "events": [
+        "know(disa)",
+        "move(resin)"
+      ],
+      "relation": "coreference",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:69",
+          "en:sem:70"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:3bc64b1726a834bf41f56fbaa9782b120e4872306d1815d2d4cef69372bef33e"
+    },
+    {
+      "id": "en:disc:70",
+      "events": [
+        "think(gromyko)",
+        "show(howler)"
+      ],
+      "relation": "contrast",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:70",
+          "en:sem:71"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:ca7d6df5135b2fe8cff5e1df026d6c8bfe551e1d76a84ffbebc19069d905a0ae"
+    },
+    {
+      "id": "en:disc:71",
+      "events": [
+        "say(position)",
+        "play(initial)"
+      ],
+      "relation": "elaboration",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:71",
+          "en:sem:72"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:84f245a77be06f400ccfa253de4cfbdcfa5b168905505e3e9e251a69ed41e5d7"
+    },
+    {
+      "id": "en:disc:72",
+      "events": [
+        "get(synapse)",
+        "feel(clearance)"
+      ],
+      "relation": "entailment",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:72",
+          "en:sem:73"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:2ae19dc9cd9dc59ca4ae79d5a55b9251a6e95d002d70731902f14e083266b6f3"
+    },
+    {
+      "id": "en:disc:73",
+      "events": [
+        "use(inebriate)",
+        "work(crying)"
+      ],
+      "relation": "causation",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:73",
+          "en:sem:74"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:d387edc694b201ac691d7764b03f24dd833398ac9ef7875c363598e5cfc5137c"
+    },
+    {
+      "id": "en:disc:74",
+      "events": [
+        "move(travel)",
+        "call(mona)"
+      ],
+      "relation": "temporal_order",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:74",
+          "en:sem:75"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:28150c94d426f94fe956439ef452c49a9eb0634b7cb03c004d086e4590c9cf92"
+    },
+    {
+      "id": "en:disc:75",
+      "events": [
+        "show(inflator)",
+        "keep(maltose)"
+      ],
+      "relation": "coreference",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:75",
+          "en:sem:76"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:3a2a2aff5495c64cf8fa908b500511296b23eb9df2260d4fb41f31a3f3740d6d"
+    },
+    {
+      "id": "en:disc:76",
+      "events": [
+        "play(kettle)",
+        "hold(cattell)"
+      ],
+      "relation": "contrast",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:76",
+          "en:sem:77"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:4fce5c8dca7c97885d31eaf95ea9f122f5c18ddb7b5c8e8688576a480ecfdd91"
+    },
+    {
+      "id": "en:disc:77",
+      "events": [
+        "feel(bigot)",
+        "bring(cloning)"
+      ],
+      "relation": "elaboration",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:77",
+          "en:sem:78"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:1b741aaa2dafd0192abbc3f2f729d0d59e13e89be99385aebcc09c6e2b69f9d2"
+    },
+    {
+      "id": "en:disc:78",
+      "events": [
+        "work(wiccan)",
+        "help(spam)"
+      ],
+      "relation": "entailment",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:78",
+          "en:sem:79"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:cebc360842cd8b36f1a33d44ff94f8e5b83933109e2c0a3ad0916d3712b765b9"
+    },
+    {
+      "id": "en:disc:79",
+      "events": [
+        "call(sunroom)",
+        "stop(colorado)"
+      ],
+      "relation": "causation",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:79",
+          "en:sem:80"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:32a5135106cbf68b0684d29da89497bd83362cb21b941e50a66e42c5e64396f2"
+    },
+    {
+      "id": "en:disc:80",
+      "events": [
+        "keep(trickery)",
+        "build(scar)"
+      ],
+      "relation": "temporal_order",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:80",
+          "en:sem:81"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:6cd242d1971a85bcbd440058a8408077b6e2295ab7121f16130283eb09c18d13"
+    },
+    {
+      "id": "en:disc:81",
+      "events": [
+        "hold(putt)",
+        "fall(stepper)"
+      ],
+      "relation": "coreference",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:81",
+          "en:sem:82"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:fc5e8e35c5c609bcbd3959e4042f42352d5a56ff491a3360d115987b600753b4"
+    },
+    {
+      "id": "en:disc:82",
+      "events": [
+        "bring(tramp)",
+        "reach(iberia)"
+      ],
+      "relation": "contrast",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:82",
+          "en:sem:83"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:96d3334cd5eeca64e823a2d9c8d851119d5657f0ec78b8034afe9cc9248010fa"
+    },
+    {
+      "id": "en:disc:83",
+      "events": [
+        "help(reservist)",
+        "send(male)"
+      ],
+      "relation": "elaboration",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:83",
+          "en:sem:84"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:0a25227593eed361ad77a959cd9a40b813420fc65959083f502d7d551420ee78"
+    },
+    {
+      "id": "en:disc:84",
+      "events": [
+        "stop(macaroni)",
+        "read(aureole)"
+      ],
+      "relation": "entailment",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:84",
+          "en:sem:85"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:233e044cf646cb3f34f6dbbc71a3bfee433eade3cc4419e5666362d1adad4861"
+    },
+    {
+      "id": "en:disc:85",
+      "events": [
+        "build(suitcase)",
+        "walk(york)"
+      ],
+      "relation": "causation",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:85",
+          "en:sem:86"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:0b84053531e8c1e54387aaf4dab4b266318fef07ea209bf655bb851327f36177"
+    },
+    {
+      "id": "en:disc:86",
+      "events": [
+        "fall(caramel)",
+        "chase(crawfish)"
+      ],
+      "relation": "temporal_order",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:86",
+          "en:sem:87"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:b762a80e2c3cea228e0d87ffbd36148ba5ab2e9ef16d3137dc4003f841a30869"
+    },
+    {
+      "id": "en:disc:87",
+      "events": [
+        "reach(redeye)",
+        "run(garage)"
+      ],
+      "relation": "coreference",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:87",
+          "en:sem:88"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:0fbf48650b2e86ead21e8ec59371afc7df3e61694893504d556362527b844091"
+    },
+    {
+      "id": "en:disc:88",
+      "events": [
+        "send(destroyer)",
+        "eat(nanjing)"
+      ],
+      "relation": "contrast",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:88",
+          "en:sem:89"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:508b062edbefc4ef5f3c1890af6b7cd2cbfbdd2525778b802fb7ee554ffe98e6"
+    },
+    {
+      "id": "en:disc:89",
+      "events": [
+        "read(dime)",
+        "see(decoder)"
+      ],
+      "relation": "elaboration",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:89",
+          "en:sem:90"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:814c3e846de8070cef1146cfd946d65ea771b115c02ba6c6131593558da7db42"
+    },
+    {
+      "id": "en:disc:90",
+      "events": [
+        "walk(purple)",
+        "make(godspeed)"
+      ],
+      "relation": "entailment",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:90",
+          "en:sem:91"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:11aead59866285d47c53c6aadebcc2cb8f1c4c3675a0d8a15233d41d1594b528"
+    },
+    {
+      "id": "en:disc:91",
+      "events": [
+        "chase(eight)",
+        "take(guardsman)"
+      ],
+      "relation": "causation",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:91",
+          "en:sem:92"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:d172ade0432a33b3227a756f5d0a4e8bc575f34266fa1dd80239d6f8b939edde"
+    },
+    {
+      "id": "en:disc:92",
+      "events": [
+        "run(garfield)",
+        "give(minibus)"
+      ],
+      "relation": "temporal_order",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:92",
+          "en:sem:93"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:8de0b0eb51cfc7867167eae3c734e581062e325a29c2c73e207e6baae854f23e"
+    },
+    {
+      "id": "en:disc:93",
+      "events": [
+        "eat(cords)",
+        "find(sword)"
+      ],
+      "relation": "coreference",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:93",
+          "en:sem:94"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:64015ffe853fd53ff147c3c32116adbdda2462013bcdf21610552b3086ba27b8"
+    },
+    {
+      "id": "en:disc:94",
+      "events": [
+        "see(ranting)",
+        "know(showing)"
+      ],
+      "relation": "contrast",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:94",
+          "en:sem:95"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:0d3b3865cc7596f4af20fac7fababcb02b4607aca05954cc372396f4447b7f82"
+    },
+    {
+      "id": "en:disc:95",
+      "events": [
+        "make(sale)",
+        "think(tolerance)"
+      ],
+      "relation": "elaboration",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:95",
+          "en:sem:96"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:893201441d42d35726db5d1f9084bdca35c0cbb34ed6beca0c6e26c0a440fb02"
+    },
+    {
+      "id": "en:disc:96",
+      "events": [
+        "take(wilmut)",
+        "say(ginsberg)"
+      ],
+      "relation": "entailment",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:96",
+          "en:sem:97"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:65ee48ff8194547ccd1d2dfa1b9491d6e6287c0ce447694a5cd6f8a4868aed40"
+    },
+    {
+      "id": "en:disc:97",
+      "events": [
+        "give(tacker)",
+        "get(albert)"
+      ],
+      "relation": "causation",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:97",
+          "en:sem:98"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:423436717fd86a4b2ec32f3bcb2504a6e7d7e9c5f2138d27f09adecea52b6d5e"
+    },
+    {
+      "id": "en:disc:98",
+      "events": [
+        "find(halon)",
+        "use(cluster)"
+      ],
+      "relation": "temporal_order",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:98",
+          "en:sem:99"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:1e8e7ac76670d2933bc69b52dd9ac9907ae1a0e16661e1ea421ca6fbce66083a"
+    },
+    {
+      "id": "en:disc:99",
+      "events": [
+        "know(niobite)",
+        "move(lowlands)"
+      ],
+      "relation": "coreference",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:99",
+          "en:sem:100"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:0e16cf42959e20327500c5d01ad07e0b24989749d83175738142691dd2978bbf"
+    },
+    {
+      "id": "en:disc:100",
+      "events": [
+        "think(nancy)",
+        "show(silicone)"
+      ],
+      "relation": "contrast",
+      "sig": 0,
+      "upstream": {
+        "semantic_ids": [
+          "en:sem:100",
+          "en:sem:101"
+        ],
+        "semantic_universe_digest": "sha256:44758e9e2870a38afa390f0855cb7820cc6a2f7e60754660d3bf0446b139ff34"
+      },
+      "digest": "sha256:1e57d38959a55f2ecc199cbcb7de6fbe14c9be04e27a2a8c1abadb566ef245cf"
+    }
+  ]
+}

@@ -1,0 +1,8129 @@
+{
+  "schema_version": "csl.phrase_inventory.v2",
+  "language": "en",
+  "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f",
+  "inventory_digest_algorithm": "sha256",
+  "n_skeletons": 10,
+  "entries": [
+    {
+      "id": "en:phrase:S_NP_VP_intrans_00",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 0,
+      "surface_form": "S_NP_VP_intrans variant 0",
+      "sig": 0,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:30f39d8859f58ff8503f8a33c9ee7347b610ca28a968c32fd5727900eee6cbc8"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_01",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 1,
+      "surface_form": "S_NP_VP_intrans variant 1",
+      "sig": 1,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:0e979e1ca6f9222d9a2c8fe7fae3dcdaea86e7409ed3317a2369ea8059444ddc"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_02",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 2,
+      "surface_form": "S_NP_VP_intrans variant 2",
+      "sig": 2,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:3802510a9b6abeb9e34e08ac6eff866bb439fea57bc3cc93b5adb20339aaedfc"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_03",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 3,
+      "surface_form": "S_NP_VP_intrans variant 3",
+      "sig": 3,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:3ea0862d573180b738a894670703545af07688c920724bcfbfc2de6cdb1b4c48"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_04",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 4,
+      "surface_form": "S_NP_VP_intrans variant 4",
+      "sig": 4,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:02bc547b1247f2ac2f2deea10a849f089a61012b6eac577025cc504cc9b072d6"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_05",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 5,
+      "surface_form": "S_NP_VP_intrans variant 5",
+      "sig": 5,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:d4196ec677471422ea8585eb43c77c439e1a1a23ad539816c05a5a4d92d55b00"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_06",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 6,
+      "surface_form": "S_NP_VP_intrans variant 6",
+      "sig": 6,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:b57cac00854180b48ca0f1f4bed3553413d3d9cdeab31df43c804a3810fbc5de"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_07",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 7,
+      "surface_form": "S_NP_VP_intrans variant 7",
+      "sig": 7,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:26a89531c7e939df31ef283e279d2e3c285316460982af8de6156aa1466727fb"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_08",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 8,
+      "surface_form": "S_NP_VP_intrans variant 8",
+      "sig": 8,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:149ea62befff347113f87af113f3b447791a3596cbea9b2682848f70d3917e15"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_09",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 9,
+      "surface_form": "S_NP_VP_intrans variant 9",
+      "sig": 9,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:023a95512c2de3a08877876fe66009a436aa8a5cd98d65490c0f6244b6964216"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_10",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 10,
+      "surface_form": "S_NP_VP_intrans variant 10",
+      "sig": 10,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:b12610cdc45448e2caddaa302e0ec3a55a48c64d9c9597c7a0588a792bd3941e"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_11",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 11,
+      "surface_form": "S_NP_VP_intrans variant 11",
+      "sig": 11,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:f51efff00e0c63c4a7c4fc03fd8432472f5590d217d883473e2e6bcfcc13d67c"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_12",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 12,
+      "surface_form": "S_NP_VP_intrans variant 12",
+      "sig": 12,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:913259aef3ef7067e99d7258c6a36b6c226629f22149a8c75d608ef19fb6ec9d"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_13",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 13,
+      "surface_form": "S_NP_VP_intrans variant 13",
+      "sig": 13,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:264fa74383d29d2e4070fec4a1a0c8a180f3131de41b4dd062da19a227056863"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_14",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 14,
+      "surface_form": "S_NP_VP_intrans variant 14",
+      "sig": 14,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:79123a0ee882077ce650923a1d2948df1352843718b440d25b0763906bb3319f"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_15",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 15,
+      "surface_form": "S_NP_VP_intrans variant 15",
+      "sig": 15,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:e7ab6b16ecc02efa496ef0212fea07a49b1cf290fa7f538b51c2e794dcfbaba6"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_16",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 16,
+      "surface_form": "S_NP_VP_intrans variant 16",
+      "sig": 16,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:5db2892d79692518ff35dda3beb845bce502f872d2fe0b915c272728588ad4bc"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_17",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 17,
+      "surface_form": "S_NP_VP_intrans variant 17",
+      "sig": 17,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:f9365a2a40f38e646ef353fd7296fe44a3a6007bd776f399af2292a3e69e9ab3"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_18",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 18,
+      "surface_form": "S_NP_VP_intrans variant 18",
+      "sig": 18,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:5e519c89617b4fd4990c5339f03e240df65366d50b79a23d0062c37444714b0a"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_intrans_19",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V"
+      ],
+      "skeleton_id": "S_NP_VP_intrans",
+      "variant": 19,
+      "surface_form": "S_NP_VP_intrans variant 19",
+      "sig": 19,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:c8415c6b618a6c3d9547fc127ab617f0141f7e6d2b85232bc52f21a8c18948a3"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_00",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 0,
+      "surface_form": "S_NP_VP_trans variant 0",
+      "sig": 20,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:939c86a2c1351d02d2a11d614b96f7ddd4c1c46f6516d669749e6c4c6fbfa182"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_01",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 1,
+      "surface_form": "S_NP_VP_trans variant 1",
+      "sig": 21,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:d04b65a0c8779c9b975bacf26f06b6d084c026d0fbedf1b464e1bcf48827099c"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_02",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 2,
+      "surface_form": "S_NP_VP_trans variant 2",
+      "sig": 22,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:5a25e2893e79162a86644594c76021ec22e7ace8766ffeb2b09f98ec01df48e6"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_03",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 3,
+      "surface_form": "S_NP_VP_trans variant 3",
+      "sig": 23,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:cc6c88731399e4580f98f4ae187621ae0b2aa05fddc02d22750833dbbea111b6"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_04",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 4,
+      "surface_form": "S_NP_VP_trans variant 4",
+      "sig": 24,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:fb12679963e1f1ce06078f8b81763ceaf30b76b88d28f0f5f665b0576161361e"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_05",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 5,
+      "surface_form": "S_NP_VP_trans variant 5",
+      "sig": 25,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:c8476371f55f2362ded028fddb8114cc716a865774d329c5fb7ae3e61c9ece00"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_06",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 6,
+      "surface_form": "S_NP_VP_trans variant 6",
+      "sig": 26,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:2cf4391662ee11dea29c383b266ef45e1793646fdbb0e74dad6500455f0cf730"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_07",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 7,
+      "surface_form": "S_NP_VP_trans variant 7",
+      "sig": 27,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:292da18fe519871972d4bae73b905a61f5f158d2494282e1f2f03384b67f2a3e"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_08",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 8,
+      "surface_form": "S_NP_VP_trans variant 8",
+      "sig": 28,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:91eebfc67ce0198771488fdf07ae7820549480fe26461aaad335e5b04d36cc78"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_09",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 9,
+      "surface_form": "S_NP_VP_trans variant 9",
+      "sig": 29,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:67f16427544cb594739c5a0265d954c130e4f1394ccbb72eb8ab0c00469e2295"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_10",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 10,
+      "surface_form": "S_NP_VP_trans variant 10",
+      "sig": 30,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:d75407e107c307ace9524455f8bf1e3e6e46adb35ba187d4aec3d7d56aacee64"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_11",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 11,
+      "surface_form": "S_NP_VP_trans variant 11",
+      "sig": 31,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:b6641eb7c95817a91c955f501a3b961baf110445b8d5dfd0c060b0762a927df0"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_12",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 12,
+      "surface_form": "S_NP_VP_trans variant 12",
+      "sig": 32,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:acfb4a0f1980c05884cd9ba6db70ed02a71e79ca5bb2c830e79363b4072add5b"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_13",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 13,
+      "surface_form": "S_NP_VP_trans variant 13",
+      "sig": 33,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:2eea5ecd24c789c66ee8a4482c8b0d64c32ad227bb61c8370b68091d2d88fb77"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_14",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 14,
+      "surface_form": "S_NP_VP_trans variant 14",
+      "sig": 34,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:74ae4454ebb08a7deda3845b30274563f09b3342dc34e3d02c44e9fd0935a55c"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_15",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 15,
+      "surface_form": "S_NP_VP_trans variant 15",
+      "sig": 35,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:dfabef374bf42b469fa07202733c6c7e14a59e3e76fe09f013a4ddf720b04e62"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_16",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 16,
+      "surface_form": "S_NP_VP_trans variant 16",
+      "sig": 36,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:0a0dbb3ab96f8113a753969fe34bed6f89d7b3748353266dfd212f782153bc85"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_17",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 17,
+      "surface_form": "S_NP_VP_trans variant 17",
+      "sig": 37,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:5e87f7c04ae0d34ad8bc61838649ba448f25a1f33e80fd948fd274a42cd3a0e5"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_18",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 18,
+      "surface_form": "S_NP_VP_trans variant 18",
+      "sig": 38,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:119b5ee53b2fd5416b7f9fdfcb0ae5f4004839c46b6fe9521835fbd150c1f537"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_trans_19",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ"
+      ],
+      "skeleton_id": "S_NP_VP_trans",
+      "variant": 19,
+      "surface_form": "S_NP_VP_trans variant 19",
+      "sig": 39,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:16a4c4abab3dd1a4745cd4bae4a7f8e410b60d896263fd0dbecfbb565e4c59ea"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_00",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 0,
+      "surface_form": "S_NP_VP_passive variant 0",
+      "sig": 40,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:a8c7634b13c8fbb986bec8efdc97a48bdb0d2b483bb23f69901015e2ebf22b0c"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_01",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 1,
+      "surface_form": "S_NP_VP_passive variant 1",
+      "sig": 41,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:a2bec7feb035ca4b8ec10bf553b14bd2fae66838a9bb899c2666347b484242f6"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_02",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 2,
+      "surface_form": "S_NP_VP_passive variant 2",
+      "sig": 42,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:844a2be2704c266f4a1808717caa011910d3fd88f13c6740c5d5be1c98a40d47"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_03",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 3,
+      "surface_form": "S_NP_VP_passive variant 3",
+      "sig": 43,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:bb5ba48222c81dccb939fb4ac78c72d927938fdb37566f1ca4fb31b3000f12a9"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_04",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 4,
+      "surface_form": "S_NP_VP_passive variant 4",
+      "sig": 44,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:57407ea7938d679512163dcc393ea4e0599fccca8ab1fd1d85aeb1a81aaf4fc3"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_05",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 5,
+      "surface_form": "S_NP_VP_passive variant 5",
+      "sig": 45,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:9bc36d1bcbb48e2415731c93c46bb31833495548bf9a46bc5dd672e219b04523"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_06",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 6,
+      "surface_form": "S_NP_VP_passive variant 6",
+      "sig": 46,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:15a0c4cade59a798f08e6e30cb1c76b5216eafa36066cf2c1d36c9c591b25c2c"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_07",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 7,
+      "surface_form": "S_NP_VP_passive variant 7",
+      "sig": 47,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:b0ed4cd6333b5128b3ea522f54c5f800175d0851b1f9af0d86cb227617f5b076"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_08",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 8,
+      "surface_form": "S_NP_VP_passive variant 8",
+      "sig": 48,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:6f103234d45ac9e98d9900e6246d7a943de8a932f38f551152e2a5b57cf3dd72"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_09",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 9,
+      "surface_form": "S_NP_VP_passive variant 9",
+      "sig": 49,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:1f6ef7b4c524ee9965c698b20e49f813016476a20e44445a6f212895d6d1a094"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_10",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 10,
+      "surface_form": "S_NP_VP_passive variant 10",
+      "sig": 50,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:573a8830f1509627d1e19287bbfb7e89a4db431ecf1979b193e8e454955a91fe"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_11",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 11,
+      "surface_form": "S_NP_VP_passive variant 11",
+      "sig": 51,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:abbf2edb0a26c8a98f1d277ae3604ac60243c01429622a72263a6f17a9120061"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_12",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 12,
+      "surface_form": "S_NP_VP_passive variant 12",
+      "sig": 52,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:888daeb43ea5712abd1c19ac726c0e2cfc4fb6aca57fac6b945630a909a87b9c"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_13",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 13,
+      "surface_form": "S_NP_VP_passive variant 13",
+      "sig": 53,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:b0b76b2900ffc6e9f9e427c05201f19201b9b05f30b07d604448d2196c2e0bf9"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_14",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 14,
+      "surface_form": "S_NP_VP_passive variant 14",
+      "sig": 54,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:3101cf3bfb559ca26d28af56c2946260c322c077f0dc87b9d741b0e7ad4183f0"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_15",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 15,
+      "surface_form": "S_NP_VP_passive variant 15",
+      "sig": 55,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:82a532709fc965afa51524fb2b2b95b6803007dc7956bfdf65cf746aee5ee251"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_16",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 16,
+      "surface_form": "S_NP_VP_passive variant 16",
+      "sig": 56,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:e2a3d3b95b2595e56aab6460f4bba2548cd1841a21cdee26d001083ff820c3c6"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_17",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 17,
+      "surface_form": "S_NP_VP_passive variant 17",
+      "sig": 57,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:3206d41c0ad00c1baac4c5d92ddb51e5d2621da97c107330ea0d87ed149bfd7f"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_18",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 18,
+      "surface_form": "S_NP_VP_passive variant 18",
+      "sig": 58,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:ab55c4f7556b9825971a79dc218f59a4fd70ddb86f24d3a2f1baa1f0f2dbda68"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_passive_19",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "agent",
+          "head": "VP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "by",
+        "AGT"
+      ],
+      "skeleton_id": "S_NP_VP_passive",
+      "variant": 19,
+      "surface_form": "S_NP_VP_passive variant 19",
+      "sig": 59,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:032d3fc35438c6c55ecfb75be97ecb08737b366d462aaa7f8581b4e101a23447"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_00",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 0,
+      "surface_form": "S_NP_VP_ditrans variant 0",
+      "sig": 60,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:4c9983ed89afd90abc9940ac72e817a2e8afe6d8c7b2e3fe2dafd51ddcfc6e14"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_01",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 1,
+      "surface_form": "S_NP_VP_ditrans variant 1",
+      "sig": 61,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:c40e166745490cae88656828416ba8fd6344663c7a1ee89f3792b8f8094b2374"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_02",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 2,
+      "surface_form": "S_NP_VP_ditrans variant 2",
+      "sig": 62,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:139eaa39b7d9636e765e01b9920f853f9dc7071eb511320ff8a7ccf1ed9fbc2b"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_03",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 3,
+      "surface_form": "S_NP_VP_ditrans variant 3",
+      "sig": 63,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:d734169841b3103ee7fb8d0c2bd79abeff2e32b3aca36ad28a669afaa6271117"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_04",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 4,
+      "surface_form": "S_NP_VP_ditrans variant 4",
+      "sig": 64,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:5400e1c11323d828ccb5701192ba6f7a18350a96f3084c46580719b449b86670"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_05",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 5,
+      "surface_form": "S_NP_VP_ditrans variant 5",
+      "sig": 65,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:40ab5e87cb8394fbfddd3c01914c787e6560721b25859dc3379dddf9e9bef9be"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_06",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 6,
+      "surface_form": "S_NP_VP_ditrans variant 6",
+      "sig": 66,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:01b2f2a9b4f58d6921df43f994d8895e5991ab3fe9566501c273e21cf874d7d6"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_07",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 7,
+      "surface_form": "S_NP_VP_ditrans variant 7",
+      "sig": 67,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:2f4a4dea889762b3ab327ed0aa14b02c9bb0c70589b33de48946b091dd1b57a0"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_08",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 8,
+      "surface_form": "S_NP_VP_ditrans variant 8",
+      "sig": 68,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:9e975596cc60819e08e2c231ab2a15e041f42d929b20ba3c696b375035a6a695"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_09",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 9,
+      "surface_form": "S_NP_VP_ditrans variant 9",
+      "sig": 69,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:6e037571f305c193c5334f580c14d565f8bf6cfef7198f9e74f7876f3426da32"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_10",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 10,
+      "surface_form": "S_NP_VP_ditrans variant 10",
+      "sig": 70,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:705d7fb2e884dbe586f610b4be6f8eabfe73e507f65403d51ec98c231a4951fd"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_11",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 11,
+      "surface_form": "S_NP_VP_ditrans variant 11",
+      "sig": 71,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:db1dc83552d441a2a00bded270f375d62c41916c9c9fcc2db81018fa77d8fc47"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_12",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 12,
+      "surface_form": "S_NP_VP_ditrans variant 12",
+      "sig": 72,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:bc2ecc117f4fef6aacd75e091afc6630a5e34c73fbe9af5c92127156ce6914cf"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_13",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 13,
+      "surface_form": "S_NP_VP_ditrans variant 13",
+      "sig": 73,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:6e6e44439505086132f0981e3c42878d6ffd99a88b4ab63605a8a2a41eb8f594"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_14",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 14,
+      "surface_form": "S_NP_VP_ditrans variant 14",
+      "sig": 74,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:35acbe04528061295b5da397374feb3284fdf28667f0ca799bd9ba6c6c4a8077"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_15",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 15,
+      "surface_form": "S_NP_VP_ditrans variant 15",
+      "sig": 75,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:00a6f1783390444788aa7c5d74111904ed15c632169e184c735d75b408399b7b"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_16",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 16,
+      "surface_form": "S_NP_VP_ditrans variant 16",
+      "sig": 76,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:ecac24146a65de666020bd72880d485bc58d7a08ce2ccd512cd8f92b1ee51530"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_17",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 17,
+      "surface_form": "S_NP_VP_ditrans variant 17",
+      "sig": 77,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:586e1bee4a191ce4ddbb7349013c6ebec18d99f46d485a36b8b8b965ac94870d"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_18",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 18,
+      "surface_form": "S_NP_VP_ditrans variant 18",
+      "sig": 78,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:a11b298b86d293a3a366c1b1673439a8449aa7ff35f9530e9105a979edb00759"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_ditrans_19",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "NP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP:1"
+        },
+        {
+          "role": "iobj",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "dobj",
+          "head": "VP",
+          "dep": "NP:3"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "IOBJ",
+        "DOBJ"
+      ],
+      "skeleton_id": "S_NP_VP_ditrans",
+      "variant": 19,
+      "surface_form": "S_NP_VP_ditrans variant 19",
+      "sig": 79,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:fcb19efa09e76c08220b8642100cfeac66731f1b3635ac6a50f70d0af6f5314b"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_00",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 0,
+      "surface_form": "S_NP_VP_PP_vp variant 0",
+      "sig": 80,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:fbae758ff23f40fbf2023f4fd7bdac60b5aeb2a7464484738c91d91cf0863686"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_01",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 1,
+      "surface_form": "S_NP_VP_PP_vp variant 1",
+      "sig": 81,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:a54fa67b99a528c96169ffa453aece760314a84b2bab6b3228b4b488f016ef6f"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_02",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 2,
+      "surface_form": "S_NP_VP_PP_vp variant 2",
+      "sig": 82,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:b6b6ebcfbdcee51e9beff87138b9d1767f4c5e2d01f9afa7f49a712e246faf05"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_03",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 3,
+      "surface_form": "S_NP_VP_PP_vp variant 3",
+      "sig": 83,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:deebc357ca10f759b51ebb175436fb2fc41dffd021ab49d60fa5541162645f05"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_04",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 4,
+      "surface_form": "S_NP_VP_PP_vp variant 4",
+      "sig": 84,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:8590adc9f9fb1d48d52644d200e9756d6568e41e8ea4a325b565bfa0e6ad0502"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_05",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 5,
+      "surface_form": "S_NP_VP_PP_vp variant 5",
+      "sig": 85,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:4e5e7917a4c5c86db8bc2deb9d0f00f9e16232d34d13abb82f8e04ea11683620"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_06",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 6,
+      "surface_form": "S_NP_VP_PP_vp variant 6",
+      "sig": 86,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:1b72b6c3a49b5fe60537ee0aea31c11b42fafa6fa9b91f45a4f6726b7ab6fbb7"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_07",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 7,
+      "surface_form": "S_NP_VP_PP_vp variant 7",
+      "sig": 87,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:e46bdb8a63cca21a32bf68f6a204310c34104e13f62f3bad5e96c7fa700f76e9"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_08",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 8,
+      "surface_form": "S_NP_VP_PP_vp variant 8",
+      "sig": 88,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:32f93599c10d93baa112c16f6a7a9232763bfae4d99bf82115573bb25c089baf"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_09",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 9,
+      "surface_form": "S_NP_VP_PP_vp variant 9",
+      "sig": 89,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:6d9696ba36270b0bfcfb7057cccef7a091a19826d4c983b614fd35aa3547cf1e"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_10",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 10,
+      "surface_form": "S_NP_VP_PP_vp variant 10",
+      "sig": 90,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:c5323d0a9fd35a92f35c46375ae84b4a1f0e3ae38560a54abfd255b7d6aea34e"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_11",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 11,
+      "surface_form": "S_NP_VP_PP_vp variant 11",
+      "sig": 91,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:ca665fb015207505e042d98b5bc8971c38d6ca7ce9842fcf54cec6a2044ffe26"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_12",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 12,
+      "surface_form": "S_NP_VP_PP_vp variant 12",
+      "sig": 92,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:dd46ff3fc05b3a29334bf30fb326c9da8993971676e3ce6e6caeba766a4920f6"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_13",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 13,
+      "surface_form": "S_NP_VP_PP_vp variant 13",
+      "sig": 93,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:3433ef31b512a16eb6e837f6e95be783c778c87b65f295a2f072b203a2bdf58a"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_14",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 14,
+      "surface_form": "S_NP_VP_PP_vp variant 14",
+      "sig": 94,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:bf618c05229ed301bbe2007f68e01b172af0f5ffcc1c96d931aa4b0d40b29233"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_15",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 15,
+      "surface_form": "S_NP_VP_PP_vp variant 15",
+      "sig": 95,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:2eb07b92997401c74dd8378e666a12bbea35dcfe2c89e82b56327d18ce451937"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_16",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 16,
+      "surface_form": "S_NP_VP_PP_vp variant 16",
+      "sig": 96,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:e9ccda13daabad71569a68291bfa4194f20df18ce3d31f3a98b82e882b256231"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_17",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 17,
+      "surface_form": "S_NP_VP_PP_vp variant 17",
+      "sig": 97,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:ec7a96086a633f2eb0698231d410980da38ea32dcbf50561b0f35162faadea84"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_18",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 18,
+      "surface_form": "S_NP_VP_PP_vp variant 18",
+      "sig": 98,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:8e899881e68afe70b7d40b68248ae19a7a2eea5f9a29d7741277f976a6b45b23"
+    },
+    {
+      "id": "en:phrase:S_NP_VP_PP_vp_19",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "NP",
+        "PP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "object",
+          "head": "VP",
+          "dep": "NP:2"
+        },
+        {
+          "role": "adjunct",
+          "head": "VP",
+          "dep": "PP"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "V",
+        "OBJ",
+        "PP"
+      ],
+      "skeleton_id": "S_NP_VP_PP_vp",
+      "variant": 19,
+      "surface_form": "S_NP_VP_PP_vp variant 19",
+      "sig": 99,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:8ef431a5d1070da156306aa0cb9fdd268f9904b4a238931c483e8736897ad97e"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_00",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 0,
+      "surface_form": "S_NP_PP_VP variant 0",
+      "sig": 100,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:98dbe1fb83881b9008fb41876096894ab11287b64694e4d90066e1f8590a42d1"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_01",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 1,
+      "surface_form": "S_NP_PP_VP variant 1",
+      "sig": 101,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:1eb3ea97da278a71e2ae5e8d4c0ca0d73a5c555c1c35dacab5dfaa4039f0b38c"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_02",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 2,
+      "surface_form": "S_NP_PP_VP variant 2",
+      "sig": 102,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:c71659b242cdc45a636ac389cb83317f8ef9b83963be86ff3be93ad8312a9f47"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_03",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 3,
+      "surface_form": "S_NP_PP_VP variant 3",
+      "sig": 103,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:95b1e4e0e518266bfa05be3233ce317f0aef475ea2b9585111339a54a7b2c362"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_04",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 4,
+      "surface_form": "S_NP_PP_VP variant 4",
+      "sig": 104,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:ee3a447750188177a6d75ac36d8d3750ca0e5dea524e6c482b93fa41e76734c6"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_05",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 5,
+      "surface_form": "S_NP_PP_VP variant 5",
+      "sig": 105,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:f2f6c1164c7318e1a1c2c9f9c91d140af84ffbe2730740a695759cccb5b6acbe"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_06",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 6,
+      "surface_form": "S_NP_PP_VP variant 6",
+      "sig": 106,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:a652b499510a87e218b7babc74e9d566da1117ab6e55102a6ade753e5ded955e"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_07",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 7,
+      "surface_form": "S_NP_PP_VP variant 7",
+      "sig": 107,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:700cda7371aad60c18ec0d7b728f9cdd2ab925567ddb4658f01959622dffca9f"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_08",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 8,
+      "surface_form": "S_NP_PP_VP variant 8",
+      "sig": 108,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:c1d02612ba1da05ab3078abfe255f3819e406eb0c136a937a4749b2899f99e2e"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_09",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 9,
+      "surface_form": "S_NP_PP_VP variant 9",
+      "sig": 109,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:8028e5e428d46a282526c0845f0682920d98618bab33008d8024024370b578fb"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_10",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 10,
+      "surface_form": "S_NP_PP_VP variant 10",
+      "sig": 110,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:67d91fe93a7a664ef3f71b1f87637afb67602563e74784d028f64c849ae55f34"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_11",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 11,
+      "surface_form": "S_NP_PP_VP variant 11",
+      "sig": 111,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:f45eb4e64586b5dc40a7bc6d2447169731f7879e93052ffa8e089911dfe349e4"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_12",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 12,
+      "surface_form": "S_NP_PP_VP variant 12",
+      "sig": 112,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:b64b663c8f84f44b3166e5b381ce210aec5346d15d3a4db88922bd7713f97fee"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_13",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 13,
+      "surface_form": "S_NP_PP_VP variant 13",
+      "sig": 113,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:d711e42f38557a9b5240b91a23d159a652785c8dcdc0cd2cfe4566c58ea2e295"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_14",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 14,
+      "surface_form": "S_NP_PP_VP variant 14",
+      "sig": 114,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:95fc323b3ade437f797574b9ad70d950dec0c70d5035a57931d0d609c839d2be"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_15",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 15,
+      "surface_form": "S_NP_PP_VP variant 15",
+      "sig": 115,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:5f5634062828cc0089c8c6b6ed908674866627df61c496efbd65fade40274f01"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_16",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 16,
+      "surface_form": "S_NP_PP_VP variant 16",
+      "sig": 116,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:dfe4877e1e45ecec78b80715da01fad7105365a4eb1296eacd460468addd3825"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_17",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 17,
+      "surface_form": "S_NP_PP_VP variant 17",
+      "sig": 117,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:1561fdb1b419a8ace320360d850ee37abaa80d717a882a5799734215f40f5695"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_18",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 18,
+      "surface_form": "S_NP_PP_VP variant 18",
+      "sig": 118,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:239f3ded1a657700c11bdfb3d3adfe34fa07f89ef28d7803409d9e1fe5c6ccad"
+    },
+    {
+      "id": "en:phrase:S_NP_PP_VP_19",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "N",
+        "PP",
+        "VP",
+        "V"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "modifier",
+          "head": "NP",
+          "dep": "PP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ_with_PP",
+        "V"
+      ],
+      "skeleton_id": "S_NP_PP_VP",
+      "variant": 19,
+      "surface_form": "S_NP_PP_VP variant 19",
+      "sig": 119,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:d74c2920afb9863adbed0fd3d57305076a71fea187a330b260b22354d81fa096"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_00",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 0,
+      "surface_form": "NP_det_adj_adj_n variant 0",
+      "sig": 120,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:fc349fd1e795ec2203405038cee7b503a677c85f1769de34f93e10c36b0dcb2a"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_01",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 1,
+      "surface_form": "NP_det_adj_adj_n variant 1",
+      "sig": 121,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:b13d9e7c6289ef089d0e504e52c94de655406180198162625325ad1b9cf75b19"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_02",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 2,
+      "surface_form": "NP_det_adj_adj_n variant 2",
+      "sig": 122,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:b34e51d5f75cf7efc7ecaff244d1c937f95d8b1d77212ee2d4f470a184584552"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_03",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 3,
+      "surface_form": "NP_det_adj_adj_n variant 3",
+      "sig": 123,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:06038b78ab43bc79f6851f5256a1a22bad42f622b651f4249cf79bf586adbd94"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_04",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 4,
+      "surface_form": "NP_det_adj_adj_n variant 4",
+      "sig": 124,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:e253da3f7f7476c401da5f3e9aa96a2a9bb996a1a708adeb7526efb99d31c3ba"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_05",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 5,
+      "surface_form": "NP_det_adj_adj_n variant 5",
+      "sig": 125,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:402d1014ccc17fae9c71180e4cd44310ba068070aa3191a7e1bf721a7a6b7499"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_06",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 6,
+      "surface_form": "NP_det_adj_adj_n variant 6",
+      "sig": 126,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:8a331200480d59e526688335c47533876cab83be0f451d46800df14be525bd26"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_07",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 7,
+      "surface_form": "NP_det_adj_adj_n variant 7",
+      "sig": 127,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:6c43f7ba74a53c7746ed2e784434836c28a4e5878731e33c8728418c911cd258"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_08",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 8,
+      "surface_form": "NP_det_adj_adj_n variant 8",
+      "sig": 128,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:d9c8eed71535e881dd72103cb527a5665f2ab5f95ee2b9b083d28fd92138509f"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_09",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 9,
+      "surface_form": "NP_det_adj_adj_n variant 9",
+      "sig": 129,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:8849611fffdb5af8d8c41eebb22a63577a36d73391de17c8ec68a97a27e56682"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_10",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 10,
+      "surface_form": "NP_det_adj_adj_n variant 10",
+      "sig": 130,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:9d0780c5ae8d1b393ef4e58616e734af99c02dfe993b20a905a808e0e0b06af1"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_11",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 11,
+      "surface_form": "NP_det_adj_adj_n variant 11",
+      "sig": 131,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:419bdb565b277452b658b885356e7d4072da5edcab535bc30f2493f606707d42"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_12",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 12,
+      "surface_form": "NP_det_adj_adj_n variant 12",
+      "sig": 132,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:10c49fa57a05b623ecaaded3eb851ef5621092cc963dfa80f119e5f64415d1a2"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_13",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 13,
+      "surface_form": "NP_det_adj_adj_n variant 13",
+      "sig": 133,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:43623f80781d1e8a0ac4cdca52520a45817cad2808aa672eb8b264a8101f0832"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_14",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 14,
+      "surface_form": "NP_det_adj_adj_n variant 14",
+      "sig": 134,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:fc72bcdac547f29f6fcc6de279efe5c6f2c047ee918c913a214b2b59ce73f937"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_15",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 15,
+      "surface_form": "NP_det_adj_adj_n variant 15",
+      "sig": 135,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:2a055b3e6ee33777c37a7b4cbf9c22408d75d89bb6b1b99c901241219fa4fc30"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_16",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 16,
+      "surface_form": "NP_det_adj_adj_n variant 16",
+      "sig": 136,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:6faac19e6f5a457cd4a15c47f4681f0fa71bd7344693a752ac201058d4f06596"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_17",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 17,
+      "surface_form": "NP_det_adj_adj_n variant 17",
+      "sig": 137,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:d0f48cd2bd2757844086bb5e32fddf087ae31276b5b3456e854bb9cd07b0d50a"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_18",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 18,
+      "surface_form": "NP_det_adj_adj_n variant 18",
+      "sig": 138,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:da18c2240da784eab889e8f290f58c2031fc3963883d0cb507181b1f80e059f3"
+    },
+    {
+      "id": "en:phrase:NP_det_adj_adj_n_19",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "mod1",
+          "head": "NP",
+          "dep": "Adj:1"
+        },
+        {
+          "role": "mod2",
+          "head": "NP",
+          "dep": "Adj:2"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "Adj",
+        "Adj",
+        "N"
+      ],
+      "skeleton_id": "NP_det_adj_adj_n",
+      "variant": 19,
+      "surface_form": "NP_det_adj_adj_n variant 19",
+      "sig": 139,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:089240944dbecc7c2d98b46e3d0ba165db0dd53fd065f29cbedc5892d84472ed"
+    },
+    {
+      "id": "en:phrase:NP_det_n_00",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 0,
+      "surface_form": "NP_det_n variant 0",
+      "sig": 140,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:ee10d6e3f07d7632284df279f6fa87eb5d9b98e33821bde25dbe5af59c43eec2"
+    },
+    {
+      "id": "en:phrase:NP_det_n_01",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 1,
+      "surface_form": "NP_det_n variant 1",
+      "sig": 141,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:c81e9d1815829918f2565b145527bab95fc61fcaa99b40c89f24827dc896724f"
+    },
+    {
+      "id": "en:phrase:NP_det_n_02",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 2,
+      "surface_form": "NP_det_n variant 2",
+      "sig": 142,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:8dd9b0e93225d0a4e3cc4f11cf626d65b4c2dd9f67d7142a939495aabc1d48da"
+    },
+    {
+      "id": "en:phrase:NP_det_n_03",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 3,
+      "surface_form": "NP_det_n variant 3",
+      "sig": 143,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:623e78e95cd4f803125b9a1b68151664ae1e531ee361c5c37956f18da4bfae4f"
+    },
+    {
+      "id": "en:phrase:NP_det_n_04",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 4,
+      "surface_form": "NP_det_n variant 4",
+      "sig": 144,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:5a4ef3b9a3913e808b5ac82bba44b54c231c9811bd920dcd703f37d94b551a3b"
+    },
+    {
+      "id": "en:phrase:NP_det_n_05",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 5,
+      "surface_form": "NP_det_n variant 5",
+      "sig": 145,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:23f8e38d91862e10f8e5519330251fd1521fe524c45295283be775df2a379043"
+    },
+    {
+      "id": "en:phrase:NP_det_n_06",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 6,
+      "surface_form": "NP_det_n variant 6",
+      "sig": 146,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:53490ba1884fffbdd8595c9755f9aa6ebe0aafc5579fa541f2191038b1f74a68"
+    },
+    {
+      "id": "en:phrase:NP_det_n_07",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 7,
+      "surface_form": "NP_det_n variant 7",
+      "sig": 147,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:59e657ca49c0f341e013066c65017f66bf36e5828b20e3f69774fb2af980bd55"
+    },
+    {
+      "id": "en:phrase:NP_det_n_08",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 8,
+      "surface_form": "NP_det_n variant 8",
+      "sig": 148,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:31a972e6d7981ac8421acb92d99c928a4a06371eaf9dc8700f0d655cc40e3c7a"
+    },
+    {
+      "id": "en:phrase:NP_det_n_09",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 9,
+      "surface_form": "NP_det_n variant 9",
+      "sig": 149,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:6edcf9cb6191ee2b5fe6b303011030b6c9860fbb5755b5c5f21ec475db440fe0"
+    },
+    {
+      "id": "en:phrase:NP_det_n_10",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 10,
+      "surface_form": "NP_det_n variant 10",
+      "sig": 150,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:472787476f47c080e7bd22f302fcc5e0dff4b26500e5ce289e47b4669bea2291"
+    },
+    {
+      "id": "en:phrase:NP_det_n_11",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 11,
+      "surface_form": "NP_det_n variant 11",
+      "sig": 151,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:47b5ad3415f8f96a8a123b4caa9de2bcabc4d860cd43e75b1d5ed7211fd3112e"
+    },
+    {
+      "id": "en:phrase:NP_det_n_12",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 12,
+      "surface_form": "NP_det_n variant 12",
+      "sig": 152,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:d12558a65dd9d49f8ba0d1f8247b75a254ed0559c7f6c6efdbdf9803bcf575fa"
+    },
+    {
+      "id": "en:phrase:NP_det_n_13",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 13,
+      "surface_form": "NP_det_n variant 13",
+      "sig": 153,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:feac3ddc6ea43656f305ac49e3fb23e8997ed5ca7daea830835cf79424321ef7"
+    },
+    {
+      "id": "en:phrase:NP_det_n_14",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 14,
+      "surface_form": "NP_det_n variant 14",
+      "sig": 154,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:3a6e8ad1147910385692d676fd7333fa814b5089b78391c5be9857b647f3e868"
+    },
+    {
+      "id": "en:phrase:NP_det_n_15",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 15,
+      "surface_form": "NP_det_n variant 15",
+      "sig": 155,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:d402d83a349e588c732be49c691ef72328cd5e14a30a43b5f290c185458d7e80"
+    },
+    {
+      "id": "en:phrase:NP_det_n_16",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 16,
+      "surface_form": "NP_det_n variant 16",
+      "sig": 156,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:692d2b928d71f9e7a7b131270664efa68ba850296f47c69374663023451f7e7d"
+    },
+    {
+      "id": "en:phrase:NP_det_n_17",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 17,
+      "surface_form": "NP_det_n variant 17",
+      "sig": 157,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:6e2941fcf2201e6a2d3e22431003921511a63675a48b5088e61e200081cc957a"
+    },
+    {
+      "id": "en:phrase:NP_det_n_18",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 18,
+      "surface_form": "NP_det_n variant 18",
+      "sig": 158,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:cb94fc5e4bed1e6dca62f06ffb01f7c7018a553ce677addb8716e07328db54b1"
+    },
+    {
+      "id": "en:phrase:NP_det_n_19",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N"
+      ],
+      "skeleton_id": "NP_det_n",
+      "variant": 19,
+      "surface_form": "NP_det_n variant 19",
+      "sig": 159,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:198762f30a606fd73df14c15e645b56f215a6baa43207c0fff944139f4abd33e"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_00",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 0,
+      "surface_form": "NP_det_n_relcl variant 0",
+      "sig": 160,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:1cceb17efeab4d8e69884d43e2e0bc72f380e34c96afdec4d13b7c23ed82727a"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_01",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 1,
+      "surface_form": "NP_det_n_relcl variant 1",
+      "sig": 161,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:b929fe050e2b0526971840b21834a75c8d8addec57082c4702294c5525aed6bc"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_02",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 2,
+      "surface_form": "NP_det_n_relcl variant 2",
+      "sig": 162,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:8e181966b963c7a86d84f555c228bc9bd3d93fb7d12434deb88f757a0f53a6da"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_03",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 3,
+      "surface_form": "NP_det_n_relcl variant 3",
+      "sig": 163,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:a1f38b21f180f30810d43c8093d652a38c956b94e4235182f9da73895befd8b3"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_04",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 4,
+      "surface_form": "NP_det_n_relcl variant 4",
+      "sig": 164,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:7895b5252fec855ea8f0918164c8dbdfacdbbe76e2328479a7d41bc5862550cd"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_05",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 5,
+      "surface_form": "NP_det_n_relcl variant 5",
+      "sig": 165,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:9ffbd49527944bdc10ddcc9eb90c374207c72518dad88ed39c440458eb48344a"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_06",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 6,
+      "surface_form": "NP_det_n_relcl variant 6",
+      "sig": 166,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:f00765b693804999749c75b7d3f231f9ac46690705f33adbed59be2046adf644"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_07",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 7,
+      "surface_form": "NP_det_n_relcl variant 7",
+      "sig": 167,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:2d109193dbeca826af7a2a7b5502346518970e20bc90d6b6185766450bacc22a"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_08",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 8,
+      "surface_form": "NP_det_n_relcl variant 8",
+      "sig": 168,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:356d8e0d6882d6ae6f7c8ad33b5ecb1cb53230da473270eb35ef712fde6dded3"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_09",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 9,
+      "surface_form": "NP_det_n_relcl variant 9",
+      "sig": 169,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:6fc9fc13ff198cfb83467ec6d44a9d99a222ef7fe1f187ace938e4470c4a973b"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_10",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 10,
+      "surface_form": "NP_det_n_relcl variant 10",
+      "sig": 170,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:af810ff230ab4ca16679240c736cd4a168fe8289071859bec97d6044832eeeef"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_11",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 11,
+      "surface_form": "NP_det_n_relcl variant 11",
+      "sig": 171,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:cc23dd22e5d7aa76853a7dc37643d73c017ae6f59d75c7b4f350ffea5cd2fa2e"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_12",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 12,
+      "surface_form": "NP_det_n_relcl variant 12",
+      "sig": 172,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:b9ee1ef4221393bec97b3d6cfdf4884c038d6475e03c0fc60f2ac4418b1c043f"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_13",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 13,
+      "surface_form": "NP_det_n_relcl variant 13",
+      "sig": 173,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:06fe8ad59755412a30af1c0ad36d5bf6449480c959a495084e358fd0a2a88251"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_14",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 14,
+      "surface_form": "NP_det_n_relcl variant 14",
+      "sig": 174,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:882966b2a828403b3b6671449a3d0a989f5fe80701a56bef3ec9c0652ead607b"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_15",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 15,
+      "surface_form": "NP_det_n_relcl variant 15",
+      "sig": 175,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:1a9acedf8780b08ed9b823e5d46451e4a8ba36f0be062fe89844878b67d56b6c"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_16",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 16,
+      "surface_form": "NP_det_n_relcl variant 16",
+      "sig": 176,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:2f38dfeeaca91d252666693e878bfe68970b13ed734432fdbd584251e67a2226"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_17",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 17,
+      "surface_form": "NP_det_n_relcl variant 17",
+      "sig": 177,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:93e70b334d30424ff58b9bd2a2e58b82e647a81d595895b15f1a2fb3464f29e1"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_18",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 18,
+      "surface_form": "NP_det_n_relcl variant 18",
+      "sig": 178,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:e3784689873a30a8fcb84c57199ee29ba4d5ecf152c08fe575d758995235a093"
+    },
+    {
+      "id": "en:phrase:NP_det_n_relcl_19",
+      "root_label": "NP",
+      "skeleton": [
+        "NP",
+        "Det",
+        "N",
+        "VP"
+      ],
+      "dependencies": [
+        {
+          "role": "det",
+          "head": "NP",
+          "dep": "Det"
+        },
+        {
+          "role": "head",
+          "head": "NP",
+          "dep": "N"
+        },
+        {
+          "role": "relcl",
+          "head": "N",
+          "dep": "VP"
+        }
+      ],
+      "argument_order": [
+        "Det",
+        "N",
+        "that",
+        "V"
+      ],
+      "skeleton_id": "NP_det_n_relcl",
+      "variant": 19,
+      "surface_form": "NP_det_n_relcl variant 19",
+      "sig": 179,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:bc8b66894a26c41d5d8ee817c2d3ff8805a177d6a2d725aee389f79a173d6506"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_00",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 0,
+      "surface_form": "S_NP_be_AP variant 0",
+      "sig": 180,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:d6b922176217b7661356ad26b4a611b8c187148bbcd4daab51962561f0210407"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_01",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 1,
+      "surface_form": "S_NP_be_AP variant 1",
+      "sig": 181,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:da3d083a17f97ba057bf2b75d2b6abe06c1b8dd705b5485df351652eff046413"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_02",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 2,
+      "surface_form": "S_NP_be_AP variant 2",
+      "sig": 182,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:e37576513b2be1fa50436cc3828b6cd12a9ce0cbed4e1299a83fc3d8bfeb3b74"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_03",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 3,
+      "surface_form": "S_NP_be_AP variant 3",
+      "sig": 183,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:574b3c5ed6a06b8244af6974bb042cdfc8bc0a17c3f7a50ec133260cee24fe0e"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_04",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 4,
+      "surface_form": "S_NP_be_AP variant 4",
+      "sig": 184,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:08e9c4f56932a4fc67ead1aab8b7db204cdbd7a0ccdfba40d545589f9c2b38ce"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_05",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 5,
+      "surface_form": "S_NP_be_AP variant 5",
+      "sig": 185,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:77ca24f0ac4b97b039878b5441cb0617b4a94f9e0c9903466477471d5047fb2b"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_06",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 6,
+      "surface_form": "S_NP_be_AP variant 6",
+      "sig": 186,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:c4d03b1576d6a73e04d093d5b9bdad8e7e2d0d12ec59b046b26302b21c514438"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_07",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 7,
+      "surface_form": "S_NP_be_AP variant 7",
+      "sig": 187,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:5c09c61d0bc16c2eda688e735bca9423f0c07c58f336c950e91fb85e64850b56"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_08",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 8,
+      "surface_form": "S_NP_be_AP variant 8",
+      "sig": 188,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:2c0078731696ed3a78ee604a08bfc2bd4a56cc2bc1071955f3ab3e92146dc287"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_09",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 9,
+      "surface_form": "S_NP_be_AP variant 9",
+      "sig": 189,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:4199591973463783b0c43f24e16c889aed0a95fe745d4b81aa45316803602b1d"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_10",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 10,
+      "surface_form": "S_NP_be_AP variant 10",
+      "sig": 190,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:f96e2d67955a851aa93f14159a880c920e56eab6671f1a01ff8d604b7f2beb2a"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_11",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 11,
+      "surface_form": "S_NP_be_AP variant 11",
+      "sig": 191,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:9e802d2f938ec800582e1d781da5da6df0b6fed2716e2fb9cc7da10080e7c4d4"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_12",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 12,
+      "surface_form": "S_NP_be_AP variant 12",
+      "sig": 192,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:bd86b739f813fab79962f467923b84aa62489de18ce54b148232f351350194a0"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_13",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 13,
+      "surface_form": "S_NP_be_AP variant 13",
+      "sig": 193,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:cf6821a974ac2b49bd0eeafd503cf0405397132f578619a78f85038e1c9cbeaf"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_14",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 14,
+      "surface_form": "S_NP_be_AP variant 14",
+      "sig": 194,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:01716b00cd3972417894233fa73423a6aa9cb599160324b605cce7ebc590302a"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_15",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 15,
+      "surface_form": "S_NP_be_AP variant 15",
+      "sig": 195,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:11e3514f39765388657e285a85ef81652e2282f1e8f7be6cf95eb4ace64c834c"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_16",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 16,
+      "surface_form": "S_NP_be_AP variant 16",
+      "sig": 196,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:12f1319eada48160554c71f0dd346393d4fc27d8e054c77ccad568e8b0b0daf2"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_17",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 17,
+      "surface_form": "S_NP_be_AP variant 17",
+      "sig": 197,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:72fcf893d470da5712d228e96b882ddc90e1152a5a10856954a7a7f0aecc5f29"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_18",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 18,
+      "surface_form": "S_NP_be_AP variant 18",
+      "sig": 198,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:036c4087c70d0f7b8475dc04677ef43a7175c04888cc339cc2912cd10ca10ae2"
+    },
+    {
+      "id": "en:phrase:S_NP_be_AP_19",
+      "root_label": "S",
+      "skeleton": [
+        "S",
+        "NP",
+        "VP",
+        "V",
+        "AP"
+      ],
+      "dependencies": [
+        {
+          "role": "subject",
+          "head": "VP",
+          "dep": "NP"
+        },
+        {
+          "role": "predicate",
+          "head": "VP",
+          "dep": "AP"
+        },
+        {
+          "role": "head",
+          "head": "VP",
+          "dep": "V"
+        }
+      ],
+      "argument_order": [
+        "SUBJ",
+        "be",
+        "PRED"
+      ],
+      "skeleton_id": "S_NP_be_AP",
+      "variant": 19,
+      "surface_form": "S_NP_be_AP variant 19",
+      "sig": 199,
+      "upstream": {
+        "word_universe_digest": "sha256:e3581b79acf169c79910a4e4b56d1d4ac1a96495a619cc613b9ee700e1cee10f"
+      },
+      "digest": "sha256:6656f65e20dbcab37d401fecf30147ff9cde22f14d837572224ba4bcd58ada66"
+    }
+  ]
+}

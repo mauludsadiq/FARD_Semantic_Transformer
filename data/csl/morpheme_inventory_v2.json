@@ -1,0 +1,2223 @@
+{
+  "schema_version": "csl.morpheme_inventory.v2",
+  "language": "en",
+  "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8",
+  "inventory_digest_algorithm": "sha256",
+  "n_classes": 18,
+  "entries": [
+    {
+      "meaning_id": "en:morph:infl:plural_s",
+      "surface_form": "s",
+      "gloss": "PL",
+      "class": "infl:number",
+      "allomorphs": [
+        {
+          "id": "allo-0",
+          "surface_form": "s",
+          "environment": "after voiceless non-sibilant"
+        }
+      ],
+      "sig": 0,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:f93bd273599d998ab99402cdab1505bf7473bbbc61067eb7f0ac615edfc9cad9"
+    },
+    {
+      "meaning_id": "en:morph:infl:plural_z",
+      "surface_form": "z",
+      "gloss": "PL",
+      "class": "infl:number",
+      "allomorphs": [
+        {
+          "id": "allo-1",
+          "surface_form": "z",
+          "environment": "after voiced non-sibilant"
+        }
+      ],
+      "sig": 1,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:1c05020291f493bdd332461997199bf5af7b261f340356b03953dec2b1f0e086"
+    },
+    {
+      "meaning_id": "en:morph:infl:plural_iz",
+      "surface_form": "iz",
+      "gloss": "PL",
+      "class": "infl:number",
+      "allomorphs": [
+        {
+          "id": "allo-2",
+          "surface_form": "iz",
+          "environment": "after sibilant"
+        }
+      ],
+      "sig": 2,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:a08dae3b9be3d4dfe877640fe14b875a399cde946ece49f81dc0407ea074027e"
+    },
+    {
+      "meaning_id": "en:morph:infl:plural_en",
+      "surface_form": "en",
+      "gloss": "PL",
+      "class": "infl:number",
+      "allomorphs": [
+        {
+          "id": "allo-3",
+          "surface_form": "en",
+          "environment": "irregular oxen-type"
+        }
+      ],
+      "sig": 3,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:db6672bc0b2d880f04f5b7a2242c3212174d58dc2abb25ded72b67720d519309"
+    },
+    {
+      "meaning_id": "en:morph:infl:past_t",
+      "surface_form": "t",
+      "gloss": "PST",
+      "class": "infl:tense",
+      "allomorphs": [
+        {
+          "id": "allo-4",
+          "surface_form": "t",
+          "environment": "after voiceless"
+        }
+      ],
+      "sig": 4,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:3f025d9260aa9e9f194c98cd8d0587a90b4bc607b0f80de4b27bec5cfe51f7b7"
+    },
+    {
+      "meaning_id": "en:morph:infl:past_d",
+      "surface_form": "d",
+      "gloss": "PST",
+      "class": "infl:tense",
+      "allomorphs": [
+        {
+          "id": "allo-5",
+          "surface_form": "d",
+          "environment": "after voiced non-dental"
+        }
+      ],
+      "sig": 5,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:dd6527ae2f57917c8d2ab558fe365625e1c4afc1a943a1082a95b434050fffed"
+    },
+    {
+      "meaning_id": "en:morph:infl:past_id",
+      "surface_form": "id",
+      "gloss": "PST",
+      "class": "infl:tense",
+      "allomorphs": [
+        {
+          "id": "allo-6",
+          "surface_form": "id",
+          "environment": "after dental"
+        }
+      ],
+      "sig": 6,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:67a8fb5ef61ce1bb82e71b55156edc802d4a524feec926b7bd5ae23ef07b968f"
+    },
+    {
+      "meaning_id": "en:morph:infl:past_irreg",
+      "surface_form": "",
+      "gloss": "PST",
+      "class": "infl:tense",
+      "allomorphs": [],
+      "sig": 7,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:6e8e2c5b4ad074c9708396dfe63ef9d467b5586d6e76766147ef8c03ab11560e"
+    },
+    {
+      "meaning_id": "en:morph:infl:prog_ing",
+      "surface_form": "ing",
+      "gloss": "PROG",
+      "class": "infl:aspect",
+      "allomorphs": [
+        {
+          "id": "allo-8",
+          "surface_form": "ing",
+          "environment": "unconditional"
+        }
+      ],
+      "sig": 8,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:df7b071c8f52075f618d9a526f42a424712835949d669dad1d012c5aa94e9549"
+    },
+    {
+      "meaning_id": "en:morph:infl:3sg_s",
+      "surface_form": "s",
+      "gloss": "3SG",
+      "class": "infl:person",
+      "allomorphs": [
+        {
+          "id": "allo-9",
+          "surface_form": "s",
+          "environment": "third singular present"
+        }
+      ],
+      "sig": 9,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:1cb0b02c37beffdb3a6c7b2db6c7cbe23e333a941358a78d5659465938545774"
+    },
+    {
+      "meaning_id": "en:morph:infl:3sg_z",
+      "surface_form": "z",
+      "gloss": "3SG",
+      "class": "infl:person",
+      "allomorphs": [
+        {
+          "id": "allo-10",
+          "surface_form": "z",
+          "environment": "after voiced"
+        }
+      ],
+      "sig": 10,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:6839fce4c090366d2c19e1b60e45a0e6311771f8924c2815c34fba18ad4a4dc9"
+    },
+    {
+      "meaning_id": "en:morph:infl:3sg_iz",
+      "surface_form": "iz",
+      "gloss": "3SG",
+      "class": "infl:person",
+      "allomorphs": [
+        {
+          "id": "allo-11",
+          "surface_form": "iz",
+          "environment": "after sibilant"
+        }
+      ],
+      "sig": 11,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:9ed9a847a2c50348491bafc794bc8dcfa0fb41a3fa280355311a9a3351108d30"
+    },
+    {
+      "meaning_id": "en:morph:infl:comp_er",
+      "surface_form": "er",
+      "gloss": "CMPR",
+      "class": "infl:degree",
+      "allomorphs": [
+        {
+          "id": "allo-12",
+          "surface_form": "er",
+          "environment": "monosyllabic adj"
+        }
+      ],
+      "sig": 12,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:0b78904cbdbefa6cb8c17e5e18a122f7d7a14fed04d099df1f1e383072b84038"
+    },
+    {
+      "meaning_id": "en:morph:infl:comp_more",
+      "surface_form": "more",
+      "gloss": "CMPR",
+      "class": "infl:degree",
+      "allomorphs": [
+        {
+          "id": "allo-13",
+          "surface_form": "more",
+          "environment": "polysyllabic adj"
+        }
+      ],
+      "sig": 13,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:6fd015ba515a4be41dc408a20e5a8832c50c10d43135c9da91d82fb3f2abecea"
+    },
+    {
+      "meaning_id": "en:morph:infl:sup_est",
+      "surface_form": "est",
+      "gloss": "SUPL",
+      "class": "infl:degree",
+      "allomorphs": [
+        {
+          "id": "allo-14",
+          "surface_form": "est",
+          "environment": "monosyllabic adj"
+        }
+      ],
+      "sig": 14,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:986cb766db142dcb7b97ba206343fb50bdd64f8e0d671e6950cba21947d53d87"
+    },
+    {
+      "meaning_id": "en:morph:infl:sup_most",
+      "surface_form": "most",
+      "gloss": "SUPL",
+      "class": "infl:degree",
+      "allomorphs": [
+        {
+          "id": "allo-15",
+          "surface_form": "most",
+          "environment": "polysyllabic adj"
+        }
+      ],
+      "sig": 15,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:f842042d24c2e976b235305458ac0d9dcf83adde289b264500c802cf64b7f275"
+    },
+    {
+      "meaning_id": "en:morph:infl:poss_s",
+      "surface_form": "'s",
+      "gloss": "POSS",
+      "class": "infl:case",
+      "allomorphs": [
+        {
+          "id": "allo-16",
+          "surface_form": "'s",
+          "environment": "singular possessive"
+        }
+      ],
+      "sig": 16,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:c42c05eba69b5ec4d452ad78e87735211cd793642553222944036c10bc75a6ce"
+    },
+    {
+      "meaning_id": "en:morph:infl:poss_pl",
+      "surface_form": "s'",
+      "gloss": "POSS",
+      "class": "infl:case",
+      "allomorphs": [
+        {
+          "id": "allo-17",
+          "surface_form": "s'",
+          "environment": "plural possessive"
+        }
+      ],
+      "sig": 17,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:b8d845a1552519fe2c3249981305ec0ee89375cc1cad3e706391a30a746b1572"
+    },
+    {
+      "meaning_id": "en:morph:infl:perf_en",
+      "surface_form": "en",
+      "gloss": "PERF",
+      "class": "infl:aspect",
+      "allomorphs": [
+        {
+          "id": "allo-18",
+          "surface_form": "en",
+          "environment": "past participle -en"
+        }
+      ],
+      "sig": 18,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:2d1e04220ed034d97cde71fa93a21be8d4aab4c3df3be0ab2a8e969070cd724d"
+    },
+    {
+      "meaning_id": "en:morph:infl:perf_ed",
+      "surface_form": "ed",
+      "gloss": "PERF",
+      "class": "infl:aspect",
+      "allomorphs": [
+        {
+          "id": "allo-19",
+          "surface_form": "ed",
+          "environment": "past participle -ed"
+        }
+      ],
+      "sig": 19,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:c7d0bdb6eceb181b3283b819e8e4be6d7c1f0aeb5567180e04329c2404782672"
+    },
+    {
+      "meaning_id": "en:morph:infl:perf_irreg",
+      "surface_form": "",
+      "gloss": "PERF",
+      "class": "infl:aspect",
+      "allomorphs": [],
+      "sig": 20,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:d2f24662d972756a39ec650336082aae506dadcb8395cbc7f21e3d4d6bc2f90a"
+    },
+    {
+      "meaning_id": "en:morph:infl:pass_en",
+      "surface_form": "en",
+      "gloss": "PASS",
+      "class": "infl:voice",
+      "allomorphs": [
+        {
+          "id": "allo-21",
+          "surface_form": "en",
+          "environment": "passive participle"
+        }
+      ],
+      "sig": 21,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:7228fc96e7202f592a74d9cd0b3d982601c0fd88a8ae83471dc3f7f3380203e0"
+    },
+    {
+      "meaning_id": "en:morph:infl:dual",
+      "surface_form": "",
+      "gloss": "DUAL",
+      "class": "infl:number",
+      "allomorphs": [],
+      "sig": 22,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:e590f1365c30289054a31b6b5f759e46bef987ee3b26cb65cca2a4366259b1c2"
+    },
+    {
+      "meaning_id": "en:morph:infl:plural_a",
+      "surface_form": "a",
+      "gloss": "PL",
+      "class": "infl:number",
+      "allomorphs": [
+        {
+          "id": "allo-23",
+          "surface_form": "a",
+          "environment": "latin neuter plural"
+        }
+      ],
+      "sig": 23,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:d63c2f8fa7e67bc5bc3a25dbf79c4d7e8d00e962e55261fe5b76ddaab5b08c0e"
+    },
+    {
+      "meaning_id": "en:morph:deriv:neg_un",
+      "surface_form": "un",
+      "gloss": "NEG",
+      "class": "deriv:negation",
+      "allomorphs": [
+        {
+          "id": "allo-24",
+          "surface_form": "un",
+          "environment": "adjective negation"
+        }
+      ],
+      "sig": 24,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:92e8ede9e7576d52f72abe2492d0cbb930b23506ae0adc7c2d4d99edcf881643"
+    },
+    {
+      "meaning_id": "en:morph:deriv:neg_in",
+      "surface_form": "in",
+      "gloss": "NEG",
+      "class": "deriv:negation",
+      "allomorphs": [
+        {
+          "id": "allo-25",
+          "surface_form": "in",
+          "environment": "before non-labial"
+        }
+      ],
+      "sig": 25,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:e318820318c6dda4afedd9d8b84e3fc89ab86392c5b2c597784299f86ca36f73"
+    },
+    {
+      "meaning_id": "en:morph:deriv:neg_im",
+      "surface_form": "im",
+      "gloss": "NEG",
+      "class": "deriv:negation",
+      "allomorphs": [
+        {
+          "id": "allo-26",
+          "surface_form": "im",
+          "environment": "before bilabial"
+        }
+      ],
+      "sig": 26,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:7e3b6c41401c38d9099abf37e006773fa9e33d17982060674b3dc4db18d5972c"
+    },
+    {
+      "meaning_id": "en:morph:deriv:neg_il",
+      "surface_form": "il",
+      "gloss": "NEG",
+      "class": "deriv:negation",
+      "allomorphs": [
+        {
+          "id": "allo-27",
+          "surface_form": "il",
+          "environment": "before l"
+        }
+      ],
+      "sig": 27,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:b353f971634cd85a9780e13c70cb47da74d36c7fffa0f46788729c872f9cc081"
+    },
+    {
+      "meaning_id": "en:morph:deriv:neg_ir",
+      "surface_form": "ir",
+      "gloss": "NEG",
+      "class": "deriv:negation",
+      "allomorphs": [
+        {
+          "id": "allo-28",
+          "surface_form": "ir",
+          "environment": "before r"
+        }
+      ],
+      "sig": 28,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:d085f4e2b47af39486c67227742650ad772e7cad3264de61ec0b70c43dfa84c4"
+    },
+    {
+      "meaning_id": "en:morph:deriv:neg_dis",
+      "surface_form": "dis",
+      "gloss": "NEG",
+      "class": "deriv:negation",
+      "allomorphs": [
+        {
+          "id": "allo-29",
+          "surface_form": "dis",
+          "environment": "verb/noun negation"
+        }
+      ],
+      "sig": 29,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:a2eef8adc699596798cfc18146a1d5377b8977ad117110a01cb4b453eebbdeeb"
+    },
+    {
+      "meaning_id": "en:morph:deriv:neg_non",
+      "surface_form": "non",
+      "gloss": "NEG",
+      "class": "deriv:negation",
+      "allomorphs": [
+        {
+          "id": "allo-30",
+          "surface_form": "non",
+          "environment": "non-X meaning"
+        }
+      ],
+      "sig": 30,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:96d7588fe76005324d2386cc113154962a47d34e66d0ad340e51a4a23d27fc49"
+    },
+    {
+      "meaning_id": "en:morph:deriv:neg_a",
+      "surface_form": "a",
+      "gloss": "NEG",
+      "class": "deriv:negation",
+      "allomorphs": [
+        {
+          "id": "allo-31",
+          "surface_form": "a",
+          "environment": "greek-origin negation"
+        }
+      ],
+      "sig": 31,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:a60939da54a338d3ccfd1791d1c688c3117b666b11875a780ebe7ccfaa1b9860"
+    },
+    {
+      "meaning_id": "en:morph:deriv:agent_er",
+      "surface_form": "er",
+      "gloss": "AGT",
+      "class": "deriv:agent",
+      "allomorphs": [
+        {
+          "id": "allo-32",
+          "surface_form": "er",
+          "environment": "one who V-s"
+        }
+      ],
+      "sig": 32,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:379654f19233cad3d04e01bd5be096bc9eb6c0b353f9e0045a628820cff515f4"
+    },
+    {
+      "meaning_id": "en:morph:deriv:agent_or",
+      "surface_form": "or",
+      "gloss": "AGT",
+      "class": "deriv:agent",
+      "allomorphs": [
+        {
+          "id": "allo-33",
+          "surface_form": "or",
+          "environment": "latin-origin agent"
+        }
+      ],
+      "sig": 33,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:40af4039c311c179021d64a5ee3f29ff724a27f65d1cf2adaeaae872965de512"
+    },
+    {
+      "meaning_id": "en:morph:deriv:agent_ist",
+      "surface_form": "ist",
+      "gloss": "AGT",
+      "class": "deriv:agent",
+      "allomorphs": [
+        {
+          "id": "allo-34",
+          "surface_form": "ist",
+          "environment": "practitioner"
+        }
+      ],
+      "sig": 34,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:1b9ba829d02b50cab7ae6675dce058537d20c3caba8e7715dca05dea1480ff4f"
+    },
+    {
+      "meaning_id": "en:morph:deriv:agent_ian",
+      "surface_form": "ian",
+      "gloss": "AGT",
+      "class": "deriv:agent",
+      "allomorphs": [
+        {
+          "id": "allo-35",
+          "surface_form": "ian",
+          "environment": "expert in"
+        }
+      ],
+      "sig": 35,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:0d36e86d45b664a5cd3c0fd0865d4a577231b3d7c83e2ab6e2faf460be4797a6"
+    },
+    {
+      "meaning_id": "en:morph:deriv:agent_ee",
+      "surface_form": "ee",
+      "gloss": "PAT",
+      "class": "deriv:agent",
+      "allomorphs": [
+        {
+          "id": "allo-36",
+          "surface_form": "ee",
+          "environment": "one who is V-ed"
+        }
+      ],
+      "sig": 36,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:a9f4e4f48b59ed050cf31df77e851f70c1d54d6edc907486c4b96f340d623a04"
+    },
+    {
+      "meaning_id": "en:morph:deriv:agent_ent",
+      "surface_form": "ent",
+      "gloss": "AGT",
+      "class": "deriv:agent",
+      "allomorphs": [
+        {
+          "id": "allo-37",
+          "surface_form": "ent",
+          "environment": "one who V-s (latin)"
+        }
+      ],
+      "sig": 37,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:716987021b987a06dd9d2299f55c9b186e9446173e03a832a73f66fb91b390e7"
+    },
+    {
+      "meaning_id": "en:morph:deriv:agent_ant",
+      "surface_form": "ant",
+      "gloss": "AGT",
+      "class": "deriv:agent",
+      "allomorphs": [
+        {
+          "id": "allo-38",
+          "surface_form": "ant",
+          "environment": "one who V-s (french)"
+        }
+      ],
+      "sig": 38,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:b5ffd430ae444ae46e63b2145694bad0fc4882da0df84d0050f14ed2c0a66ecd"
+    },
+    {
+      "meaning_id": "en:morph:deriv:instrument_er",
+      "surface_form": "er",
+      "gloss": "INST",
+      "class": "deriv:agent",
+      "allomorphs": [
+        {
+          "id": "allo-39",
+          "surface_form": "er",
+          "environment": "instrument for V-ing"
+        }
+      ],
+      "sig": 39,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:ca72580a0644ceb659e5754380c3d6625596cfd60335a985c0fa287ac928f337"
+    },
+    {
+      "meaning_id": "en:morph:deriv:nom_tion",
+      "surface_form": "tion",
+      "gloss": "NOM",
+      "class": "deriv:nominalizer",
+      "allomorphs": [
+        {
+          "id": "allo-40",
+          "surface_form": "tion",
+          "environment": "action/state"
+        }
+      ],
+      "sig": 40,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:a6844f52e544e1d4fd2d9ce9c0b07dc8fa126018f682c40e393a043099b02953"
+    },
+    {
+      "meaning_id": "en:morph:deriv:nom_sion",
+      "surface_form": "sion",
+      "gloss": "NOM",
+      "class": "deriv:nominalizer",
+      "allomorphs": [
+        {
+          "id": "allo-41",
+          "surface_form": "sion",
+          "environment": "action/state variant"
+        }
+      ],
+      "sig": 41,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:08560238e13cc656baa652ba364e4190dac20885befd220a80f182097bc2710f"
+    },
+    {
+      "meaning_id": "en:morph:deriv:nom_ness",
+      "surface_form": "ness",
+      "gloss": "NOM",
+      "class": "deriv:nominalizer",
+      "allomorphs": [
+        {
+          "id": "allo-42",
+          "surface_form": "ness",
+          "environment": "quality of"
+        }
+      ],
+      "sig": 42,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:c009ff55c0072e5952627befd6afe1bf4b4a83a29d78399f1d4702b13f55cd0a"
+    },
+    {
+      "meaning_id": "en:morph:deriv:nom_ity",
+      "surface_form": "ity",
+      "gloss": "NOM",
+      "class": "deriv:nominalizer",
+      "allomorphs": [
+        {
+          "id": "allo-43",
+          "surface_form": "ity",
+          "environment": "state/quality (latin)"
+        }
+      ],
+      "sig": 43,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:5391d82c912224a3ec41e5ea9577fe10ce34612426137adc375ac7607e8598d3"
+    },
+    {
+      "meaning_id": "en:morph:deriv:nom_ment",
+      "surface_form": "ment",
+      "gloss": "NOM",
+      "class": "deriv:nominalizer",
+      "allomorphs": [
+        {
+          "id": "allo-44",
+          "surface_form": "ment",
+          "environment": "result of action"
+        }
+      ],
+      "sig": 44,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:dc583fd7ed0757432a94f79efbb7690ef19990ca02c69900bbed1167de48240c"
+    },
+    {
+      "meaning_id": "en:morph:deriv:nom_age",
+      "surface_form": "age",
+      "gloss": "NOM",
+      "class": "deriv:nominalizer",
+      "allomorphs": [
+        {
+          "id": "allo-45",
+          "surface_form": "age",
+          "environment": "collective/action"
+        }
+      ],
+      "sig": 45,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:e118e0a8e9a425fd4ec748cb5503579cec76d5bb3c09e8e0e7251fc9b5572f30"
+    },
+    {
+      "meaning_id": "en:morph:deriv:nom_ance",
+      "surface_form": "ance",
+      "gloss": "NOM",
+      "class": "deriv:nominalizer",
+      "allomorphs": [
+        {
+          "id": "allo-46",
+          "surface_form": "ance",
+          "environment": "state/action"
+        }
+      ],
+      "sig": 46,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:19c0bd965054acf75b4b58221946a76372e10c94889dc94e79d5e6f9e5081475"
+    },
+    {
+      "meaning_id": "en:morph:deriv:nom_ence",
+      "surface_form": "ence",
+      "gloss": "NOM",
+      "class": "deriv:nominalizer",
+      "allomorphs": [
+        {
+          "id": "allo-47",
+          "surface_form": "ence",
+          "environment": "state/action variant"
+        }
+      ],
+      "sig": 47,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:bf1a57824b34aaa8d96468d8f5223b0ffd6a24034466d686d58e4fcac086e454"
+    },
+    {
+      "meaning_id": "en:morph:deriv:nom_ism",
+      "surface_form": "ism",
+      "gloss": "NOM",
+      "class": "deriv:nominalizer",
+      "allomorphs": [
+        {
+          "id": "allo-48",
+          "surface_form": "ism",
+          "environment": "doctrine/practice"
+        }
+      ],
+      "sig": 48,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:3ae05b0c6490c7916e1d3fd856602ebabd374305f154ecd22e9c2eee925f80b4"
+    },
+    {
+      "meaning_id": "en:morph:deriv:nom_hood",
+      "surface_form": "hood",
+      "gloss": "NOM",
+      "class": "deriv:nominalizer",
+      "allomorphs": [
+        {
+          "id": "allo-49",
+          "surface_form": "hood",
+          "environment": "state/condition"
+        }
+      ],
+      "sig": 49,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:d5539317074ed18ab3d587f9616e6590d9c744e2ca0d3f41989642794db440cf"
+    },
+    {
+      "meaning_id": "en:morph:deriv:nom_ship",
+      "surface_form": "ship",
+      "gloss": "NOM",
+      "class": "deriv:nominalizer",
+      "allomorphs": [
+        {
+          "id": "allo-50",
+          "surface_form": "ship",
+          "environment": "status/skill"
+        }
+      ],
+      "sig": 50,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:11cdaafba212bae1ee8cf5e4780f27ffd04f9133a173cd7273761e59f86b1642"
+    },
+    {
+      "meaning_id": "en:morph:deriv:nom_dom",
+      "surface_form": "dom",
+      "gloss": "NOM",
+      "class": "deriv:nominalizer",
+      "allomorphs": [
+        {
+          "id": "allo-51",
+          "surface_form": "dom",
+          "environment": "domain/state"
+        }
+      ],
+      "sig": 51,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:b5e00bdd9c91482ce00ddb0fb3659f5e6fcd767cc61161853916ca9918635e65"
+    },
+    {
+      "meaning_id": "en:morph:deriv:adj_al",
+      "surface_form": "al",
+      "gloss": "ADJ",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-52",
+          "surface_form": "al",
+          "environment": "relating to"
+        }
+      ],
+      "sig": 52,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:f4df49f3608a6668e9c2b6bf2d473f692e3fbbe04796bff7610bfeabe68df314"
+    },
+    {
+      "meaning_id": "en:morph:deriv:adj_ial",
+      "surface_form": "ial",
+      "gloss": "ADJ",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-53",
+          "surface_form": "ial",
+          "environment": "relating to (variant)"
+        }
+      ],
+      "sig": 53,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:83b5f34e5ffe67f7fc1cb7a83282738150405da81a39560a0cdc7486d6eb729f"
+    },
+    {
+      "meaning_id": "en:morph:deriv:adj_ic",
+      "surface_form": "ic",
+      "gloss": "ADJ",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-54",
+          "surface_form": "ic",
+          "environment": "of/relating to (greek)"
+        }
+      ],
+      "sig": 54,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:b23eac42bcdcef560b049a9dcb9a46fd1e45adebed78b083c6efc37d3cd3efb2"
+    },
+    {
+      "meaning_id": "en:morph:deriv:adj_ical",
+      "surface_form": "ical",
+      "gloss": "ADJ",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-55",
+          "surface_form": "ical",
+          "environment": "of/relating to (combined)"
+        }
+      ],
+      "sig": 55,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:7c6af73dcd94c3b02c1f136e0b6eb14481467381656fb9db52c1d7b595aa96e7"
+    },
+    {
+      "meaning_id": "en:morph:deriv:adj_ous",
+      "surface_form": "ous",
+      "gloss": "ADJ",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-56",
+          "surface_form": "ous",
+          "environment": "having quality of"
+        }
+      ],
+      "sig": 56,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:ca39436b5031290f008d696c63831f0d763257dbbf3bde7c6540cd3eab05e4a5"
+    },
+    {
+      "meaning_id": "en:morph:deriv:adj_ious",
+      "surface_form": "ious",
+      "gloss": "ADJ",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-57",
+          "surface_form": "ious",
+          "environment": "having quality (variant)"
+        }
+      ],
+      "sig": 57,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:b4a58897d7ebbc0252a9fd237b833d244ed9ddabb809516f8832c25783128b35"
+    },
+    {
+      "meaning_id": "en:morph:deriv:adj_ful",
+      "surface_form": "ful",
+      "gloss": "ADJ",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-58",
+          "surface_form": "ful",
+          "environment": "full of"
+        }
+      ],
+      "sig": 58,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:037cb2e11099af44c1186f05dc1e7e0be25ce5b36b0d0871a3a66d0620849ca6"
+    },
+    {
+      "meaning_id": "en:morph:deriv:adj_less",
+      "surface_form": "less",
+      "gloss": "ADJ",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-59",
+          "surface_form": "less",
+          "environment": "without"
+        }
+      ],
+      "sig": 59,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:907fbf1dfb8b89a8b72b714ef8a78e94f3a2160d27a56a18196f479c93981a0e"
+    },
+    {
+      "meaning_id": "en:morph:deriv:adj_able",
+      "surface_form": "able",
+      "gloss": "ADJ",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-60",
+          "surface_form": "able",
+          "environment": "capable of being V-ed"
+        }
+      ],
+      "sig": 60,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:5b7477bd808426cd9648fed4dadd255a6f9dae19ab7196ee24581f238e2681f5"
+    },
+    {
+      "meaning_id": "en:morph:deriv:adj_ible",
+      "surface_form": "ible",
+      "gloss": "ADJ",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-61",
+          "surface_form": "ible",
+          "environment": "capable of (latin)"
+        }
+      ],
+      "sig": 61,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:681b5227a71b615c8c3238db0bb53bba7c73d6251b03b88e6d7938bc520dbbd9"
+    },
+    {
+      "meaning_id": "en:morph:deriv:adj_ive",
+      "surface_form": "ive",
+      "gloss": "ADJ",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-62",
+          "surface_form": "ive",
+          "environment": "tending to"
+        }
+      ],
+      "sig": 62,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:2f9ebe75c83d733e4f8d78d9ce217658367404fd4d9eb10063d5e2b5689aae08"
+    },
+    {
+      "meaning_id": "en:morph:deriv:adj_ary",
+      "surface_form": "ary",
+      "gloss": "ADJ",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-63",
+          "surface_form": "ary",
+          "environment": "relating to"
+        }
+      ],
+      "sig": 63,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:0627b35bfa58c894cf277c0a0707092ce5263322d5e08aa2af0d1fd65f7c3f9e"
+    },
+    {
+      "meaning_id": "en:morph:deriv:adv_ly",
+      "surface_form": "ly",
+      "gloss": "ADV",
+      "class": "deriv:adverbial",
+      "allomorphs": [
+        {
+          "id": "allo-64",
+          "surface_form": "ly",
+          "environment": "manner adverb"
+        }
+      ],
+      "sig": 64,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:3b96282c7599e8c7993886b486bc188cfee8754708c26cb0f57a461bfe1ae248"
+    },
+    {
+      "meaning_id": "en:morph:deriv:adv_ward",
+      "surface_form": "ward",
+      "gloss": "ADV",
+      "class": "deriv:adverbial",
+      "allomorphs": [
+        {
+          "id": "allo-65",
+          "surface_form": "ward",
+          "environment": "direction"
+        }
+      ],
+      "sig": 65,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:47920d5bebd14a6178d162fe897d05babf41c0e5715322b699a1af7f1b0d1a66"
+    },
+    {
+      "meaning_id": "en:morph:deriv:adv_wise",
+      "surface_form": "wise",
+      "gloss": "ADV",
+      "class": "deriv:adverbial",
+      "allomorphs": [
+        {
+          "id": "allo-66",
+          "surface_form": "wise",
+          "environment": "manner/direction"
+        }
+      ],
+      "sig": 66,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:38e75a300daab439a24d96d11b21681ce86bd11d802f4cb6f95f4d6888c4063a"
+    },
+    {
+      "meaning_id": "en:morph:deriv:adv_ally",
+      "surface_form": "ally",
+      "gloss": "ADV",
+      "class": "deriv:adverbial",
+      "allomorphs": [
+        {
+          "id": "allo-67",
+          "surface_form": "ally",
+          "environment": "manner (from -al+ly)"
+        }
+      ],
+      "sig": 67,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:adeca2233045bf9c0a563d71aa60333987f00dec87575bfe4afa3b6cfe1aeb60"
+    },
+    {
+      "meaning_id": "en:morph:deriv:verb_ize",
+      "surface_form": "ize",
+      "gloss": "V",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-68",
+          "surface_form": "ize",
+          "environment": "make/become"
+        }
+      ],
+      "sig": 68,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:50ceaa4e086085e2bb62a5d9bc5d751bbdd20880cdd21503f0436cb1a0daeccf"
+    },
+    {
+      "meaning_id": "en:morph:deriv:verb_ise",
+      "surface_form": "ise",
+      "gloss": "V",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-69",
+          "surface_form": "ise",
+          "environment": "make/become (british)"
+        }
+      ],
+      "sig": 69,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:88d0e0de0c9cd9310ae08b563a1a58d50b7227be2cec4c055cd4247e2233e279"
+    },
+    {
+      "meaning_id": "en:morph:deriv:verb_ify",
+      "surface_form": "ify",
+      "gloss": "V",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-70",
+          "surface_form": "ify",
+          "environment": "make/cause to be"
+        }
+      ],
+      "sig": 70,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:28ff664247e56deb1b347db8a2aba466f443f48ff23a6fd969ef1ec4271b19fc"
+    },
+    {
+      "meaning_id": "en:morph:deriv:verb_ate",
+      "surface_form": "ate",
+      "gloss": "V",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-71",
+          "surface_form": "ate",
+          "environment": "cause to be (latin)"
+        }
+      ],
+      "sig": 71,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:d80531119672584af29aecabcc263ede10f1aebe6babf00d6967105016ddd7fb"
+    },
+    {
+      "meaning_id": "en:morph:deriv:verb_en",
+      "surface_form": "en",
+      "gloss": "V",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-72",
+          "surface_form": "en",
+          "environment": "cause to become"
+        }
+      ],
+      "sig": 72,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:40694730a033dcab28a24f3de6cdc4964c5fb9825f95703b7e6bf03b37fb56af"
+    },
+    {
+      "meaning_id": "en:morph:deriv:verb_efy",
+      "surface_form": "efy",
+      "gloss": "V",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-73",
+          "surface_form": "efy",
+          "environment": "make/become (variant)"
+        }
+      ],
+      "sig": 73,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:a33d63abb8d8e8cfae4ef0a173899596124e2d040a5ab89bc4262f8c838f5a82"
+    },
+    {
+      "meaning_id": "en:morph:deriv:verb_fy",
+      "surface_form": "fy",
+      "gloss": "V",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-74",
+          "surface_form": "fy",
+          "environment": "make (reduced)"
+        }
+      ],
+      "sig": 74,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:6e34f17658ba227b6b4a5ed76eda4c205682a7271f639a8c2a1683f51c46c185"
+    },
+    {
+      "meaning_id": "en:morph:deriv:verb_ish",
+      "surface_form": "ish",
+      "gloss": "V",
+      "class": "deriv:suffix",
+      "allomorphs": [
+        {
+          "id": "allo-75",
+          "surface_form": "ish",
+          "environment": "do/perform"
+        }
+      ],
+      "sig": 75,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:7b8985562eaf72681b822f64c7cb4f7335527e545bcfa624dc93fd27115b9343"
+    },
+    {
+      "meaning_id": "en:morph:deriv:pre_re",
+      "surface_form": "re",
+      "gloss": "RE",
+      "class": "deriv:prefix",
+      "allomorphs": [
+        {
+          "id": "allo-76",
+          "surface_form": "re",
+          "environment": "again/back"
+        }
+      ],
+      "sig": 76,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:eec1f27d17355d035fb5a02e584b5ee938f2a84e9863bebd3141276e792a77e5"
+    },
+    {
+      "meaning_id": "en:morph:deriv:pre_pre",
+      "surface_form": "pre",
+      "gloss": "PRE",
+      "class": "deriv:prefix",
+      "allomorphs": [
+        {
+          "id": "allo-77",
+          "surface_form": "pre",
+          "environment": "before"
+        }
+      ],
+      "sig": 77,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:9287ad7e8a48b4495847249931fa6c5db163bb8a81bdb05050197634005687ed"
+    },
+    {
+      "meaning_id": "en:morph:deriv:pre_post",
+      "surface_form": "post",
+      "gloss": "POST",
+      "class": "deriv:prefix",
+      "allomorphs": [
+        {
+          "id": "allo-78",
+          "surface_form": "post",
+          "environment": "after"
+        }
+      ],
+      "sig": 78,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:a1bbbb65b31fd5e3d477dc35f4a55f414fd7311d8984a47dbac4e301bba40e6e"
+    },
+    {
+      "meaning_id": "en:morph:deriv:pre_over",
+      "surface_form": "over",
+      "gloss": "OVER",
+      "class": "deriv:prefix",
+      "allomorphs": [
+        {
+          "id": "allo-79",
+          "surface_form": "over",
+          "environment": "above/excess"
+        }
+      ],
+      "sig": 79,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:37904bdcee5fe65f96e64c621ca59c61be6fb44fd75bb91febed26dc3c437ddc"
+    },
+    {
+      "meaning_id": "en:morph:deriv:pre_under",
+      "surface_form": "under",
+      "gloss": "UNDR",
+      "class": "deriv:prefix",
+      "allomorphs": [
+        {
+          "id": "allo-80",
+          "surface_form": "under",
+          "environment": "below/insufficient"
+        }
+      ],
+      "sig": 80,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:e649e7ce97d77426581db29b9d7659a9e245d0eecde15e6151c9dd633039ecbf"
+    },
+    {
+      "meaning_id": "en:morph:deriv:pre_out",
+      "surface_form": "out",
+      "gloss": "OUT",
+      "class": "deriv:prefix",
+      "allomorphs": [
+        {
+          "id": "allo-81",
+          "surface_form": "out",
+          "environment": "surpass/external"
+        }
+      ],
+      "sig": 81,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:5c3bafb4bbfa671e66dcfea0fca2550144424d7d6eb293d505a18ce03520f83f"
+    },
+    {
+      "meaning_id": "en:morph:deriv:pre_inter",
+      "surface_form": "inter",
+      "gloss": "INTR",
+      "class": "deriv:prefix",
+      "allomorphs": [
+        {
+          "id": "allo-82",
+          "surface_form": "inter",
+          "environment": "between"
+        }
+      ],
+      "sig": 82,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:af067ea514964e50c028bbe0865c0b9f1c9c321d1a8c68182cfbad1492198f6a"
+    },
+    {
+      "meaning_id": "en:morph:deriv:pre_intra",
+      "surface_form": "intra",
+      "gloss": "INTRA",
+      "class": "deriv:prefix",
+      "allomorphs": [
+        {
+          "id": "allo-83",
+          "surface_form": "intra",
+          "environment": "within"
+        }
+      ],
+      "sig": 83,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:dc4a1d856ff73eb8efbada4985676613b591ed152be2eeabda2157d3a8917a28"
+    },
+    {
+      "meaning_id": "en:morph:deriv:pre_mega",
+      "surface_form": "mega",
+      "gloss": "BIG",
+      "class": "deriv:prefix",
+      "allomorphs": [
+        {
+          "id": "allo-84",
+          "surface_form": "mega",
+          "environment": "very large"
+        }
+      ],
+      "sig": 84,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:fda365bf5ba2ecf7f33b21e595985465546f0f3af92a17da9ffb87672f454b58"
+    },
+    {
+      "meaning_id": "en:morph:deriv:pre_micro",
+      "surface_form": "micro",
+      "gloss": "TINY",
+      "class": "deriv:prefix",
+      "allomorphs": [
+        {
+          "id": "allo-85",
+          "surface_form": "micro",
+          "environment": "very small"
+        }
+      ],
+      "sig": 85,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:bb3881cbb2450e0dbbdc379d5f58244689026d4bd497d51cad1178fd7629b8be"
+    },
+    {
+      "meaning_id": "en:morph:deriv:pre_macro",
+      "surface_form": "macro",
+      "gloss": "BIG",
+      "class": "deriv:prefix",
+      "allomorphs": [
+        {
+          "id": "allo-86",
+          "surface_form": "macro",
+          "environment": "large scale"
+        }
+      ],
+      "sig": 86,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:713ff8f8d6a619eb713f90a33be83ea8551141ad26ba6e3ae73767f9e89d961e"
+    },
+    {
+      "meaning_id": "en:morph:deriv:pre_mini",
+      "surface_form": "mini",
+      "gloss": "TINY",
+      "class": "deriv:prefix",
+      "allomorphs": [
+        {
+          "id": "allo-87",
+          "surface_form": "mini",
+          "environment": "small"
+        }
+      ],
+      "sig": 87,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:8d8ade5e5c4e6130e74af604c4b7224fb731867f14fb196ad4e0de0b19f23275"
+    },
+    {
+      "meaning_id": "en:morph:deriv:pre_super",
+      "surface_form": "super",
+      "gloss": "SUP",
+      "class": "deriv:prefix",
+      "allomorphs": [
+        {
+          "id": "allo-88",
+          "surface_form": "super",
+          "environment": "above/beyond"
+        }
+      ],
+      "sig": 88,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:dc171f6d6961609c29c8ad8bfed6d5c183b04ee1641110a475c910e4940ce7e1"
+    },
+    {
+      "meaning_id": "en:morph:deriv:pre_ultra",
+      "surface_form": "ultra",
+      "gloss": "ULTR",
+      "class": "deriv:prefix",
+      "allomorphs": [
+        {
+          "id": "allo-89",
+          "surface_form": "ultra",
+          "environment": "beyond"
+        }
+      ],
+      "sig": 89,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:ac7d2d9535c95aca406ea15355f2a3c56c5ce918dcd80415aa643c0db68d4b88"
+    },
+    {
+      "meaning_id": "en:morph:deriv:pre_hyper",
+      "surface_form": "hyper",
+      "gloss": "HYP",
+      "class": "deriv:prefix",
+      "allomorphs": [
+        {
+          "id": "allo-90",
+          "surface_form": "hyper",
+          "environment": "excessive"
+        }
+      ],
+      "sig": 90,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:3293984a906b7aefcec9040d5cccab3d1a6e3d57fc8b94f9eed976849574f839"
+    },
+    {
+      "meaning_id": "en:morph:deriv:pre_hypo",
+      "surface_form": "hypo",
+      "gloss": "HYP",
+      "class": "deriv:prefix",
+      "allomorphs": [
+        {
+          "id": "allo-91",
+          "surface_form": "hypo",
+          "environment": "under/below normal"
+        }
+      ],
+      "sig": 91,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:979da0fd02e53bf7726bda58dd89789b9a983fda5f1063f1db4807e816d81b8c"
+    },
+    {
+      "meaning_id": "en:morph:root:p",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 92,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:f014a5e9ab71373f3258b6f6c8f6c026a9c453128b87f13d462311c29da83b83"
+    },
+    {
+      "meaning_id": "en:morph:root:b",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 93,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:47753bfc317f03acefc10ca5136333cd38c70d18a62ddd0fa8cf8302152d8a27"
+    },
+    {
+      "meaning_id": "en:morph:root:t",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 94,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:da5fd03ce602405a72712a0f8bb4f3c7572e0cf6740194626c0e999847b7cbbb"
+    },
+    {
+      "meaning_id": "en:morph:root:d",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 95,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:1894347b942c5dc16025a4424e0669cdd7ba3c85f59b3eb18f9b2ce8a9051f40"
+    },
+    {
+      "meaning_id": "en:morph:root:k",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 96,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:793bd0ffd890afc2c98ac497d3edbc0dccb7e97881e1f9bdc75494673e32ab6c"
+    },
+    {
+      "meaning_id": "en:morph:root:g",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 97,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:51e2226f71da63c7340f1df303dd7859a0d75d249a23d791628a8bac6ed7e1fa"
+    },
+    {
+      "meaning_id": "en:morph:root:f",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 98,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:277a7cd93b69f3593a734b301996824c603d7b1190a2525e543042a6453fe96e"
+    },
+    {
+      "meaning_id": "en:morph:root:v",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 99,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:933cf063ebbfc0b2df6dda9b7c8892686b4c091670ace4d0d1dfe2021d8411a7"
+    },
+    {
+      "meaning_id": "en:morph:root:s",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 100,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:0411fd6731ed05a8af1c726b3b397398eb8efe07c0de5dec90fec949977d77e7"
+    },
+    {
+      "meaning_id": "en:morph:root:z",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 101,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:0adaf4b0ed7c07c5ad5aba7b5c34348d64a74ad386ed029dbcf6de6d7f677d01"
+    },
+    {
+      "meaning_id": "en:morph:root:m",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 102,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:a3a87178007cf1638b8acf585a821f903c272f6ce998bbd2cf3ee95f9f34d6d3"
+    },
+    {
+      "meaning_id": "en:morph:root:n",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 103,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:4897e23a9a9fb948e72f4eaea6b183e2cbba19e8e4d9735ab097f8c4c9fd90f2"
+    },
+    {
+      "meaning_id": "en:morph:root:l",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 104,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:eb49a323839c37d01b414e8591a9dad25177be21ca57081a7cc95eaaf2413b76"
+    },
+    {
+      "meaning_id": "en:morph:root:r",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 105,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:d9906af3e2438e0698a3ac60d5d6f29277f2b224bffa8ab14d12fc6fddaf8036"
+    },
+    {
+      "meaning_id": "en:morph:root:w",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 106,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:22fab205c2608c7e0ae9b16b7e4d32e2510030bce8bb0850b9a6d31118eb42ad"
+    },
+    {
+      "meaning_id": "en:morph:root:y",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 107,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:432642312c56d0abb906ceef51f4e530dab3ecacb5d7ec1ce2c11af3232f2301"
+    },
+    {
+      "meaning_id": "en:morph:root:iy",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 108,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:c255b8ec92beb0a32d4f91b4ad25f895bc1838d861b5ee917fc16900f5ac98b4"
+    },
+    {
+      "meaning_id": "en:morph:root:eh",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 109,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:c6504f803dabcf0c890d7a6083c881c19433bc198ecd576d7b9a55f392889476"
+    },
+    {
+      "meaning_id": "en:morph:root:ae",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 110,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:a51fb88132ed79a8603d9caec19107592f14a0f465ea393fd510195eb0d8e9ed"
+    },
+    {
+      "meaning_id": "en:morph:root:ah",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 111,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:ef54b1621f47d4a522e2c9aebb455fea2bafebe0e77d70e623f2df5a4d584e71"
+    },
+    {
+      "meaning_id": "en:morph:root:ow",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 112,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:ca06cd6452d78d5a2770694cf01c81192c813b5ad84e091193512c5c9ad64ef1"
+    },
+    {
+      "meaning_id": "en:morph:root:uw",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 113,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:98fbc48c922a24f5b1a9147623b00726cf40ef8ad5262e872370953df24c5a65"
+    },
+    {
+      "meaning_id": "en:morph:root:verb_motion",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:verb",
+      "allomorphs": [],
+      "sig": 114,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:927080de4d55b918f75acab904d23a9b54e3afd7264c7cfd65ae52ef83f6d27a"
+    },
+    {
+      "meaning_id": "en:morph:root:verb_cognition",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:verb",
+      "allomorphs": [],
+      "sig": 115,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:397a8bc2400057b809eddead73d91d510e696808b6aef39f51d5ca6772de6919"
+    },
+    {
+      "meaning_id": "en:morph:root:verb_communication",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:verb",
+      "allomorphs": [],
+      "sig": 116,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:169568016cdd6b7c977a3a8577e4f43cf96986b7d76e9bd9fedee2bd0dfa1361"
+    },
+    {
+      "meaning_id": "en:morph:root:verb_perception",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:verb",
+      "allomorphs": [],
+      "sig": 117,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:d883ce48630183bc4e1b691dd7e3727ff28e921ac4745b9d1c0d4465efd09c15"
+    },
+    {
+      "meaning_id": "en:morph:root:verb_creation",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:verb",
+      "allomorphs": [],
+      "sig": 118,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:82dbe5941897cc9db26f8c6002565ee16d753c324950f1a2d5fcc48f50a4a29d"
+    },
+    {
+      "meaning_id": "en:morph:root:verb_consumption",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:verb",
+      "allomorphs": [],
+      "sig": 119,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:2a5485a62f3a3351552a4fc9c039c6825514e9ecb520e67ad2fc2220a4cb2c46"
+    },
+    {
+      "meaning_id": "en:morph:root:adj_quality",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:adj",
+      "allomorphs": [],
+      "sig": 120,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:96707f73890e6ab5821091ab0b5ee54096bc917734d18d58d3ddceae383aaf41"
+    },
+    {
+      "meaning_id": "en:morph:root:adj_quantity",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:adj",
+      "allomorphs": [],
+      "sig": 121,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:3d5cd756270473a3edfa976ba77bf9c54a0b41bafb06085c22c776a6c4de7307"
+    },
+    {
+      "meaning_id": "en:morph:root:adj_temporal",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:adj",
+      "allomorphs": [],
+      "sig": 122,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:0604e0ed5c4e04019eb7377854842fdd8c025c3a85768b9021bab534d4c90ac0"
+    },
+    {
+      "meaning_id": "en:morph:root:adj_spatial",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:adj",
+      "allomorphs": [],
+      "sig": 123,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:671c5520daba0c53fb3bf0fd290494ffcaa9f0949e8f866aa6c42754367a19a9"
+    },
+    {
+      "meaning_id": "en:morph:root:noun_person",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 124,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:886880a816f0507f251351ea0040088af5578128835f096b7a0b9bae4ede78bb"
+    },
+    {
+      "meaning_id": "en:morph:root:noun_artifact",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 125,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:ef235626e7f695c7fa159346a50f6832d7d9ab0f725e2c194514fb9b821ed90b"
+    },
+    {
+      "meaning_id": "en:morph:root:noun_natural",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 126,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:7b5800f49b41f3aa783d591575e9ca7a51bba5074ec0da1a1f82784a2d8f12f7"
+    },
+    {
+      "meaning_id": "en:morph:root:noun_abstract",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 127,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:f0ee2812e45026a5b7ade7cd317a18e705bfb72cff0ac18887d1310680a7158d"
+    },
+    {
+      "meaning_id": "en:morph:root:noun_event",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 128,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:082141570de1fbd57527ef4d9575b2a653be639fe6e384f11ec716210cb81049"
+    },
+    {
+      "meaning_id": "en:morph:root:noun_location",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 129,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:f14712442ce41c568618ba10b50fdbe932a004a1bf35f236bef4928b6c62e88b"
+    },
+    {
+      "meaning_id": "en:morph:root:noun_state",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 130,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:d812da0c014491fb4a2ac36b789361c2acb0902c098b819f4b0fb5b84afdeb81"
+    },
+    {
+      "meaning_id": "en:morph:root:noun_process",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:noun",
+      "allomorphs": [],
+      "sig": 131,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:25f2177172a615ba73d3038b10b603c86e31a3886e6f29fc1641e5208c4d2b30"
+    },
+    {
+      "meaning_id": "en:morph:root:function_det",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:function",
+      "allomorphs": [],
+      "sig": 132,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:566fc04f38e2e8c9e7ebe7c2374e6b8455f4627adeff3dced308fd14d829ce83"
+    },
+    {
+      "meaning_id": "en:morph:root:function_prep",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:function",
+      "allomorphs": [],
+      "sig": 133,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:6efe7a58bf12e04cc739e17870d092cf1996dad0ae83d21ee502f54adf778df9"
+    },
+    {
+      "meaning_id": "en:morph:root:function_conj",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:function",
+      "allomorphs": [],
+      "sig": 134,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:e1bcea387f5a52729374b2f1eee717dc439c8a1e7a24f56474b23013226e193c"
+    },
+    {
+      "meaning_id": "en:morph:root:function_aux",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:function",
+      "allomorphs": [],
+      "sig": 135,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:91ad274d8396228de403d249992783219fae1507703cd047b1ca838d7a8f7bb8"
+    },
+    {
+      "meaning_id": "en:morph:root:function_pron",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:function",
+      "allomorphs": [],
+      "sig": 136,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:912e47c4061bfb8537a3075f1cba3087a0f53a17a526f2caadf1f4aab7df1438"
+    },
+    {
+      "meaning_id": "en:morph:root:function_part",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:function",
+      "allomorphs": [],
+      "sig": 137,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:938b1b3ddd13ac2f8cffead2f10022583fb503f797d1410ce3d9c890dfe4687d"
+    },
+    {
+      "meaning_id": "en:morph:root:number_cardinal",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:number",
+      "allomorphs": [],
+      "sig": 138,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:40373b8667839b5271aa24532e5f98feb1fe0037f2f585312f8a6d1f92ec17e4"
+    },
+    {
+      "meaning_id": "en:morph:root:number_ordinal",
+      "surface_form": "",
+      "gloss": "ROOT",
+      "class": "root:number",
+      "allomorphs": [],
+      "sig": 139,
+      "upstream": {
+        "syllable_universe_digest": "sha256:d62f207f79e045e5df83b05bbda6585c60430cc9e0a7f6d5a93229bd0d34e9f8"
+      },
+      "digest": "sha256:79b2bc0294fa0b84fe90da6681cf6fd89dbb84fab717e941a6c9843eea8718bc"
+    }
+  ]
+}
