@@ -27,10 +27,10 @@ Probability sits on top of traceability. The model can be stochastic but the com
 
 ## Current State
 
-- Parameters: 11,323,524 (sentence-level transformer, Stage 5c)
+- Parameters: 24M (UD EWT model) / 55M (synthetic model)
 - Architecture: Explicit per-layer hidden states h_0..h_6, deep supervision, consistency losses
-- Training corpus: 4,850 sentences x 8 words (corpus_v8c_v2 + sentence grouping)
-- LLR Benchmark: 7/7 layers STRONG at both word level and sentence level
+- Training corpus: 3,891 real sentences (UD English EWT, CC licensed) + 4,850 synthetic
+- LLR Benchmark: 7/7 STRONG on synthetic corpus AND 7/7 STRONG on real UD EWT text
 - Causal intervention: 7/7 interventions perfectly localized
 - Tower root (paragraph, 1200 ops): 5f45a5f43af992a49cd4b8961abfd690ecfc202c38f066aa52fcfc0f73b785d6
 
@@ -99,7 +99,7 @@ Stage 5 (in progress):
              Factorized semantic (60 types) and discourse (24 types)
              7/7 layers STRONG at sentence level
   5d: Scale hidden dim 128->512, 50M params
-  5e: Real corpus integration
+  5e (done): Real corpus (UD EWT CC-licensed), 7/7 STRONG on real text
 Stage 6: Training loop in FARD — every gradient step a witnessed execution
 Stage 7: Competitive on standard benchmarks with full audit trail
 
