@@ -1,0 +1,122 @@
+/// LLM Nature Semantic Transformer -- FARD Tower v7 (self-directed)
+/// The model steers itself: tgt_argmax advances the active layer
+/// No hardcoded GT sequence -- pure neural navigation
+
+import("std/ffi") as ffi
+import("std/str") as str
+import("std/trace") as trace
+
+fn itof(n, denom) {
+  let raw     = (n * 10000 + denom / 2) / denom
+  let clamped = if raw > 10000 then 10000 else raw
+  let whole   = clamped / 10000
+  let frac    = clamped % 10000
+  let frac_str = if frac < 10 then str.concat("000", str.from_int(frac))
+    else if frac < 100 then str.concat("00", str.from_int(frac))
+    else if frac < 1000 then str.concat("0", str.from_int(frac))
+    else str.from_int(frac)
+  str.concat(str.from_int(whole), str.concat(".", frac_str))
+}
+
+fn encode(block_idx, layer_idx, step_count) {
+  let f0  = itof(block_idx, 60)
+  let f12 = if layer_idx == 0 then "1.0" else "0.0"
+  let f13 = if layer_idx == 1 then "1.0" else "0.0"
+  let f14 = if layer_idx == 2 then "1.0" else "0.0"
+  let f15 = if layer_idx == 3 then "1.0" else "0.0"
+  let f16 = if layer_idx == 4 then "1.0" else "0.0"
+  let f17 = if layer_idx == 5 then "1.0" else "0.0"
+  let f18 = if layer_idx == 6 then "1.0" else "0.0"
+  let f19 = itof(block_idx, 60)
+  str.concat("[", str.concat(
+    str.join([f0,"0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0",
+              f12,f13,f14,f15,f16,f17,f18,f19,"0.0","1.0","0.0","0.0","0.3"], ","),
+    "]"))
+}
+
+fn next_layer(tgt, current) {
+  if tgt == 0 then 0
+  else if tgt == 1 then 1
+  else if tgt == 2 then 2
+  else if tgt == 3 then 3
+  else if tgt == 4 then 4
+  else if tgt == 5 then 5
+  else if tgt == 6 then 6
+  else current
+}
+
+fn op_name(op) {
+  if op == 0 then "SELECT_UNIVERSE"
+  else if op == 1 then "WITNESS_NEAREST"
+  else if op == 2 then "ATTEND"
+  else if op == 3 then "FFN_STEP"
+  else if op == 4 then "PROJECT_LAYER"
+  else if op == 5 then "RETURN_SET"
+  else if op == 6 then "ACCEPT"
+  else if op == 7 then "REJECT"
+  else "UNKNOWN"
+}
+
+fn layer_name(l) {
+  if l == 0 then "PHONEME"
+  else if l == 1 then "SYLLABLE"
+  else if l == 2 then "MORPHEME"
+  else if l == 3 then "WORD"
+  else if l == 4 then "PHRASE"
+  else if l == 5 then "SEMANTIC"
+  else "DISCOURSE"
+}
+
+let lib = ffi.load("./target/release/libfard_onnx.dylib")
+let mp  = "/Users/g.bogans/Downloads/LLM_Nature_Semantic_Transformer/train/model_v6.onnx"
+let h   = ffi.call(lib.ok, "fard_onnx_load", [mp, str.len(mp)])
+
+// Run a sentence: 50 phonemes x 12 blocks = 600 self-directed steps
+let n_phonemes = 100
+
+let tower = while {
+  phoneme_idx: 0,
+  block_idx:   0,
+  step_count:  0,
+  layer_idx:   0,
+  accepts:     0,
+  rejects:     0,
+  total:       0
+}
+fn(s) { s.phoneme_idx < n_phonemes }
+fn(s) {
+  let gt_layer = if s.block_idx == 4 then 1
+    else if s.block_idx == 5 then 2
+    else if s.block_idx == 6 then 3
+    else if s.block_idx == 7 then 4
+    else if s.block_idx == 8 then 5
+    else if s.block_idx >= 9 then 6
+    else 0
+  let feat = encode(s.block_idx, gt_layer, s.block_idx)
+  let _    = ffi.call(lib.ok, "fard_onnx_infer_store", [h.ok, feat, str.len(feat)])
+  let op   = ffi.call(lib.ok, "fard_onnx_result_argmax",  [])
+  let tgt  = ffi.call(lib.ok, "fard_onnx_result_argmax2", [])
+  let _t   = trace.info(str.join(["ph=", str.from_int(s.phoneme_idx), " blk=", str.from_int(s.block_idx), " op=", op_name(op.ok), " tgt=", str.from_int(tgt.ok), " layer=", layer_name(gt_layer)], ""))
+  let nb   = s.block_idx + 1
+  let done = nb >= 12
+  let next_l = next_layer(tgt.ok, s.layer_idx)
+  {
+    phoneme_idx: if done then s.phoneme_idx + 1 else s.phoneme_idx,
+    block_idx:   if done then 0 else nb,
+    step_count:  s.step_count + 1,
+    layer_idx:   if done then 0 else next_l,
+    accepts:     s.accepts + 1,
+    rejects:     s.rejects,
+    total:       s.total + 1
+  }
+}
+
+{
+  tower_root:  tower.chain_hex,
+  total_ops:   tower.steps,
+  accepts:     tower.value.accepts,
+  rejects:     tower.value.rejects,
+  total:       tower.value.total,
+  model:       "model_v6.onnx",
+  sequence:    "100-phoneme paragraph"
+}
