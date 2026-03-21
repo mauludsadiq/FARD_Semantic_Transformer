@@ -27,12 +27,37 @@ Probability sits on top of traceability. The model can be stochastic but the com
 
 ## Current State
 
-- Parameters: 24M (UD EWT model) / 55M (synthetic model)
+- Parameters: 16,190 (FARD-trained model, D=16) / 24M (UD EWT) / 55M (synthetic)
 - Architecture: Explicit per-layer hidden states h_0..h_6, deep supervision, consistency losses
-- Training corpus: 3,891 real sentences (UD English EWT, CC licensed) + 4,850 synthetic
-- LLR Benchmark: 7/7 STRONG on synthetic corpus AND 7/7 STRONG on real UD EWT text
-- Causal intervention: 7/7 interventions perfectly localized
+- Training corpus: 200 samples (FARD model) / 3,891 real UD EWT sentences (PyTorch models)
+- LLR Benchmark: 7/7 STRONG (PyTorch D=64) — 6/7 STRONG on held-out data (FARD-trained)
+- Causal intervention: 7/7 perfectly localized (PyTorch D=64 model)
 - Tower root (paragraph, 1200 ops): 5f45a5f43af992a49cd4b8961abfd690ecfc202c38f066aa52fcfc0f73b785d6
+
+### FARD-trained model (Stage 6)
+
+Trained entirely in FARD — no PyTorch, no ML framework.
+4,000 gradient steps (200 samples x 20 epochs), every step SHA-256 witnessed.
+
+Loss convergence:
+  epoch 1:  76.41  (Xavier random init)
+  epoch 5:  17.35
+  epoch 10: 14.01
+  epoch 20: 11.18  (-85% from init)
+
+LLR on 1,000 held-out samples:
+
+| Layer     | Accuracy | Chance | Delta  | Result   |
+|-----------|----------|--------|--------|----------|
+| PHONEME   | 0.119    | 0.029  | +0.090 | WEAK     |
+| SYLLABLE  | 0.929    | 0.016  | +0.913 | STRONG   |
+| MORPHEME  | 0.910    | 0.062  | +0.848 | STRONG   |
+| WORD      | 0.970    | 0.016  | +0.954 | STRONG   |
+| PHRASE    | 0.792    | 0.100  | +0.692 | STRONG   |
+| SEMANTIC  | 0.350    | 0.017  | +0.333 | STRONG   |
+| DISCOURSE | 0.602    | 0.042  | +0.560 | STRONG   |
+
+6/7 STRONG. L0 PHONEME needs more training epochs.
 
 ## The LLR Benchmark
 
@@ -100,8 +125,12 @@ Stage 5 (in progress):
              7/7 layers STRONG at sentence level
   5d: Scale hidden dim 128->512, 50M params
   5e (done): Real corpus (UD EWT CC-licensed), 7/7 STRONG on real text
-Stage 6: Training loop in FARD — every gradient step a witnessed execution
-Stage 7: Competitive on standard benchmarks with full audit trail
+Stage 6 (done): Training loop in FARD — every gradient step a witnessed execution
+  - Full backprop through all 7 heads and 6 transition MLPs
+  - 4,000 gradient steps, all SHA-256 receipted
+  - 6/7 STRONG on held-out data, no PyTorch
+  - FARD-trained weights: train/fard_trained_weights.json
+Stage 7 (pending): Tower running FARD-trained weights, full audit chain
 
 ## Why This Matters
 
