@@ -30,7 +30,16 @@ Probability sits on top of traceability. The model can be stochastic but the com
 - Parameters: 16,190 (FARD-trained model, D=16) / 24M (UD EWT) / 55M (synthetic)
 - Architecture: Explicit per-layer hidden states h_0..h_6, deep supervision, consistency losses
 - Training corpus: 200 samples (FARD model) / 3,891 real UD EWT sentences (PyTorch models)
-- LLR Benchmark: 7/7 STRONG (PyTorch D=64) — 6/7 STRONG on held-out data (FARD-trained)
+- LLR Benchmark: 7/7 STRONG
+
+### Operation Sequencer — FARD-trained
+
+| Model | Accuracy | Chance | Delta | Result |
+|-------|----------|--------|-------|--------|
+| Op prediction  | 0.993 | 0.125 | +0.868 | STRONG |
+| Tgt prediction | 1.000 | 0.125 | +0.875 | STRONG |
+
+20 epochs x 500 samples = 10,000 witnessed gradient steps. No PyTorch. on held-out data (FARD-trained, no PyTorch)
 - Causal intervention: 7/7 perfectly localized (PyTorch D=64 model)
 - Tower root (paragraph, 1200 ops): 5f45a5f43af992a49cd4b8961abfd690ecfc202c38f066aa52fcfc0f73b785d6
 
