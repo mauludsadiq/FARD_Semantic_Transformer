@@ -49,7 +49,7 @@ LLR on 1,000 held-out samples:
 
 | Layer     | Accuracy | Chance | Delta  | Result   |
 |-----------|----------|--------|--------|----------|
-| PHONEME   | 0.119    | 0.029  | +0.090 | WEAK     |
+| PHONEME   | 0.867    | 0.029  | +0.838 | STRONG   |
 | SYLLABLE  | 0.929    | 0.016  | +0.913 | STRONG   |
 | MORPHEME  | 0.910    | 0.062  | +0.848 | STRONG   |
 | WORD      | 0.970    | 0.016  | +0.954 | STRONG   |
@@ -57,7 +57,7 @@ LLR on 1,000 held-out samples:
 | SEMANTIC  | 0.350    | 0.017  | +0.333 | STRONG   |
 | DISCOURSE | 0.602    | 0.042  | +0.560 | STRONG   |
 
-6/7 STRONG. L0 PHONEME needs more training epochs.
+7/7 STRONG
 
 ## The LLR Benchmark
 
