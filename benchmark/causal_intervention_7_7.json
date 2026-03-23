@@ -1,0 +1,75 @@
+{
+  "model": "D=32 layerwise, freq-remapped corpus, curriculum training",
+  "corpus": "corpus_v8c_remapped.ndjson (frequency-remapped class IDs)",
+  "vocab": [
+    34,
+    256,
+    256,
+    256,
+    50,
+    256,
+    256
+  ],
+  "D": 32,
+  "training": "3000 samples, 150 epochs, 3-phase curriculum",
+  "eval_metric": "balanced_accuracy + macro_f1",
+  "test_eval": {
+    "PHONEME": {
+      "bal_acc": 1.0,
+      "macro_f1": 1.0,
+      "maj": 0.119,
+      "status": "STRONG"
+    },
+    "SYLLABLE": {
+      "bal_acc": 0.973,
+      "macro_f1": 0.968,
+      "maj": 0.01,
+      "status": "STRONG"
+    },
+    "MORPHEME": {
+      "bal_acc": 0.941,
+      "macro_f1": 0.933,
+      "maj": 0.026,
+      "status": "STRONG"
+    },
+    "WORD": {
+      "bal_acc": 0.954,
+      "macro_f1": 0.941,
+      "maj": 0.01,
+      "status": "STRONG"
+    },
+    "PHRASE": {
+      "bal_acc": 0.262,
+      "macro_f1": 0.258,
+      "maj": 0.032,
+      "status": "LEARNING"
+    },
+    "SEMANTIC": {
+      "bal_acc": 0.156,
+      "macro_f1": 0.131,
+      "maj": 0.013,
+      "status": "LEARNING"
+    },
+    "DISCOURSE": {
+      "bal_acc": 0.245,
+      "macro_f1": 0.236,
+      "maj": 0.02,
+      "status": "LEARNING"
+    }
+  },
+  "causal_intervention": {
+    "criterion": "50% relative damage, unaffected within 0.05",
+    "n_localized": 7,
+    "result": "7/7 LOCALIZED",
+    "baseline": [
+      1.0,
+      0.973,
+      0.933,
+      0.963,
+      0.299,
+      0.137,
+      0.246
+    ]
+  },
+  "corpus_fix": "Frequency-remapped class IDs. Previously alphabetical sort caused L3 WORD to have IDs 32-34454 with most mapping to cap bucket. After freq remap: 250 unique L3 classes, maj_base=0.004."
+}

@@ -3,3 +3,4 @@ corpus/corpus_v5.ndjson
 train/checkpoint_ep*.onnx
 train/model_v8_best.pt
 corpus/corpus_v8c.ndjson
+corpus/corpus_v8c_remapped.ndjson
