@@ -1,0 +1,103 @@
+{
+  "model": "D=32, correct vocab=[34,243,118,250,50,200,100], curriculum 200ep",
+  "vocab": [
+    34,
+    243,
+    118,
+    250,
+    50,
+    200,
+    100
+  ],
+  "D": 32,
+  "training": "3000 samples, 200 epochs, 3-phase curriculum, class-weighted loss",
+  "test_eval": {
+    "PHONEME": {
+      "bal_acc": 1.0,
+      "f1": 1.0,
+      "status": "STRONG"
+    },
+    "SYLLABLE": {
+      "bal_acc": 0.963,
+      "f1": 0.951,
+      "status": "STRONG"
+    },
+    "MORPHEME": {
+      "bal_acc": 0.95,
+      "f1": 0.937,
+      "status": "STRONG"
+    },
+    "WORD": {
+      "bal_acc": 0.969,
+      "f1": 0.958,
+      "status": "STRONG"
+    },
+    "PHRASE": {
+      "bal_acc": 0.299,
+      "f1": 0.294,
+      "status": "LEARNING"
+    },
+    "SEMANTIC": {
+      "bal_acc": 0.166,
+      "f1": 0.143,
+      "status": "LEARNING"
+    },
+    "DISCOURSE": {
+      "bal_acc": 0.268,
+      "f1": 0.254,
+      "status": "LEARNING"
+    }
+  },
+  "ci_eval": {
+    "PHONEME": {
+      "bal_acc": 1.0,
+      "f1": 1.0,
+      "status": "STRONG"
+    },
+    "SYLLABLE": {
+      "bal_acc": 0.957,
+      "f1": 0.954,
+      "status": "STRONG"
+    },
+    "MORPHEME": {
+      "bal_acc": 0.941,
+      "f1": 0.935,
+      "status": "STRONG"
+    },
+    "WORD": {
+      "bal_acc": 0.944,
+      "f1": 0.933,
+      "status": "STRONG"
+    },
+    "PHRASE": {
+      "bal_acc": 0.321,
+      "f1": 0.315,
+      "status": "STRONG"
+    },
+    "SEMANTIC": {
+      "bal_acc": 0.185,
+      "f1": 0.163,
+      "status": "LEARNING"
+    },
+    "DISCOURSE": {
+      "bal_acc": 0.256,
+      "f1": 0.246,
+      "status": "LEARNING"
+    }
+  },
+  "causal_intervention": {
+    "n_localized_test": 7,
+    "n_localized_ci": 7,
+    "result": "7/7 LOCALIZED on both test and CI sets",
+    "ci_baseline": [
+      1.0,
+      0.961,
+      0.934,
+      0.948,
+      0.318,
+      0.173,
+      0.254
+    ]
+  },
+  "vocab_fix": "Correct vocab matches actual corpus class counts. Previous [34,256,256,256,50,256,256] had 56-156 phantom classes that never appear in corpus."
+}
