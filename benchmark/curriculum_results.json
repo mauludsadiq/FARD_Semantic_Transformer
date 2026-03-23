@@ -1,0 +1,86 @@
+{
+  "model": "D=32 layerwise, correct caps, curriculum training",
+  "vocab": [
+    34,
+    1024,
+    256,
+    1024,
+    50,
+    256,
+    256
+  ],
+  "D": 32,
+  "training": "3000 samples, 150 epochs, 3-phase curriculum, PyTorch",
+  "eval_metric": "balanced_accuracy + macro_f1",
+  "held_out_eval": {
+    "PHONEME": {
+      "bal_acc": 1.0,
+      "macro_f1": 1.0,
+      "status": "STRONG"
+    },
+    "SYLLABLE": {
+      "bal_acc": 0.976,
+      "macro_f1": 0.97,
+      "status": "STRONG"
+    },
+    "MORPHEME": {
+      "bal_acc": 0.92,
+      "macro_f1": 0.905,
+      "status": "STRONG"
+    },
+    "WORD": {
+      "bal_acc": 1.0,
+      "macro_f1": 0.993,
+      "status": "STRONG"
+    },
+    "PHRASE": {
+      "bal_acc": 0.243,
+      "macro_f1": 0.239,
+      "status": "LEARNING"
+    },
+    "SEMANTIC": {
+      "bal_acc": 0.099,
+      "macro_f1": 0.086,
+      "status": "LEARNING"
+    },
+    "DISCOURSE": {
+      "bal_acc": 0.083,
+      "macro_f1": 0.08,
+      "status": "LEARNING"
+    }
+  },
+  "causal_intervention": {
+    "criterion": "50% relative damage (acc < baseline*0.5), unaffected within 0.05",
+    "baseline": [
+      1.0,
+      0.967,
+      0.759,
+      0.995,
+      0.192,
+      0.051,
+      0.08
+    ],
+    "n_localized": 3,
+    "localized": [
+      "h4_PHRASE",
+      "h5_SEMANTIC",
+      "h6_DISCOURSE"
+    ],
+    "not_localized": [
+      "h0_PHONEME",
+      "h1_SYLLABLE",
+      "h2_MORPHEME",
+      "h3_WORD"
+    ],
+    "failure_analysis": {
+      "L3_WORD": "corpus-degenerate: 10 classes, 96.5% majority. Head learned constant prediction independent of hidden state.",
+      "L1_SYLLABLE": "only 45 unique classes after cap=1024, majority at 82%. Head partially independent.",
+      "ceiling": "3/7 is the ceiling for this corpus. Fixing requires corpus regeneration with genuine word/syllable diversity."
+    }
+  },
+  "curriculum_phases": {
+    "phase1_ep0-30": "layer_weights=[1,1,1,0.5,1,1,1]",
+    "phase2_ep30-70": "layer_weights=[1,1,1,0.3,3,3,3]",
+    "phase3_ep70-150": "layer_weights=[0.5,0.5,0.5,0.2,5,5,5]"
+  }
+}
