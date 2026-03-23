@@ -1,0 +1,104 @@
+{
+  "model": "D=16 layerwise, correct caps, class-weighted loss",
+  "vocab": [
+    34,
+    1024,
+    256,
+    1024,
+    50,
+    256,
+    256
+  ],
+  "training": "3000 samples, 100 epochs, PyTorch baseline",
+  "eval_metric": "balanced_accuracy + macro_f1 (NOT raw accuracy)",
+  "held_out_eval": {
+    "PHONEME": {
+      "bal_acc": 1.0,
+      "macro_f1": 1.0,
+      "n_true_cls": 22,
+      "maj_base": 0.119
+    },
+    "SYLLABLE": {
+      "bal_acc": 0.797,
+      "macro_f1": 0.727,
+      "n_true_cls": 45,
+      "maj_base": 0.822
+    },
+    "MORPHEME": {
+      "bal_acc": 0.449,
+      "macro_f1": 0.366,
+      "n_true_cls": 115,
+      "maj_base": 0.028
+    },
+    "WORD": {
+      "bal_acc": 0.759,
+      "macro_f1": 0.696,
+      "n_true_cls": 10,
+      "maj_base": 0.965
+    },
+    "PHRASE": {
+      "bal_acc": 0.28,
+      "macro_f1": 0.274,
+      "n_true_cls": 50,
+      "maj_base": 0.032
+    },
+    "SEMANTIC": {
+      "bal_acc": 0.175,
+      "macro_f1": 0.155,
+      "n_true_cls": 200,
+      "maj_base": 0.013
+    },
+    "DISCOURSE": {
+      "bal_acc": 0.188,
+      "macro_f1": 0.183,
+      "n_true_cls": 100,
+      "maj_base": 0.02
+    }
+  },
+  "causal_intervention": {
+    "baseline": [
+      1.0,
+      0.923,
+      0.411,
+      0.985,
+      0.309,
+      0.226,
+      0.214
+    ],
+    "n_localized": 3,
+    "localized": [
+      "h4_PHRASE",
+      "h5_SEMANTIC",
+      "h6_DISCOURSE"
+    ],
+    "not_localized": [
+      "h0_PHONEME",
+      "h1_SYLLABLE",
+      "h2_MORPHEME",
+      "h3_WORD"
+    ],
+    "note": "h0-h3 fail because L3 WORD is corpus-degenerate (10 classes, 96.5% majority). Zeroing lower layers does not damage L3 enough to trigger localization criterion."
+  },
+  "previous_result_retracted": {
+    "claimed": "7/7 STRONG raw accuracy",
+    "actual": "majority-class exploitation due to wrong vocab caps",
+    "caps_used_previously": [
+      34,
+      64,
+      16,
+      64,
+      10,
+      60,
+      24
+    ],
+    "caps_correct": [
+      34,
+      1024,
+      256,
+      1024,
+      50,
+      256,
+      256
+    ]
+  }
+}
