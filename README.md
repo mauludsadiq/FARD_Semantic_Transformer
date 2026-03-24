@@ -41,17 +41,18 @@ Corpus: corpus_v8c_remapped.ndjson
 Vocab: [34,243,118,250,50,200,100] (exact corpus class counts)
 Generate with: python3 src/remap_corpus.py
 
+Weights: train/fard_trained_correct_vocab.json (FARD-trained, no PyTorch)
+Training: 20 epochs x 500 samples = 10,000 witnessed gradient steps, lr=0.0001
+
 | Layer     | MajBase | BalAcc | MacroF1 | Status   |
 |-----------|---------|--------|---------|----------|
 | PHONEME   | 0.119   | 1.000  | 1.000   | STRONG   |
-| SYLLABLE  | 0.011   | 0.963  | 0.951   | STRONG   |
-| MORPHEME  | 0.028   | 0.950  | 0.937   | STRONG   |
-| WORD      | 0.010   | 0.969  | 0.958   | STRONG   |
-| PHRASE    | 0.032   | 0.299  | 0.294   | LEARNING |
-| SEMANTIC  | 0.013   | 0.166  | 0.143   | LEARNING |
-| DISCOURSE | 0.020   | 0.268  | 0.254   | LEARNING |
-
-Note: L4 PHRASE reaches BalAcc=0.321 on independent CI set (STRONG threshold).
+| SYLLABLE  | 0.011   | 0.960  | 0.947   | STRONG   |
+| MORPHEME  | 0.028   | 0.926  | 0.908   | STRONG   |
+| WORD      | 0.010   | 0.952  | 0.940   | STRONG   |
+| PHRASE    | 0.032   | 0.291  | 0.286   | LEARNING |
+| SEMANTIC  | 0.013   | 0.153  | 0.131   | LEARNING |
+| DISCOURSE | 0.020   | 0.246  | 0.231   | LEARNING |
 
 ### Causal Intervention -- 7/7 LOCALIZED
 
