@@ -37,39 +37,40 @@ D=32, vocab=[34,256,256,256,50,256,256], 72,340 parameters.
 ### Linguistic Classifier -- Honest Evaluation
 
 Metric: balanced accuracy + macro-F1. Raw accuracy is misleading.
-Corpus: corpus_v8c_remapped.ndjson
-Vocab: [34,243,118,250,50,200,100] (exact corpus class counts)
-Generate with: python3 src/remap_corpus.py
+Corpus: corpus_sentences_remapped.ndjson (sentence-level, freq-remapped)
+Vocab: [34,243,118,250,50,200,100]
+Weights: train/sentences_weights.json (PyTorch baseline for FARD port)
 
-Weights: train/fard_trained_correct_vocab.json (FARD-trained, no PyTorch)
-Training: 20 epochs x 500 samples = 10,000 witnessed gradient steps, lr=0.0001
+Key finding: word-level corpus had no compositional signal for L4-L6.
+Phrase/semantic/discourse are sentence-level phenomena.
+Switching to sentence-level corpus fixed all three upper layers.
 
-| Layer     | MajBase | BalAcc | MacroF1 | Status   |
-|-----------|---------|--------|---------|----------|
-| PHONEME   | 0.119   | 1.000  | 1.000   | STRONG   |
-| SYLLABLE  | 0.011   | 0.960  | 0.947   | STRONG   |
-| MORPHEME  | 0.028   | 0.926  | 0.908   | STRONG   |
-| WORD      | 0.010   | 0.952  | 0.940   | STRONG   |
-| PHRASE    | 0.032   | 0.291  | 0.286   | LEARNING |
-| SEMANTIC  | 0.013   | 0.153  | 0.131   | LEARNING |
-| DISCOURSE | 0.020   | 0.246  | 0.231   | LEARNING |
+| Layer     | MajBase | BalAcc | MacroF1 | Status | CI BalAcc |
+|-----------|---------|--------|---------|--------|-----------|
+| PHONEME   | 0.126   | 1.000  | 1.000   | STRONG | 1.000     |
+| SYLLABLE  | 0.009   | 0.996  | 0.996   | STRONG | 0.998     |
+| MORPHEME  | 0.022   | 0.995  | 0.994   | STRONG | 0.994     |
+| WORD      | 0.008   | 0.997  | 0.997   | STRONG | 0.997     |
+| PHRASE    | 0.027   | 0.998  | 0.997   | STRONG | 0.998     |
+| SEMANTIC  | 0.010   | 0.954  | 0.951   | STRONG | 0.954     |
+| DISCOURSE | 0.016   | 0.970  | 0.969   | STRONG | 0.978     |
 
 ### Causal Intervention -- 7/7 LOCALIZED
 
 Criterion: zeroing h_k and recomputing downstream damages L_k..L_6
 (acc < 50% of baseline). L_0..L_{k-1} unaffected (within 0.05).
-Confirmed on both test (1000) and CI (1000) independent held-out sets.
+Confirmed on both test and CI independent held-out sets (1920 each).
 
 | Intervention | L0   | L1   | L2   | L3   | L4   | L5   | L6   | Result    |
 |--------------|------|------|------|------|------|------|------|-----------|
-| baseline     | 1.00 | 0.96 | 0.93 | 0.95 | 0.32 | 0.17 | 0.25 |           |
-| zero h_0     | 0.05 | 0.00 | 0.01 | 0.00 | 0.02 | 0.01 | 0.01 | LOCALIZED |
-| zero h_1     | 1.00 | 0.00 | 0.01 | 0.01 | 0.02 | 0.01 | 0.01 | LOCALIZED |
-| zero h_2     | 1.00 | 0.96 | 0.01 | 0.01 | 0.03 | 0.00 | 0.01 | LOCALIZED |
-| zero h_3     | 1.00 | 0.96 | 0.93 | 0.01 | 0.02 | 0.01 | 0.01 | LOCALIZED |
-| zero h_4     | 1.00 | 0.96 | 0.93 | 0.95 | 0.02 | 0.00 | 0.02 | LOCALIZED |
-| zero h_5     | 1.00 | 0.96 | 0.93 | 0.95 | 0.32 | 0.00 | 0.02 | LOCALIZED |
-| zero h_6     | 1.00 | 0.96 | 0.93 | 0.95 | 0.32 | 0.17 | 0.01 | LOCALIZED |
+| baseline     | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.96 | 0.98 |           |
+| zero h_0     | 0.10 | 0.01 | 0.01 | 0.01 | 0.02 | 0.00 | 0.01 | LOCALIZED |
+| zero h_1     | 1.00 | 0.01 | 0.01 | 0.00 | 0.02 | 0.01 | 0.01 | LOCALIZED |
+| zero h_2     | 1.00 | 1.00 | 0.02 | 0.01 | 0.03 | 0.00 | 0.01 | LOCALIZED |
+| zero h_3     | 1.00 | 1.00 | 1.00 | 0.00 | 0.02 | 0.01 | 0.01 | LOCALIZED |
+| zero h_4     | 1.00 | 1.00 | 1.00 | 1.00 | 0.02 | 0.00 | 0.01 | LOCALIZED |
+| zero h_5     | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.00 | 0.01 | LOCALIZED |
+| zero h_6     | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.96 | 0.01 | LOCALIZED |
 
 ### Operation Sequencer -- FARD-trained
 
