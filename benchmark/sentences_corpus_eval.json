@@ -1,0 +1,103 @@
+{
+  "model": "D=32 layerwise, corpus_sentences_remapped, curriculum 200ep",
+  "corpus": "corpus_sentences_remapped.ndjson (sentence-level, freq-remapped)",
+  "vocab": [
+    34,
+    243,
+    118,
+    250,
+    50,
+    200,
+    100
+  ],
+  "D": 32,
+  "training": "15360 samples, 200 epochs, 3-phase curriculum",
+  "test_eval": {
+    "PHONEME": {
+      "bal_acc": 1.0,
+      "f1": 1.0,
+      "status": "STRONG"
+    },
+    "SYLLABLE": {
+      "bal_acc": 0.996,
+      "f1": 0.996,
+      "status": "STRONG"
+    },
+    "MORPHEME": {
+      "bal_acc": 0.995,
+      "f1": 0.994,
+      "status": "STRONG"
+    },
+    "WORD": {
+      "bal_acc": 0.997,
+      "f1": 0.997,
+      "status": "STRONG"
+    },
+    "PHRASE": {
+      "bal_acc": 0.998,
+      "f1": 0.997,
+      "status": "STRONG"
+    },
+    "SEMANTIC": {
+      "bal_acc": 0.954,
+      "f1": 0.951,
+      "status": "STRONG"
+    },
+    "DISCOURSE": {
+      "bal_acc": 0.97,
+      "f1": 0.969,
+      "status": "STRONG"
+    }
+  },
+  "ci_eval": {
+    "PHONEME": {
+      "bal_acc": 1.0,
+      "f1": 1.0,
+      "status": "STRONG"
+    },
+    "SYLLABLE": {
+      "bal_acc": 0.998,
+      "f1": 0.997,
+      "status": "STRONG"
+    },
+    "MORPHEME": {
+      "bal_acc": 0.994,
+      "f1": 0.994,
+      "status": "STRONG"
+    },
+    "WORD": {
+      "bal_acc": 0.997,
+      "f1": 0.997,
+      "status": "STRONG"
+    },
+    "PHRASE": {
+      "bal_acc": 0.998,
+      "f1": 0.998,
+      "status": "STRONG"
+    },
+    "SEMANTIC": {
+      "bal_acc": 0.954,
+      "f1": 0.952,
+      "status": "STRONG"
+    },
+    "DISCOURSE": {
+      "bal_acc": 0.978,
+      "f1": 0.977,
+      "status": "STRONG"
+    }
+  },
+  "causal_intervention": {
+    "n_localized": 7,
+    "result": "7/7 LOCALIZED on both test and CI",
+    "ci_baseline": [
+      1.0,
+      0.997,
+      0.997,
+      0.997,
+      0.998,
+      0.958,
+      0.978
+    ]
+  },
+  "key_finding": "Word-level corpus had no compositional signal for L4-L6. Sentence-level corpus fixed all three layers. L4 jumped from 0.291 to 0.998."
+}
