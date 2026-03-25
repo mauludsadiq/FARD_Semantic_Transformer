@@ -55,11 +55,15 @@ Switching to sentence-level corpus fixed all three upper layers.
 | SEMANTIC  | 0.010   | 0.954  | 0.951   | STRONG | 0.954     |
 | DISCOURSE | 0.016   | 0.970  | 0.969   | STRONG | 0.978     |
 
-### Causal Intervention -- 7/7 LOCALIZED
+### Causal Intervention -- 7/7 LOCALIZED (FARD-native, SHA-256 witnessed)
+
+Program: programs/fard_transformer/causal_intervention_certified.fard
+Runs entirely in FARD. Every result cryptographically receipted.
+fard_run_digest: sha256:b5b7b5cb50a63f422979ff8735d7f815f220b64d982229c45806e0d96b0f6e40
 
 Criterion: zeroing h_k and recomputing downstream damages L_k..L_6
 (acc < 50% of baseline). L_0..L_{k-1} unaffected (within 0.05).
-Confirmed on both test and CI independent held-out sets (1920 each).
+100 held-out samples.
 
 | Intervention | L0   | L1   | L2   | L3   | L4   | L5   | L6   | Result    |
 |--------------|------|------|------|------|------|------|------|-----------|
