@@ -1,0 +1,107 @@
+{
+  "fard_run_digest": "sha256:b5b7b5cb50a63f422979ff8735d7f815f220b64d982229c45806e0d96b0f6e40",
+  "n_samples": 100,
+  "n_localized": 7,
+  "baseline": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.99,
+    0.97,
+    0.99
+  ],
+  "interventions": {
+    "zero_h0": {
+      "layer": "PHONEME",
+      "accs": [
+        0.11,
+        0.01,
+        0.02,
+        0.0,
+        0.0,
+        0.0,
+        0.03
+      ],
+      "localized": true
+    },
+    "zero_h1": {
+      "layer": "SYLLABLE",
+      "accs": [
+        1.0,
+        0.01,
+        0.0,
+        0.0,
+        0.04,
+        0.01,
+        0.0
+      ],
+      "localized": true
+    },
+    "zero_h2": {
+      "layer": "MORPHEME",
+      "accs": [
+        1.0,
+        1.0,
+        0.02,
+        0.0,
+        0.04,
+        0.0,
+        0.01
+      ],
+      "localized": true
+    },
+    "zero_h3": {
+      "layer": "WORD",
+      "accs": [
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.03,
+        0.02,
+        0.01
+      ],
+      "localized": true
+    },
+    "zero_h4": {
+      "layer": "PHRASE",
+      "accs": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.01,
+        0.0,
+        0.01
+      ],
+      "localized": true
+    },
+    "zero_h5": {
+      "layer": "SEMANTIC",
+      "accs": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.99,
+        0.0,
+        0.0
+      ],
+      "localized": true
+    },
+    "zero_h6": {
+      "layer": "DISCOURSE",
+      "accs": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.99,
+        0.97,
+        0.0
+      ],
+      "localized": true
+    }
+  }
+}
