@@ -39,21 +39,23 @@ D=32, vocab=[34,256,256,256,50,256,256], 72,340 parameters.
 Metric: balanced accuracy + macro-F1. Raw accuracy is misleading.
 Corpus: corpus_sentences_remapped.ndjson (sentence-level, freq-remapped)
 Vocab: [34,243,118,250,50,200,100]
-Weights: train/sentences_weights.json (PyTorch baseline for FARD port)
+Best model: train/normed_consistency_weights.json
+Architecture: D=32, LayerNorm on all hidden states, inter-layer consistency loss
 
-Key finding: word-level corpus had no compositional signal for L4-L6.
-Phrase/semantic/discourse are sentence-level phenomena.
-Switching to sentence-level corpus fixed all three upper layers.
+Phase 3 additions:
+- LayerNorm: fixes hidden state norm explosion (4 -> 336 without it)
+- Inter-layer consistency: auxiliary head on h_i predicts layer i+1 labels
+- Contrastive loss on L4-L6: supervised contrastive (ablation, marginal gain)
 
 | Layer     | MajBase | BalAcc | MacroF1 | Status | CI BalAcc |
 |-----------|---------|--------|---------|--------|-----------|
 | PHONEME   | 0.126   | 1.000  | 1.000   | STRONG | 1.000     |
-| SYLLABLE  | 0.009   | 0.996  | 0.996   | STRONG | 0.998     |
-| MORPHEME  | 0.022   | 0.995  | 0.994   | STRONG | 0.994     |
-| WORD      | 0.008   | 0.997  | 0.997   | STRONG | 0.997     |
-| PHRASE    | 0.027   | 0.998  | 0.997   | STRONG | 0.998     |
-| SEMANTIC  | 0.010   | 0.954  | 0.951   | STRONG | 0.954     |
-| DISCOURSE | 0.016   | 0.970  | 0.969   | STRONG | 0.978     |
+| SYLLABLE  | 0.009   | 0.998  | 0.998   | STRONG | 0.997     |
+| MORPHEME  | 0.022   | 0.996  | 0.996   | STRONG | 0.992     |
+| WORD      | 0.008   | 0.998  | 0.998   | STRONG | 0.994     |
+| PHRASE    | 0.027   | 0.960  | 0.959   | STRONG | 0.955     |
+| SEMANTIC  | 0.010   | 0.970  | 0.968   | STRONG | 0.976     |
+| DISCOURSE | 0.016   | 0.981  | 0.980   | STRONG | 0.986     |
 
 ### Causal Intervention -- 7/7 LOCALIZED (FARD-native, SHA-256 witnessed)
 
