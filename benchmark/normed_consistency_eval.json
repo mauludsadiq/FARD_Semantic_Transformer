@@ -1,0 +1,97 @@
+{
+  "model": "D=32, LayerNorm + inter-layer consistency loss",
+  "arch": "layernorm+inter_layer_consistency",
+  "vocab": [
+    34,
+    243,
+    118,
+    250,
+    50,
+    200,
+    100
+  ],
+  "D": 32,
+  "training": "15360 samples, 200 epochs, aux_weight=0.3",
+  "improvements": {
+    "layernorm": "fixes norm explosion (h grew from 4 to 336 without it)",
+    "inter_layer_consistency": "auxiliary head on h_i predicts layer i+1 labels, weight=0.3"
+  },
+  "test_eval": {
+    "PHONEME": {
+      "bal_acc": 1.0,
+      "f1": 1.0,
+      "status": "STRONG"
+    },
+    "SYLLABLE": {
+      "bal_acc": 0.998,
+      "f1": 0.998,
+      "status": "STRONG"
+    },
+    "MORPHEME": {
+      "bal_acc": 0.996,
+      "f1": 0.996,
+      "status": "STRONG"
+    },
+    "WORD": {
+      "bal_acc": 0.998,
+      "f1": 0.998,
+      "status": "STRONG"
+    },
+    "PHRASE": {
+      "bal_acc": 0.96,
+      "f1": 0.959,
+      "status": "STRONG"
+    },
+    "SEMANTIC": {
+      "bal_acc": 0.97,
+      "f1": 0.968,
+      "status": "STRONG"
+    },
+    "DISCOURSE": {
+      "bal_acc": 0.981,
+      "f1": 0.98,
+      "status": "STRONG"
+    }
+  },
+  "ci_eval": {
+    "PHONEME": {
+      "bal_acc": 1.0,
+      "f1": 1.0,
+      "status": "STRONG"
+    },
+    "SYLLABLE": {
+      "bal_acc": 0.997,
+      "f1": 0.997,
+      "status": "STRONG"
+    },
+    "MORPHEME": {
+      "bal_acc": 0.992,
+      "f1": 0.992,
+      "status": "STRONG"
+    },
+    "WORD": {
+      "bal_acc": 0.994,
+      "f1": 0.994,
+      "status": "STRONG"
+    },
+    "PHRASE": {
+      "bal_acc": 0.955,
+      "f1": 0.953,
+      "status": "STRONG"
+    },
+    "SEMANTIC": {
+      "bal_acc": 0.976,
+      "f1": 0.975,
+      "status": "STRONG"
+    },
+    "DISCOURSE": {
+      "bal_acc": 0.986,
+      "f1": 0.986,
+      "status": "STRONG"
+    }
+  },
+  "causal_intervention": {
+    "n_localized": 7,
+    "result": "7/7 LOCALIZED on both test and CI"
+  }
+}
