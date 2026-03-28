@@ -16,14 +16,20 @@ D=32, vocab=[34,256,256,256,50,256,256], 72,340 parameters.
 
 ## Training
 
-### Linguistic Classifier -- FARD-trained
+### Linguistic Classifier -- FARD-trained (current)
 
-- Corpus: corpus_v8c_remapped.ndjson (frequency-remapped class IDs)
-- 20 epochs x 500 samples = 10,000 gradient steps
+- Corpus: corpus_sentences_remapped.ndjson (sentence-level, freq-remapped)
+- 20 epochs x 500 samples = 10,000 gradient steps, lr=0.0001
 - Every epoch SHA-256 witnessed by FARD runtime
 - No PyTorch anywhere in the training path
-- Loss: 26.16 -> 1.93 (-93%)
-- Weights: train/fard_trained_remapped.json
+- Loss: 38.11 -> 0.28 (-99%)
+- Weights: train/fard_trained_sentences.json
+
+### Linguistic Classifier -- PyTorch baseline (best accuracy)
+
+- Corpus: corpus_sentences_remapped.ndjson
+- 200 epochs x 15360 samples, LayerNorm + inter-layer consistency
+- Weights: train/normed_consistency_weights.json
 
 ### Operation Sequencer -- FARD-trained
 
