@@ -1,0 +1,112 @@
+{
+  "model": "tapered tower DIMS=[32,32,32,32,64,64,64]",
+  "arch": "tapered+layernorm+inter_layer_consistency",
+  "vocab": [
+    34,
+    243,
+    118,
+    250,
+    50,
+    200,
+    100
+  ],
+  "DIMS": [
+    32,
+    32,
+    32,
+    32,
+    64,
+    64,
+    64
+  ],
+  "params": 142212,
+  "training": "15360 samples, 200 epochs, aux_weight=0.3",
+  "key_finding": "Isolated capacity increase at L4-L6 (D 32->64) confirmed diagonal Jacobian. L0-L3 unaffected. L4-L6 reached STRONG.",
+  "test_eval": {
+    "PHONEME": {
+      "bal_acc": 1.0,
+      "f1": 1.0,
+      "status": "STRONG"
+    },
+    "SYLLABLE": {
+      "bal_acc": 0.997,
+      "f1": 0.997,
+      "status": "STRONG"
+    },
+    "MORPHEME": {
+      "bal_acc": 0.995,
+      "f1": 0.994,
+      "status": "STRONG"
+    },
+    "WORD": {
+      "bal_acc": 0.998,
+      "f1": 0.998,
+      "status": "STRONG"
+    },
+    "PHRASE": {
+      "bal_acc": 0.958,
+      "f1": 0.955,
+      "status": "STRONG"
+    },
+    "SEMANTIC": {
+      "bal_acc": 0.969,
+      "f1": 0.967,
+      "status": "STRONG"
+    },
+    "DISCOURSE": {
+      "bal_acc": 0.977,
+      "f1": 0.976,
+      "status": "STRONG"
+    }
+  },
+  "ci_eval": {
+    "PHONEME": {
+      "bal_acc": 1.0,
+      "f1": 1.0,
+      "status": "STRONG"
+    },
+    "SYLLABLE": {
+      "bal_acc": 0.996,
+      "f1": 0.996,
+      "status": "STRONG"
+    },
+    "MORPHEME": {
+      "bal_acc": 0.991,
+      "f1": 0.991,
+      "status": "STRONG"
+    },
+    "WORD": {
+      "bal_acc": 0.995,
+      "f1": 0.995,
+      "status": "STRONG"
+    },
+    "PHRASE": {
+      "bal_acc": 0.959,
+      "f1": 0.958,
+      "status": "STRONG"
+    },
+    "SEMANTIC": {
+      "bal_acc": 0.972,
+      "f1": 0.969,
+      "status": "STRONG"
+    },
+    "DISCOURSE": {
+      "bal_acc": 0.978,
+      "f1": 0.978,
+      "status": "STRONG"
+    }
+  },
+  "causal_intervention": {
+    "n_localized": 7,
+    "result": "7/7 LOCALIZED on both test and CI",
+    "ci_baseline": [
+      1.0,
+      0.996,
+      0.996,
+      0.995,
+      0.959,
+      0.974,
+      0.98
+    ]
+  }
+}
