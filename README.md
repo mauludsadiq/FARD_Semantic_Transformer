@@ -6,13 +6,35 @@ SHA-256 receipt. The computation chain is auditable and reproducible.
 
 ## Architecture
 
-7-layer residual MLP: Phoneme -> Syllable -> Morpheme -> Word -> Phrase -> Semantic -> Discourse
+### Current: Scope-Separated Tower (best model)
+
+Weights: train/tower_upper_weights.json
+
+Explicit token/sentence scope boundary:
+
+    # Token scope (L0-L3): D=32, LayerNorm
+    h_0 = LayerNorm(inp(x))
+    h_{i+1} = LayerNorm(h_i + MLP_i(h_i))    # i in 0..2
+    pred_i = head_i(h_i)                       # word-level
+
+    # Scope boundary: attention pooling
+    alpha_i = softmax(a^T h_3^{(i)})
+    u = sum_i alpha_i * h_3^{(i)}             # sentence vector
+
+    # Sentence scope (L4-L6): D=64
+    z_0 = LayerNorm(proj(u))
+    z_{j+1} = LayerNorm(z_j + MLP_j(z_j))    # j in 0..1
+    pred_{4+j} = head_j(z_j)                   # sentence-level
+
+96,622 parameters. L4-L6 labels are sentence-global, not token-local.
+
+### Previous: Uniform Residual Tower
 
     h_0 = inp(x)
-    h_{i+1} = h_i + MLP_i(h_i)      # residual transition
-    pred_i = head_i(h_i)             # per-layer classification
+    h_{i+1} = h_i + MLP_i(h_i)
+    pred_i = head_i(h_i)
 
-D=32, vocab=[34,256,256,256,50,256,256], 72,340 parameters.
+D=32/64 tapered, vocab=[34,243,118,250,50,200,100]
 
 ## Training
 
