@@ -6,27 +6,45 @@ SHA-256 receipt. The computation chain is auditable and reproducible.
 
 ## Architecture
 
-### Current: Scope-Separated Tower (best model)
+### Current: Contextual Tower (best model)
 
-Weights: train/tower_upper_weights.json
+Weights: train/contextual_tower_weights.json
 
-Explicit token/sentence scope boundary:
+Principled ambiguity in upper layers via explicit context variable:
 
-    # Token scope (L0-L3): D=32, LayerNorm
+    # Token scope (L0-L3): D=32, LayerNorm — deterministic
     h_0 = LayerNorm(inp(x))
     h_{i+1} = LayerNorm(h_i + MLP_i(h_i))    # i in 0..2
     pred_i = head_i(h_i)                       # word-level
 
     # Scope boundary: attention pooling
-    alpha_i = softmax(a^T h_3^{(i)})
-    u = sum_i alpha_i * h_3^{(i)}             # sentence vector
+    u = sum_i softmax(a^T h_3^{(i)}) * h_3^{(i)}
 
-    # Sentence scope (L4-L6): D=64
-    z_0 = LayerNorm(proj(u))
-    z_{j+1} = LayerNorm(z_j + MLP_j(z_j))    # j in 0..1
-    pred_{4+j} = head_j(z_j)                   # sentence-level
+    # Context injection
+    uc = [u ; emb(C)]                          # C in 6 named contexts
 
-96,622 parameters. L4-L6 labels are sentence-global, not token-local.
+    # Sentence scope (L4-L6): D=64, context-conditioned
+    z_0 = LayerNorm(proj(uc))
+    z_{j+1} = LayerNorm(z_j + MLP_j(z_j))
+    pred_{4+j} = head_j(z_j)
+
+101,902 parameters.
+
+Context space: neutral, eventive, locative, descriptive, classificatory, embedded
+
+Ambiguity structure:
+  L0-L3: deterministic (token-level, H(L_i|X) = 0)
+  L4:    deterministic given sentence (H(L4|X) = 0)
+  L5/L6: context-conditioned (H(L6|X,C) = 0, H(L6|X) > 0)
+
+  30% sentences: single context (deterministic upper labels)
+  42% sentences: two contexts (principled L5/L6 ambiguity)
+  28% sentences: three contexts
+  H(L6|X) mean = 0.352
+
+### Previous: Scope-Separated Tower
+
+Weights: train/tower_upper_weights.json — 7/7 STRONG 1.000, 96,622 params
 
 ### Previous: Uniform Residual Tower
 
