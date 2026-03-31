@@ -103,15 +103,33 @@ Phase 3 additions:
 | SEMANTIC  | 0.010   | 0.970  | 0.968   | STRONG | 0.976     |
 | DISCOURSE | 0.016   | 0.981  | 0.980   | STRONG | 0.986     |
 
-### Causal Intervention -- 7/7 LOCALIZED (FARD-native, SHA-256 witnessed)
+### Causal Intervention -- Contextual Tower Causal Certification
+
+Four claims certified on 240 held-out sentences:
+
+**A. Token locality (4/4 LOCALIZED)**
+zero h_k damages token layers k..3 and upper cascade.
+Upstream token layers unaffected (within 0.05).
+
+**B. Scope separation (3/3 LOCALIZED)**
+zero z_k damages sentence layers k..2.
+Token layers completely stable (1.000) -- scope boundary holds.
+
+**C. Context isolation (CERTIFIED)**
+Zeroing context embedding: L5 1.000→0.546, L6 0.746→0.346.
+Token layers unchanged. Ambiguity lives in the context channel.
+
+**D. Ambiguity control (20/37 sentences context-sensitive)**
+Same X, different C → different L6 predictions.
+Context causally controls the discourse layer.
+
+Receipt: benchmark/contextual_tower_causal_cert.json
+
+### Prior FARD-native CI Proof (older model)
 
 Program: programs/fard_transformer/causal_intervention_certified.fard
-Runs entirely in FARD. Every result cryptographically receipted.
 fard_run_digest: sha256:b5b7b5cb50a63f422979ff8735d7f815f220b64d982229c45806e0d96b0f6e40
-
-Criterion: zeroing h_k and recomputing downstream damages L_k..L_6
-(acc < 50% of baseline). L_0..L_{k-1} unaffected (within 0.05).
-100 held-out samples.
+7/7 LOCALIZED on 100 held-out samples.
 
 | Intervention | L0   | L1   | L2   | L3   | L4   | L5   | L6   | Result    |
 |--------------|------|------|------|------|------|------|------|-----------|
