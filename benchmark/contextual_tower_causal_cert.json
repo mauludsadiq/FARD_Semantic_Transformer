@@ -1,0 +1,146 @@
+{
+  "model": "contextual_tower_weights.json",
+  "certification": "Contextual Tower Causal Certification",
+  "n_ci_sentences": 240,
+  "A_token_locality": {
+    "claim": "zero h_k damages token layers k..3 and upper cascade, upstream unaffected",
+    "result": "4/4 LOCALIZED",
+    "baseline_token": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "baseline_upper": [
+      0.992,
+      1.0,
+      0.746
+    ],
+    "interventions": {
+      "zero_h0": {
+        "token": [
+          0.056,
+          0.003,
+          0.012,
+          0.004
+        ],
+        "upper": [
+          0.146,
+          0.15,
+          0.196
+        ],
+        "localized": true
+      },
+      "zero_h1": {
+        "token": [
+          1.0,
+          0.004,
+          0.016,
+          0.004
+        ],
+        "upper": [
+          0.15,
+          0.017,
+          0.229
+        ],
+        "localized": true
+      },
+      "zero_h2": {
+        "token": [
+          1.0,
+          1.0,
+          0.019,
+          0.004
+        ],
+        "upper": [
+          0.15,
+          0.042,
+          0.167
+        ],
+        "localized": true
+      },
+      "zero_h3": {
+        "token": [
+          1.0,
+          1.0,
+          1.0,
+          0.004
+        ],
+        "upper": [
+          0.183,
+          0.175,
+          0.229
+        ],
+        "localized": true
+      }
+    }
+  },
+  "B_scope_separation": {
+    "claim": "zero z_k damages sentence layers k..2, token layers unaffected",
+    "result": "3/3 LOCALIZED",
+    "interventions": {
+      "zero_z0": {
+        "token": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "upper": [
+          0.15,
+          0.113,
+          0.196
+        ],
+        "localized": true
+      },
+      "zero_z1": {
+        "token": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "upper": [
+          0.992,
+          0.15,
+          0.229
+        ],
+        "localized": true
+      },
+      "zero_z2": {
+        "token": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "upper": [
+          0.992,
+          1.0,
+          0.229
+        ],
+        "localized": true
+      }
+    }
+  },
+  "C_context_isolation": {
+    "claim": "zeroing context embedding shifts L5/L6 while leaving token layers stable",
+    "token_stable": true,
+    "L5_shift": {
+      "before": 1.0,
+      "after": 0.546,
+      "shifts": true
+    },
+    "L6_shift": {
+      "before": 0.746,
+      "after": 0.346,
+      "shifts": true
+    }
+  },
+  "D_ambiguity_control": {
+    "claim": "same X different C produces different L6 predictions",
+    "result": "20/37 sentences context-sensitive",
+    "interpretation": "context channel causally controls upper output"
+  },
+  "verdict": "CERTIFIED \u2014 all four causal claims hold"
+}
