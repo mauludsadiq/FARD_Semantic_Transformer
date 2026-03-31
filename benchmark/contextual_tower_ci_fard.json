@@ -1,0 +1,67 @@
+{
+  "model": "contextual_tower_weights.json",
+  "program": "programs/fard_transformer/causal_intervention_contextual.fard",
+  "note": "Forward passes precomputed in Python/numpy; comparison arithmetic witnessed in FARD",
+  "n_samples": 50,
+  "baseline": {
+    "L4": 1.0,
+    "L5": 1.0,
+    "L6": 0.72
+  },
+  "A_token_locality": {
+    "result": "PASS -- token_loc_pass=1",
+    "interventions": {
+      "zero_token_0": {
+        "L4": 0.18,
+        "L5": 0.18,
+        "L6": 0.26
+      },
+      "zero_token_1": {
+        "L4": 0.16,
+        "L5": 0.02,
+        "L6": 0.22
+      },
+      "zero_token_2": {
+        "L4": 0.16,
+        "L5": 0.02,
+        "L6": 0.12
+      },
+      "zero_token_3": {
+        "L4": 0.2,
+        "L5": 0.12,
+        "L6": 0.22
+      }
+    }
+  },
+  "B_scope_separation": {
+    "result": "PASS -- sent_loc_pass=1",
+    "interventions": {
+      "zero_sent_0": {
+        "L4": 0.16,
+        "L5": 0.08,
+        "L6": 0.26
+      },
+      "zero_sent_1": {
+        "L4": 1.0,
+        "L5": 0.18,
+        "L6": 0.22
+      },
+      "zero_sent_2": {
+        "L4": 1.0,
+        "L5": 1.0,
+        "L6": 0.22
+      }
+    }
+  },
+  "C_context_isolation": {
+    "result": "PASS",
+    "ctx_L5_shifts": 1,
+    "ctx_L6_shifts": 1,
+    "zero_ctx": {
+      "L4": 0.34,
+      "L5": 0.62,
+      "L6": 0.38
+    }
+  },
+  "verdict": "ALL CLAIMS CERTIFIED -- FARD-native arithmetic, SHA-256 witnessed"
+}
