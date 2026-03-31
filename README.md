@@ -202,7 +202,6 @@ fails to propagate the intervention through the residual chain.
 ### Open
 - Port contextual tower to FARD training (witnessed receipts for current best model)
 - Extend op-sequencer bridge to multi-step execution traces
-- FARD-native intervention proof for contextual tower (current CI proof is PyTorch)
 - Richer discourse predicates beyond skeleton-derived bits
 - Sequence-conditioned discourse state across sentences (inter-sentence context)
 
