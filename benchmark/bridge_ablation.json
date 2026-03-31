@@ -1,0 +1,16 @@
+{
+  "A_structural": {
+    "op": 0.8918682336807251,
+    "tgt": 1.0
+  },
+  "B_tower_only": {
+    "op": 1.0,
+    "tgt": 1.0
+  },
+  "C_bridged": {
+    "op": 1.0,
+    "tgt": 1.0
+  },
+  "tower_contribution_op": 0.1081317663192749,
+  "tower_contribution_tgt": 0.0
+}
