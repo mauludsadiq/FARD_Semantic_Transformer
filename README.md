@@ -192,9 +192,19 @@ fails to propagate the intervention through the residual chain.
 
 ## What Remains
 
-- L4 PHRASE / L5 SEMANTIC / L6 DISCOURSE are LEARNING not STRONG
-- Causal intervention proof runs in Python/numpy, not FARD
-- Corpus has only 250 unique words -- limited lexical diversity
+### Completed
+- L0-L3: 1.000 STRONG (token-level, deterministic)
+- L4/L5/L6: STRONG under sentence-level supervision
+- Causal intervention: FARD-native with SHA-256 receipts
+- Contextual tower: 4-claim causal certification
+- Phase 5 bridge: tower states proven to control execution policy
+
+### Open
+- Port contextual tower to FARD training (witnessed receipts for current best model)
+- Extend op-sequencer bridge to multi-step execution traces
+- FARD-native intervention proof for contextual tower (current CI proof is PyTorch)
+- Richer discourse predicates beyond skeleton-derived bits
+- Sequence-conditioned discourse state across sentences (inter-sentence context)
 
 ## Repository Structure
 
