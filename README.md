@@ -149,6 +149,28 @@ fard_run_digest: sha256:b5b7b5cb50a63f422979ff8735d7f815f220b64d982229c45806e0d9
 | Op prediction  | 0.993    | 0.125  | STRONG |
 | Tgt prediction | 1.000    | 0.125  | STRONG |
 
+## Phase 5 — Tower-to-Sequencer Bridge
+
+Tower hidden states export executable control information.
+
+**Dataset:** data/op_seq_semantic.json (4752 instances)
+Op labels depend on L4/L5/L6/context at blocks 4-8.
+H(op|struct) = 0.78-1.37 at semantic blocks — not recoverable from structure alone.
+
+**Three-way ablation:**
+
+| Model | Op Acc | Semantic blocks 4-8 |
+|-------|--------|---------------------|
+| A: structural only (25-dim) | 0.892 | 0.65-0.89 — fails |
+| B: tower only (32-dim) | 1.000 | 1.000 — resolves |
+| C: bridged (57-dim) | 1.000 | 1.000 — perfect |
+
+Tower contribution: op=+0.108
+
+**Conclusion:** Upper-layer semantic/discourse state (L4/L5/L6 + context)
+causally determines execution policy where structural scaffold is insufficient.
+The tower is not just a classifier — it exports actionable control state.
+
 ## Tower
 
 Both models run in tower_v8.fard (FARD_v0.5/programs/semantic_transformer/).
