@@ -199,11 +199,21 @@ fails to propagate the intervention through the residual chain.
 - Contextual tower: 4-claim causal certification
 - Phase 5 bridge: tower states proven to control execution policy
 
+### Completed
+- L0-L3: 1.000 STRONG (token-level, deterministic)
+- L4/L5/L6: STRONG under sentence-level supervision
+- Causal intervention: FARD-native with SHA-256 receipts
+- Contextual tower: 4-claim causal certification
+- Phase 5 bridge: tower states proven to control execution policy
+- FARD training of contextual tower: 20 epochs, all SHA-256 witnessed
+  - Correct attention pooling gradients (softmax jacobian path)
+  - FARD strict shape enforcement caught incorrect gradient wiring
+
 ### Open
-- Port contextual tower to FARD training (witnessed receipts for current best model)
 - Extend op-sequencer bridge to multi-step execution traces
 - Richer discourse predicates beyond skeleton-derived bits
-- Sequence-conditioned discourse state across sentences (inter-sentence context)
+- Sequence-conditioned discourse state across sentences
+- Full tower FARD training (lower token tower + higher lr)
 
 ## Repository Structure
 
