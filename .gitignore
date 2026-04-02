@@ -4,3 +4,6 @@ train/checkpoint_ep*.onnx
 train/model_v8_best.pt
 corpus/corpus_v8c.ndjson
 corpus/corpus_v8c_remapped.ndjson
+train/ud_scaled_weights.json
+train/ud_lm_weights.json
+train/ud_transformer_weights.json
