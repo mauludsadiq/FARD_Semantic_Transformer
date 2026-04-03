@@ -209,11 +209,34 @@ fails to propagate the intervention through the residual chain.
   - Correct attention pooling gradients (softmax jacobian path)
   - FARD strict shape enforcement caught incorrect gradient wiring
 
+### Generative Phase (current)
+
+The project has pivoted from classifier/analyzer to generator.
+
+**Generation Pass 1: MiniGPT** (train/mini_gpt.pt)
+- 6.27M params, D=256, 6 layers, 8 heads
+- Primary: next-word prediction (autoregressive)
+- Auxiliary: UPOS prediction
+- Vocabulary: ~8K word forms from UD English EWT
+- ep=5 perplexity: 181 (real sentence structure emerging)
+
+**Generation Pass 2: HierarchicalGPT** (in progress)
+- Same architecture + full hierarchy supervision
+- Token-level: UPOS + XPOS + morphology heads
+- Sentence-level: L4 (phrase) + L5 (semantic) + L6 (discourse) heads
+- Tests whether explicit hierarchy improves generation over flat LM
+
+### Completed (classifier/analyzer phase)
+- Contextual tower: 7/7 STRONG, 4-claim causal certification
+- UD English corpus: 9497 sentences, gold UD annotations
+- FARD training: 20 epochs witnessed, correct attention pooling gradients
+- Phase 5 bridge: tower states proven to control execution policy
+
 ### Open
-- Extend op-sequencer bridge to multi-step execution traces
-- Richer discourse predicates beyond skeleton-derived bits
-- Sequence-conditioned discourse state across sentences
-- Full tower FARD training (lower token tower + higher lr)
+- Compare Pass 1 vs Pass 2 perplexity
+- Add subword tokenization (BPE) for better vocabulary coverage
+- Scale to larger text corpus (10M+ tokens)
+- FARD-witnessed generative path
 
 ## Repository Structure
 
