@@ -212,19 +212,44 @@ fails to propagate the intervention through the residual chain.
 ### Generative Phase (current)
 
 The project has pivoted from classifier/analyzer to generator.
+Goal: follow the transformer trajectory toward structured generation.
 
-**Generation Pass 1: MiniGPT** (train/mini_gpt.pt)
-- 6.27M params, D=256, 6 layers, 8 heads
-- Primary: next-word prediction (autoregressive)
-- Auxiliary: UPOS prediction
-- Vocabulary: ~8K word forms from UD English EWT
-- ep=5 perplexity: 181 (real sentence structure emerging)
+**Generation Pass 1: MiniGPT**
+- 6.27M params, D=256, 6 layers, 8 heads, vocab=5913 word forms
+- Objective: next-word prediction + UPOS auxiliary
+- Best ppl: 158 (ep=20)
+- Samples: "this place is the best", "i hope you have a great time"
+- Issue: flat factorization -- structure and lexicon conflated
 
-**Generation Pass 2: HierarchicalGPT** (in progress)
-- Same architecture + full hierarchy supervision
-- Token-level: UPOS + XPOS + morphology heads
-- Sentence-level: L4 (phrase) + L5 (semantic) + L6 (discourse) heads
-- Tests whether explicit hierarchy improves generation over flat LM
+**Generation Pass 2: HierarchicalGPT**
+- 6.06M params, lemma vocabulary (4964 tokens)
+- Added: UPOS + XPOS + MORPH + L4 + L5 + L6 auxiliary heads
+- Best ppl: 153 (ep=30) -- marginal improvement from hierarchy
+- Issue: lemma generation loses morphological inflection ("she be")
+
+**Generation Pass 4: FactoredGPT** (current best)
+- 6.38M params, word form vocabulary
+- Explicit structural factorization:
+  P(w_t|w_{<t}) = P(w_t|L_t,h_t) * P(L_t|h_t)
+  h_t = transformer(w_{<t})
+  L_t = structure_heads(h_t)    [UPOS+XPOS+MORPH]
+  h_cond = [h_t, embed(L_t)]
+  w_t ~ lm_head(h_cond)
+- Best ppl: 177 -- higher than flat, but qualitatively better
+- Key finding: factoring through structure improves grammaticality
+  even at higher perplexity. Ppl and quality decouple under
+  explicit structural factorization.
+- Best samples:
+    'i will not go there again'
+    'if you have any questions we can do it'
+    'i need to go to this place again'
+    'the one is always excellent'
+
+**Open -- next steps**
+- Scheduled sampling: close training/inference mismatch
+- Scale corpus beyond UD EWT (~200K tokens)
+- BPE or morpheme-aware subword tokenization
+- FARD-witnessed generative path
 
 ### Completed (classifier/analyzer phase)
 - Contextual tower: 7/7 STRONG, 4-claim causal certification
