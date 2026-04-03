@@ -10,3 +10,8 @@ train/ud_transformer_weights.json
 train/mini_gpt.pt
 train/hierarchical_gpt.pt
 train/hierarchical_gpt.pt
+train/factored_gpt.pt
+train/factored_gpt_best.pt
+train/morph_gpt.pt
+train/realized_gpt.pt
+train/realized_gpt_best.pt
