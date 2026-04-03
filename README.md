@@ -245,11 +245,38 @@ Goal: follow the transformer trajectory toward structured generation.
     'i need to go to this place again'
     'the one is always excellent'
 
+**Generation Pass 5: FactoredGPT v2** (morpheme-aware)
+- Lemma vocab (6942) + suffix vocab (178) -- two-stream input
+- Morpheme-aware: form = lemma + suffix pattern
+- Scheduled sampling: gold_prob anneals 1.0 -> 0.3 over 60 epochs
+- Failure mode shifted from UNK-collapse to compositional overgeneration
+  ('goodbest', 'beare') -- model now operates in morphological space
+  but lacks legality constraints
+
+**Morphological Realization Algebra** (corpus/realization_map_v3.json)
+- R(lemma, class) -> surface form
+- 32 linguistically typed realization classes:
+    IDENTITY, ADD_S/ES/ED/ING, DROP_E_ING/ED, DOUBLE_ING/ED
+    Y_TO_IES_NOUN/VERB, PAST_STRONG/PART, PRES_3SG
+    BE_PRES_1SG/3SG/PL, BE_PAST_SG/PL, COMPARATIVE, SUPERLATIVE
+    PRON_OBJ, IRREGULAR, ...
+- 18,406 (lemma, class) pairs from UD corpus
+- Productive fallback rules for unseen lemmas
+- Validation 8/8: R(go,PAST_STRONG)=went, R(be,BE_PRES_3SG)=is, etc.
+- Replaces free suffix concatenation with lawful realization
+
+**Generation Pass 6: RealizedGPT** (in progress)
+- Generates (lemma, realization_class) pairs
+- Surface form via R(lemma, class) -- no free concatenation
+- P(lemma|h) * P(class|h,lemma) -> R(lemma,class) = form
+- UPOS-conditioned via FiLM: h' = gamma(UPOS)*h + beta(UPOS)
+- Class prediction conditioned on lemma embedding
+
 **Open -- next steps**
-- Scheduled sampling: close training/inference mismatch
+- Evaluate RealizedGPT: does R eliminate malformed outputs?
 - Scale corpus beyond UD EWT (~200K tokens)
-- BPE or morpheme-aware subword tokenization
 - FARD-witnessed generative path
+- Cross-sentence discourse state
 
 ### Completed (classifier/analyzer phase)
 - Contextual tower: 7/7 STRONG, 4-claim causal certification
