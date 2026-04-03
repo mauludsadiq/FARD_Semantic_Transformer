@@ -7,3 +7,5 @@ corpus/corpus_v8c_remapped.ndjson
 train/ud_scaled_weights.json
 train/ud_lm_weights.json
 train/ud_transformer_weights.json
+train/mini_gpt.pt
+train/hierarchical_gpt.pt
