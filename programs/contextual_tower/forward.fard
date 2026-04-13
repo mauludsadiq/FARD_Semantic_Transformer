@@ -1,0 +1,183 @@
+import("std/io") as io
+import("std/json") as json
+import("std/list") as list
+import("std/math") as math
+import("std/rec") as rec
+
+// ── Primitives ────────────────────────────────────────────────────────────
+
+fn vec_add(a, b) {
+  list.map(list.range(0, list.len(a)), fn(i) {
+    list.get(a, i) + list.get(b, i)
+  })
+}
+
+fn vec_scale(v, s) { list.map(v, fn(x) { x * s }) }
+
+fn dot(a, b) {
+  list.fold(list.range(0, list.len(a)), 0.0, fn(acc, i) {
+    acc + list.get(a, i) * list.get(b, i)
+  })
+}
+
+// mat: List(List(Float)), x: List(Float) -> List(Float)
+fn matvec(mat, x) {
+  list.map(mat, fn(row) { dot(row, x) })
+}
+
+fn relu(v) { list.map(v, fn(x) { if x > 0.0 then x else 0.0 }) }
+
+fn softmax(v) {
+  let mx = list.fold(v, list.get(v, 0), fn(a, x) { if x > a then x else a }) in
+  let exps = list.map(v, fn(x) { math.exp(x - mx) }) in
+  let s = list.fold(exps, 0.0, fn(a, x) { a + x }) in
+  list.map(exps, fn(x) { x / s })
+}
+
+fn argmax(v) {
+  list.fold(list.range(1, list.len(v)), 0, fn(best, i) {
+    if list.get(v, i) > list.get(v, best) then i else best
+  })
+}
+
+// LayerNorm: (x - mean) / sqrt(var + eps) * w + b
+fn layer_norm(x, w, b) {
+  let n = list.len(x) in
+  let mean = list.fold(x, 0.0, fn(a, v) { a + v }) / (n * 1.0) in
+  let var = list.fold(x, 0.0, fn(a, v) {
+    let d = v - mean in a + d * d
+  }) / (n * 1.0) in
+  let eps = 0.00001 in
+  let std = math.sqrt(var + eps) in
+  list.map(list.range(0, n), fn(i) {
+    (list.get(x, i) - mean) / std * list.get(w, i) + list.get(b, i)
+  })
+}
+
+// MLP block: x -> relu(W1 x + b1) -> W2 x + b2, residual
+fn mlp_block(x, w1, b1, w2, b2, norm_w, norm_b) {
+  let h = relu(vec_add(matvec(w1, x), b1)) in
+  let out = vec_add(matvec(w2, h), b2) in
+  let res = vec_add(x, out) in
+  layer_norm(res, norm_w, norm_b)
+}
+
+// ── Load weights ─────────────────────────────────────────────────────────
+
+let wj = io.read_file("train/contextual_tower_weights.json")
+let w = json.decode(wj.ok)
+
+fn get_vec(key) { rec.get(w, key) }
+fn get_mat(key) { rec.get(w, key) }
+
+// ── Forward pass ─────────────────────────────────────────────────────────
+
+fn token_forward(x) {
+  // Input projection: [67] -> [32]
+  let h0 = layer_norm(
+    vec_add(matvec(get_mat("iW"), x), get_vec("ib")),
+    get_vec("lnorm0_w"), get_vec("lnorm0_b")
+  ) in
+
+  // Token MLP blocks (3 layers)
+  let h1 = mlp_block(h0,
+    get_mat("lt0W1"), get_vec("lt0b1"),
+    get_mat("lt0W2"), get_vec("lt0b2"),
+    get_vec("lnorm1_w"), get_vec("lnorm1_b")) in
+
+  let h2 = mlp_block(h1,
+    get_mat("lt1W1"), get_vec("lt1b1"),
+    get_mat("lt1W2"), get_vec("lt1b2"),
+    get_vec("lnorm2_w"), get_vec("lnorm2_b")) in
+
+  let h3 = mlp_block(h2,
+    get_mat("lt2W1"), get_vec("lt2b1"),
+    get_mat("lt2W2"), get_vec("lt2b2"),
+    get_vec("lnorm3_w"), get_vec("lnorm3_b")) in
+
+  // Token heads L0-L3
+  let pred0 = argmax(vec_add(matvec(get_mat("lh0W"), h0), get_vec("lh0b"))) in
+  let pred1 = argmax(vec_add(matvec(get_mat("lh1W"), h1), get_vec("lh1b"))) in
+  let pred2 = argmax(vec_add(matvec(get_mat("lh2W"), h2), get_vec("lh2b"))) in
+  let pred3 = argmax(vec_add(matvec(get_mat("lh3W"), h3), get_vec("lh3b"))) in
+
+  { "h3": h3, "preds_lower": [pred0, pred1, pred2, pred3] }
+}
+
+fn sentence_forward(tokens, ctx_id) {
+  // Attention pooling over token hidden states h3
+  // attn_w: [1 x 32], produces scalar score per token
+  let attn_w_row = list.get(get_mat("attn_w"), 0) in
+  let attn_b_val = list.get(get_vec("attn_b"), 0) in
+
+  let scores = list.map(tokens, fn(h) {
+    dot(attn_w_row, h) + attn_b_val
+  }) in
+  let attn = softmax(scores) in
+
+  // Weighted sum: u = sum_i attn_i * h3_i  [32]
+  let d = list.len(list.get(tokens, 0)) in
+  let u = list.fold(list.range(0, list.len(tokens)), 
+    list.map(list.range(0, d), fn(_) { 0.0 }),
+    fn(acc, i) {
+      let a = list.get(attn, i) in
+      let h = list.get(tokens, i) in
+      vec_add(acc, vec_scale(h, a))
+    }) in
+
+  // Pool projection: [32] -> [64]
+  let u64 = vec_add(matvec(get_mat("pool_proj_W"), u), get_vec("pool_proj_b")) in
+
+  // Context embedding: ctx_emb [6 x 16], pick row ctx_id
+  let ctx_vec = list.get(get_mat("ctx_emb"), ctx_id) in
+
+  // Concatenate u64 [64] + ctx_vec [16] = [80]
+  let uc = list.concat([u64, ctx_vec]) in
+
+  // Upper input projection: [80] -> [64]
+  let z0 = layer_norm(
+    vec_add(matvec(get_mat("up_inp_W"), uc), get_vec("up_inp_b")),
+    get_vec("unorm0_w"), get_vec("unorm0_b")
+  ) in
+
+  // Sentence MLP blocks (2 layers)
+  let z1 = mlp_block(z0,
+    get_mat("ut0W1"), get_vec("ut0b1"),
+    get_mat("ut0W2"), get_vec("ut0b2"),
+    get_vec("unorm1_w"), get_vec("unorm1_b")) in
+
+  let z2 = mlp_block(z1,
+    get_mat("ut1W1"), get_vec("ut1b1"),
+    get_mat("ut1W2"), get_vec("ut1b2"),
+    get_vec("unorm2_w"), get_vec("unorm2_b")) in
+
+  // Sentence heads L4-L6
+  let pred4 = argmax(vec_add(matvec(get_mat("uh0W"), z0), get_vec("uh0b"))) in
+  let pred5 = argmax(vec_add(matvec(get_mat("uh1W"), z1), get_vec("uh1b"))) in
+  let pred6 = argmax(vec_add(matvec(get_mat("uh2W"), z2), get_vec("uh2b"))) in
+
+  [pred4, pred5, pred6]
+}
+
+// ── Test on mini corpus sample ────────────────────────────────────────────
+
+let corpus_raw = io.read_file("data/fard_train/corpus_mini.json")
+let corpus = json.decode(corpus_raw.ok)
+let samples = rec.get(corpus, "samples")
+
+// Run token forward on first 5 samples
+let results = list.map(list.take(samples, 5), fn(s) {
+  let r = token_forward(rec.get(s, "x")) in
+  let y = rec.get(s, "y") in
+  let preds = r.preds_lower in
+  let correct = list.map(list.range(0, 4), fn(i) {
+    list.get(preds, i) == list.get(y, i)
+  }) in
+  { "preds_lower": preds,
+    "gold_lower": list.take(y, 4),
+    "correct": correct }
+})
+
+{ "t": "contextual_tower_inference",
+  "n_samples": 5,
+  "results": results }
