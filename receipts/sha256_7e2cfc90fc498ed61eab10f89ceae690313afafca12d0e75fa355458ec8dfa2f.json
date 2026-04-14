@@ -1,0 +1,1 @@
+{"derived_from":[],"output":{"avg_loss":{"t":"bytes","v":"hex:ec91cb36b0d73940"},"loss_first":{"t":"bytes","v":"hex:000082e412aa4040"},"loss_last":{"t":"bytes","v":"hex:0080fc4eeec54240"},"n_samples":200,"t":"fard_full_epoch"},"run_id":"sha256:7e2cfc90fc498ed61eab10f89ceae690313afafca12d0e75fa355458ec8dfa2f"}

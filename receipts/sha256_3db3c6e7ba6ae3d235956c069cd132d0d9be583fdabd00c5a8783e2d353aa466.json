@@ -1,0 +1,1 @@
+{"derived_from":[],"output":{"epoch":6,"gt_correct":12,"model":"checkpoint_ep006.onnx","n_outputs":96,"val_acc":"1.0000"},"run_id":"sha256:3db3c6e7ba6ae3d235956c069cd132d0d9be583fdabd00c5a8783e2d353aa466"}

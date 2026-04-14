@@ -15,3 +15,14 @@ train/factored_gpt_best.pt
 train/morph_gpt.pt
 train/realized_gpt.pt
 train/realized_gpt_best.pt
+corpus/corpus_sentences.ndjson
+corpus/corpus_ud_ewt.ndjson
+corpus/corpus_v7b.ndjson
+corpus/corpus_v8c_v2.ndjson
+corpus/rclass_prior.pt
+train/factored_v2_best.pt
+train/gated_gpt.pt
+train/gated_gpt_best.pt
+train/model_sentence_512_best.pt
+train/model_ud_ewt_best.pt
+data/ud_english/
